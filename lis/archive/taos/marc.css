@@ -1,0 +1,17 @@
+body {
+	background-color: white
+}
+
+tr {
+	text-align: left;
+
+	vertical-align: top
+}
+
+.indicators {
+	color: green
+}
+
+.subfield {
+	color: blue
+}

@@ -1,0 +1,23 @@
+.counter {
+	text-align: right;
+	font-weight: normal;
+	vertical-align: top
+}
+
+.data {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: top
+}
+
+.label {
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top
+}
+
+.money {
+	text-align: right;
+	font-weight: normal;
+	vertical-align: top
+}

@@ -1,0 +1,17 @@
+body {
+	background-color: white;
+	font-family: "Arial Unicode MS", "Lucida Sans Unicode", sans-serif
+}
+
+tr {
+	text-align: left;
+	vertical-align: top
+}
+
+.indicators {
+	color: green
+}
+
+.subfield {
+	color: blue
+}
