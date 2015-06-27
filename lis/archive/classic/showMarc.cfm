@@ -5,11 +5,10 @@
 <cfset m_DBCN = URL.DBCN>
 <cfinclude template="qryBibRecord.cfm">
 <cfset Utf8Converter = CreateObject("Java", "edu.ucla.library.marc.MarcConverter")>
-<!--- For unitdev
-<cfset ret = Utf8Converter.init("F:\\Inetpub\\wwwroot\\lis_test\\classes\\eacc2uni.txt")>
- --->
-<!--- For new unitproj environment --->
-<cfset ret = Utf8Converter.init("E:\\Inetpub\\classes\\eacc2uni.txt")>
+<!--- For Hostek environment --->
+<!--- D:/home/mamati.library.ucla.edu/wwwroot/unitproj/lis/archive/java/eacc2uni.txt --->
+<!--- <cfset ret = Utf8Converter.init("E:\\Inetpub\\classes\\eacc2uni.txt")> --->
+<cfset ret = Utf8Converter.init("D:\\home\\mamati.library.ucla.edu\\wwwroot\\lis\\archive\\java\\eacc2uni.txt")>
 
 <cfinclude template="../common/hexToString.cfm">
 <cfinclude template="../common/marcToHtml.cfm">

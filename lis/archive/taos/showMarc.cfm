@@ -9,12 +9,10 @@
 </cfif>
 
 <cfset Utf8Converter = CreateObject("Java", "edu.ucla.library.marc.MarcConverter")>
-<!--- For unitproj
-<cfset ret = Utf8Converter.init("F:\\Inetpub\\wwwroot\\lis\\classes\\eacc2uni.txt")>
---->
-<!--- For new unitproj environment --->
-<cfset ret = Utf8Converter.init("E:\\Inetpub\\classes\\eacc2uni.txt")>
-
+<!--- For Hostek environment --->
+<!--- D:/home/mamati.library.ucla.edu/wwwroot/unitproj/lis/archive/java/eacc2uni.txt --->
+<!--- <cfset ret = Utf8Converter.init("E:\\Inetpub\\classes\\eacc2uni.txt")> --->
+<cfset ret = Utf8Converter.init("D:\\home\\mamati.library.ucla.edu\\wwwroot\\lis\\archive\\java\\eacc2uni.txt")>
 
 <cfinclude template="../common/hexToString.cfm">
 <cfinclude template="../common/marcToHtml.cfm">
