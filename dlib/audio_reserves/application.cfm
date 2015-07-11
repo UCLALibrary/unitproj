@@ -2,14 +2,11 @@
                sessionmanagement="Yes"
                setclientcookies="Yes">
 			   
-<!---<cfif left(CGI.SERVER_NAME, len("unitdev")) eq "unitdev">
-	<cfset dsn="musAudio_test">
-<cfelse>
+<cfif FindNoCase("unitproj", CGI.SERVER_NAME) EQ 1>
 	<cfset dsn="musAudio">
-</cfif>--->
-
-<cfset dsn="musAudio">
-
+<cfelse>
+	<cfset dsn="musAudio_test">
+</cfif>
 
 <cfif isdefined("url.i")>
 	<cfset session.usern=url.i>
