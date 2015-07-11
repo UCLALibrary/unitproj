@@ -392,7 +392,7 @@ the Music Library about accessing your online reserves listening assignment. <p>
 <p>
 <cfoutput query="currentclasses">
 <strong>&rArr;</strong> #currentclasses.department# #currentclasses.classnumber# : <em>#currentclasses.title#</em> (#currentclasses.instructor#)<br>
-<a href="eres.cfm?i=#currentclasses.classid#" target="_blank">http://unitproj.library.ucla.edu/dlib/audio_reserves/eres.cfm?i=#currentclasses.classid#</a>
+<a href="eres.cfm?i=#currentclasses.classid#" target="_blank">http://#CGI.SERVER_NAME#/dlib/audio_reserves/eres.cfm?i=#currentclasses.classid#</a>
 <br><br></cfoutput> 
 </p>    
     
