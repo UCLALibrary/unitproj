@@ -1,0 +1,9 @@
+<smil>
+<head>
+<meta name="base" content="rtsp://audior.library.ucla.edu/"/>
+<meta name="composer/title" content="Sondheim, Stephen. Passion"/>
+</head>
+<body>
+<audio src="cda5804-10.rm" title="Trio"/>
+</body>
+</smil>

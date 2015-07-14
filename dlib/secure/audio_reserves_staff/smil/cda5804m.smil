@@ -1,0 +1,33 @@
+<smil>
+<head>
+<meta name="base" content="rtsp://audior.library.ucla.edu/"/>
+<meta name="composer/title" content="Sondheim, Stephen. Passion"/>
+</head>
+<body>
+<audio src="cda5804-1.rm" title="Happiness"/>
+<audio src="cda5804-2.rm" title="First Letter"/>
+<audio src="cda5804-3.rm" title="Second Letter"/>
+<audio src="cda5804-4.rm" title="Third Letter"/>
+<audio src="cda5804-5.rm" title="Fourth Letter"/>
+<audio src="cda5804-6.rm" title="I Read"/>
+<audio src="cda5804-7.rm" title="Transition"/>
+<audio src="cda5804-8.rm" title="Garden Sequence"/>
+<audio src="cda5804-9.rm" title="Transition"/>
+<audio src="cda5804-10.rm" title="Trio"/>
+<audio src="cda5804-11.rm" title="Transition"/>
+<audio src="cda5804-12.rm" title="I Wish I Could Forget You"/>
+<audio src="cda5804-13.rm" title="Soldiers' Gossip"/>
+<audio src="cda5804-14.rm" title="Flashback"/>
+<audio src="cda5804-15.rm" title="Sunrise Letter"/>
+<audio src="cda5804-16.rm" title="Is This What You Call Love?"/>
+<audio src="cda5804-17.rm" title="Soldiers' Gossip"/>
+<audio src="cda5804-18.rm" title="Transition"/>
+<audio src="cda5804-19.rm" title="Forty Days"/>
+<audio src="cda5804-20.rm" title="Loving You"/>
+<audio src="cda5804-21.rm" title="Transition"/>
+<audio src="cda5804-22.rm" title="Soldiers' Gossip"/>
+<audio src="cda5804-23.rm" title="Farewell Letter"/>
+<audio src="cda5804-24.rm" title="No One Has Ever Loved Me"/>
+<audio src="cda5804-25.rm" title="Finale"/>
+</body>
+</smil>
