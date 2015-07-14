@@ -20,33 +20,6 @@
 		<cfset session.user=lcase(trim(login.username))>
 		<cflocation url="../index.cfm" addtoken="no">
 	<cfelse>
-		<cfquery name="instructors" datasource="#dsn#">
-			select instructorID from instructors
-				where UCLA_ID='#session.user#'
-		</cfquery>
-	    <cfif instructors.recordCount>
-	    	<cfset session.loggedIn=1>
-			<cfset session.acctype="readonly">
-			<cfset session.user=lcase(session.user)>
-			<cfset session.instructor=instructors.instructorID>
-			<cflocation url="../index.cfm" addtoken="no">
-		<cfelse>
-			<cfquery name="TAs" datasource="#dsn#">
-				select TAs from classes
-					where TAs like '%#session.user#%'
-			</cfquery>
-			<cfif TAs.recordCount>
-				<cfloop query="TAs">
-					<cfif ListContainsNoCase(TAs,session.user)>
-				    	<cfset session.loggedIn=1>
-						<cfset session.acctype="readonly">
-						<cfset session.user=lcase(session.user)>
-						<cfset session.instructor=0>
-						<cflocation url="../index.cfm" addtoken="no">	
-					</cfif>
-				</cfloop>
-			</cfif>
-		</cfif>
 		<cfset session.loggedIn = 0>
 		<h3>You do not have access to this database.</h3>
 	</cfif>
