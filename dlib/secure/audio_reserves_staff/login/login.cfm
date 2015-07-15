@@ -8,10 +8,11 @@
 <body>
 
 <cfif structKeyExists(form,"user")>
+	<cfset pwdhash = hash(form.password, "SHA")>
 	<cfquery name="login" datasource="#dsn#">
 		select * from login
-			where username='#form.user#'
-				<!--- and password='#form.password#' --->
+			where username = <cfqueryparam value = "#form.user#"  cfsqltype = 'CF_SQL_VARCHAR'>
+			and password = <cfqueryparam value = "#pwdhash#"  cfsqltype = 'CF_SQL_VARCHAR'>
 	</cfquery>
 
 	<cfif login.recordcount gt 0>
@@ -21,7 +22,6 @@
 		<cflocation url="../index.cfm" addtoken="no">
 	<cfelse>
 		<cfset session.loggedIn = 0>
-		<h3>You do not have access to this database.</h3>
 	</cfif>
 </cfif>
 
@@ -47,8 +47,9 @@
 	</table>
 </form>
 
+<!--- Form submitted but still on this page?  Login failed --->
 <cfif structKeyExists(form,"user")>
-<table border="0"><tr><td bgcolor="#808080" class="white">&nbsp;Login failed. &nbsp; Username and Password must be valid. &nbsp; You may try again.&nbsp;</td></tr></table>
+	<p>Login failed: Invalid username/password.</p>
 </cfif>
 
 </body>
