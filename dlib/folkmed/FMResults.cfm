@@ -140,30 +140,21 @@
   <CFSET SearchDirection="FORW">
 </CFIF>
 
-<CFQUERY NAME="GetMaxTable"
-         DATASOURCE="#FM_DATABASE_NAME#"
-         USERNAME="#FM_USER_NAME#"
-         PASSWORD="#FM_USER_PASS#">
+<CFQUERY NAME="GetMaxTable">
 SELECT a.TABLES_UID, b.NumRecords
 FROM (SELECT MAX(TABLES_UID) As 'TABLES_UID' FROM FOLKMED_TABLES) a, FOLKMED_TABLES b
 WHERE a.TABLES_UID=b.TABLES_UID
 </CFQUERY>
 
 <CFIF SearchDirection is "FORW">
-  <CFQUERY NAME="GetTables"
-           DATASOURCE="#FM_DATABASE_NAME#"
-           USERNAME="#FM_USER_NAME#"
-           PASSWORD="#FM_USER_PASS#">
+  <CFQUERY NAME="GetTables">
   SELECT TABLES_UID, TableName
   FROM FOLKMED_TABLES
   WHERE TABLES_UID >= #StartTable#
   ORDER BY TABLES_UID ASC
   </CFQUERY>
 <CFELSE>
-  <CFQUERY NAME="GetTables"
-           DATASOURCE="#FM_DATABASE_NAME#"
-           USERNAME="#FM_USER_NAME#"
-           PASSWORD="#FM_USER_PASS#">
+  <CFQUERY NAME="GetTables">
   SELECT TABLES_UID, TableName, NumRecords
   FROM FOLKMED_TABLES
   WHERE TABLES_UID <= #StartTable#
@@ -178,11 +169,7 @@ WHERE a.TABLES_UID=b.TABLES_UID
 <CFSET ProcessedAllTables = "TRUE">
 <CFLOOP QUERY="GetTables">
   <CFIF SearchDirection is "FORW">
-    <CFQUERY NAME="GetResults#TABLES_UID#"
-             DATASOURCE="#FM_DATABASE_NAME#"
-             USERNAME="#FM_USER_NAME#"
-             PASSWORD="#FM_USER_PASS#"
-             DEBUG="YES">
+    <CFQUERY NAME="GetResults#TABLES_UID#" DEBUG="YES">
     SELECT ('#TABLES_UID#_' + CONVERT(char(20),FL_RECORD_UID)) AS UID, Subject, Cure
     FROM #TableName#
     WHERE (FL_RECORD_UID > #IIF(LocalStartRow is "1", DE("0"), DE(LocalStartRow))#) AND (SYSFLAGS = 1) <CFIF LEN(SQLString) GT 0> AND (#PreserveSingleQuotes(SQLString)#) </CFIF>
@@ -191,10 +178,7 @@ WHERE a.TABLES_UID=b.TABLES_UID
     <CFSET LocalStartRow = 0>
     <CFSET StartRecord = 0>
   <CFELSE>
-    <CFQUERY NAME="GetResults#TABLES_UID#"
-             DATASOURCE="#FM_DATABASE_NAME#"
-             USERNAME="#FM_USER_NAME#"
-             PASSWORD="#FM_USER_PASS#">
+    <CFQUERY NAME="GetResults#TABLES_UID#">
     SELECT ('#TABLES_UID#_' + CONVERT(char(20),FL_RECORD_UID)) AS UID, Subject, Cure
     FROM #TableName#
     WHERE (FL_RECORD_UID < #LocalStartRow#) AND (SYSFLAGS = 1) <CFIF LEN(SQLString) GT 0> AND ( #PreserveSingleQuotes(SQLString)# ) </CFIF>

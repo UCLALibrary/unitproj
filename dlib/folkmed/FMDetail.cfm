@@ -6,17 +6,11 @@
 <CFSET TableUID = GetToken(UID, 1, "_")>
 <CFSET RowUID = GetToken(UID, 2, "_")>
 
-<CFQUERY NAME="GetTable"
-         DATASOURCE="#FM_DATABASE_NAME#"
-         USERNAME="#FM_USER_NAME#"
-         PASSWORD="#FM_USER_PASS#">
+<CFQUERY NAME="GetTable">
 SELECT TableName FROM FOLKMED_TABLES WHERE TABLES_UID = #TableUID#
 </CFQUERY>
 
-<CFQUERY NAME="GetDetail"
-         DATASOURCE="#FM_DATABASE_NAME#"
-         USERNAME="#FM_USER_NAME#"
-         PASSWORD="#FM_USER_PASS#">
+<CFQUERY NAME="GetDetail">
 SELECT a.Subject, a.Cure, a.Cause, a.Sign, a.Citation, a.CardText, a.InformantEthnicity, a.InformantGender, c.Age AS 'InformantAge', a.Collector, a.CollectedPlace, d1.Region AS 'CollectedRegion', e.DateText AS 'CollectedDate', a.OriginEthnicity, a.OriginPlace, d2.Region AS 'OriginRegion', a.VolumeNumber, a.PageReference
 FROM #GetTable.TableName# a, FOLKMED_AGE c, (SELECT REGION FROM FOLKMED_REGION a, #GetTable.TableName# b WHERE b.CollectedRegion*=a.FL_REGION_UID AND b.FL_RECORD_UID = #RowUID#) d1, (SELECT REGION FROM FOLKMED_REGION a, #GetTable.TableName# b WHERE b.OriginRegion*=a.FL_REGION_UID AND b.FL_RECORD_UID = #RowUID#) d2, FOLKMED_DATETEXT e
 WHERE FL_RECORD_UID = #RowUID# AND a.InformantAge *= c.FL_AGE_UID AND a.CollectedDate *= e.FL_DATETEXT_UID
