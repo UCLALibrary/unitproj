@@ -41,7 +41,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 
 <H1 ALIGN="CENTER">Collection of Motion Picture Scripts</h1>
 <H2 ALIGN="CENTER">(Collection 073)</h2>
-<h3 align="center"><A HREF="http://www.library.ucla.edu/libraries/special/scweb/">UCLA Library Special Collections</A></h3>
+<h3 align="center"><A HREF="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</A></h3>
 
 <BR>
 <BR>
@@ -76,7 +76,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 <!--- Help section --->
 <P>
 <H3 ALIGN="CENTER">Search Help</h3>
-This web-based interface allows you to search the finding aid for the Collection of Motion Picture Scripts held by the UCLA Library Special Collections. The finding aid contains over 7,000 titles, but does not contain links to electronic versions of scripts. Please see the <A HREF="http://www.library.ucla.edu/libraries/special/scweb/">UCLA Library Special Collections</a> web page for contact and service information on viewing scripts.
+This web-based interface allows you to search the finding aid for the Collection of Motion Picture Scripts held by the UCLA Library Special Collections. The finding aid contains over 7,000 titles, but does not contain links to electronic versions of scripts. Please see the <A HREF="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</a> web page for contact and service information on viewing scripts.
 See below for help on <A HREF="#SEARCH TERMS">searching</a>, <A HREF="#WILDCARDS">wildcards</A>, and <A HREF="#INDEX">indexes</A>.
 </P>
 
@@ -141,10 +141,10 @@ You may select from the following indexes:
 	</DIR>
 </P>
 <BR><BR>
-<H4 ALIGN="CENTER">Return to <A HREF="http://www.library.ucla.edu/libraries/special/scweb/">UCLA Library Special Collections</A></h4>
+<H4 ALIGN="CENTER">Return to <A HREF="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</A></h4>
 
 <P ALIGN="CENTER">
-<FONT SIZE="-1">(&copy; UC Regents; UCLA Library Special Collections http://www.library.ucla.edu/special-collections/home;
+<FONT SIZE="-1">(&copy; UC Regents; UCLA Library Special Collections http://www.library.ucla.edu/location/library-special-collections;
 Last updated: 30 June 2014)</FONT></p>
 </body>
 </html>

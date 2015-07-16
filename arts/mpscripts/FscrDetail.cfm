@@ -12,30 +12,27 @@
 <CFSET ORIGSEARCHTERM=#SEARCHTERM#>
 
 <!--- SQL query should ORDER BY TITLE --->
-<CFQUERY NAME="qryOption1" DATASOURCE="artfscripts">
-<!---	SELECT * FROM Scripts 
-			WHERE TITLE LIKE '#SEARCHTERM#' --->
-
+<CFQUERY NAME="qryOption1">
 	<CFSWITCH EXPRESSION=#INDEX#>
 		<CFCASE VALUE="TITLE"> <!--- use right & left truncation --->
 			<CFSET SEARCHTERM="%" & #SEARCHTERM# & "%">
-			SELECT * FROM Scripts 
+			SELECT * FROM #table#
 			WHERE TITLE LIKE '#SEARCHTERM#' ORDER BY TITLE
 		</cfcase>
 		<CFCASE VALUE="RELCO"> <!--- use right & left truncation --->
 			<CFSET SEARCHTERM=#SEARCHTERM#>
-			SELECT * FROM Scripts 
+			SELECT * FROM #table# 
 			WHERE RELCO LIKE '#SEARCHTERM#' ORDER BY TITLE
 		</cfcase>
 		<CFCASE VALUE="RELDATE">
 			<CFSET SEARCHTERM=#SEARCHTERM#> <!--- require 4-digit dates (wildcards OK) --->
-			SELECT * FROM Scripts 
+			SELECT * FROM #table# 
 			WHERE RELDATE LIKE '#SEARCHTERM#' ORDER BY TITLE
 		</cfcase>
 		<CFCASE VALUE="WRITER"> <!--- use left & right truncation --->
 			<CFSET SEARCHTERM="%" & #SEARCHTERM# & "%">
-			SELECT * FROM Scripts 
-			WHERE (Scripts.WRITER1 LIKE '#SEARCHTERM#') Or (Scripts.WRITER2 LIKE '#SEARCHTERM#') Or (Scripts.WRITER3 LIKE '#SEARCHTERM#') Or (Scripts.WRITER4 LIKE '#SEARCHTERM#') 
+			SELECT * FROM #table# 
+			WHERE (WRITER1 LIKE '#SEARCHTERM#') Or (WRITER2 LIKE '#SEARCHTERM#') Or (WRITER3 LIKE '#SEARCHTERM#') Or (WRITER4 LIKE '#SEARCHTERM#') 
 			ORDER BY TITLE
 		</cfcase>
 	</cfswitch>
@@ -46,8 +43,8 @@
 <H1 ALIGN="CENTER">UCLA Library Special Collections</h1>
 <H2 ALIGN="CENTER">Collection of Motion Picture Scripts</h2>
 <H3 ALIGN="CENTER">Collection 073</h3>
-<p align="center"><a href="http://unitproj.library.ucla.edu/arts/mpscripts/fscripts.cfm">Back to Search Screen</a></p>
-<p align="center">Please see the <a href="http://www.library.ucla.edu/libraries/special/scweb/">UCLA Library Special Collections</a> web page for contact and service information on viewing scripts</p>
+<p align="center"><a href="fscripts.cfm">Back to Search Screen</a></p>
+<p align="center">Please see the <a href="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</a> web page for contact and service information on viewing scripts</p>
 <br>
 <br>
 <br>

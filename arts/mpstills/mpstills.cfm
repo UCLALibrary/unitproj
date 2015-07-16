@@ -10,7 +10,7 @@
 
 <H1 ALIGN="CENTER">Collection of Motion Picture Stills</h1>
 <H2 ALIGN="CENTER">(Collection 195)</h2>
-<h3 align="center"><A HREF="http://www.library.ucla.edu/special-collections/home">UCLA Library Special Collections</A></h3>
+<h3 align="center"><A HREF="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</A></h3>
 <BR>
 <BR>
 
@@ -47,7 +47,7 @@ Select an index, enter a single word or phrase, and click on SEARCH.</P>
 <!--- Help section --->
 <P>
 <H3 ALIGN="CENTER">Search Help</h3>
-This web-based interface allows you to search the finding aid for the Collection of Motion Picture Stills held by the UCLA Library Special Collections. The collection is arranged by film title only and does not include credit information (for example, you can not search by an individual's name). The collection contains over 10,000 titles, but does not contain links to electronic images. Please see the <A HREF="http://www.library.ucla.edu/special-collections/home">UCLA Library Special Collections</a> web page for contact and service information on viewing stills.
+This web-based interface allows you to search the finding aid for the Collection of Motion Picture Stills held by the UCLA Library Special Collections. The collection is arranged by film title only and does not include credit information (for example, you can not search by an individual's name). The collection contains over 10,000 titles, but does not contain links to electronic images. Please see the <A HREF="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</a> web page for contact and service information on viewing stills.
 See below for help on <A HREF="#SEARCH TERMS">searching</a>, <A HREF="#WILDCARDS">wildcards</A>, and <A HREF="#INDEX">indexes</A>.
 </P>
 
@@ -105,10 +105,10 @@ See below for help on <A HREF="#SEARCH TERMS">searching</a>, <A HREF="#WILDCARDS
 
 
 <BR><BR>
-<H4 ALIGN="CENTER">Return to <A HREF="http://www.library.ucla.edu/special-collections/home">UCLA Library Special Collections</A></h4>
+<H4 ALIGN="CENTER">Return to <A HREF="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</A></h4>
 
 <P ALIGN="CENTER">
-<FONT SIZE="-1">(&copy; 2014 UC Regents; UCLA Library Special Collections http://www.library.ucla.edu/special-collections/home;
+<FONT SIZE="-1">(&copy; 2014 UC Regents; UCLA Library Special Collections http://www.library.ucla.edu/location/library-special-collections;
 Last updated: 30 June 2014)</FONT></p>
 </body>
 </html>

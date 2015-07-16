@@ -9,25 +9,19 @@
 <CFSET ORIGSEARCHTERM=#SEARCHTERM#>
 
 <!--- SQL query should ORDER BY TITLE --->
-<CFQUERY NAME="qryOption1" DATASOURCE="artmpstills">
+<CFQUERY NAME="qryOption1">
 
 	<CFSWITCH EXPRESSION=#INDEX#>
 		<CFCASE VALUE="TITLE"> <!--- use right & left truncation --->
 			<CFSET SEARCHTERM="%" & #SEARCHTERM# & "%">
-			SELECT * FROM Stills
+			SELECT * FROM #table#
 			WHERE TITLE LIKE '#SEARCHTERM#' ORDER BY TITLE
 		</cfcase>
 		<CFCASE VALUE="RELEASE_CO"> <!--- use right & left truncation --->
 			<CFSET SEARCHTERM="%" & #SEARCHTERM# & "%">
-			SELECT * FROM Stills
+			SELECT * FROM #table#
 			WHERE RELEASE_CO LIKE '#SEARCHTERM#' ORDER BY TITLE
 		</cfcase>
-<!--- NOT SEARCING BY DATE
-		<CFCASE VALUE="RELEASE_YR">
-			<CFSET SEARCHTERM=#SEARCHTERM#> <!--- require 4-digit dates (wildcards OK) --->
-			SELECT * FROM Stills
-			WHERE RELEASE_YR LIKE '#SEARCHTERM#' ORDER BY TITLE
-		</cfcase> --->
 	</cfswitch>
 </cfquery>
 
@@ -36,8 +30,8 @@
 <H1 ALIGN="CENTER">UCLA Library Special Collections</h1>
 <H2 ALIGN="CENTER">Collection of Motion Picture Stills</h2>
 <H3 ALIGN="CENTER">Collection 195</h3>
-<p align="center"><a href="http://unitproj.library.ucla.edu/arts/mpstills/mpstills.cfm">Back to Search Screen</a></p>
-<p align="center">Please see the <a href="http://www.library.ucla.edu/special-collections/home">UCLA Library Special Collections</a> web page for contact and service information on viewing stills</p><br>
+<p align="center"><a href="mpstills.cfm">Back to Search Screen</a></p>
+<p align="center">Please see the <a href="http://www.library.ucla.edu/location/library-special-collections">UCLA Library Special Collections</a> web page for contact and service information on viewing stills</p><br>
 <br>
 <br>
 <CFOUTPUT>

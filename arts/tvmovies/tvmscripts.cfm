@@ -10,12 +10,10 @@
 
 <H1 ALIGN="CENTER">Collection of Television Movie Scripts</h1>
 <H2 ALIGN="CENTER">(Collection 074)</h2>
-<h3 align="center"><A HREF="http://www2.library.ucla.edu/specialcollections/performingarts/index.cfm">Performing Arts Special Collections</A></h3>
+<h3 align="center"><A HREF="http://www.library.ucla.edu/location/library-special-collections">Performing Arts Special Collections</A></h3>
 
 <BR>
 <BR>
-
-
 
 <P>
 Select an index, enter a single word or phrase, and click on SEARCH.</P>
@@ -57,7 +55,7 @@ Select an index, enter a single word or phrase, and click on SEARCH.</P>
 
 <P>
 <H3 ALIGN="CENTER">Search Help</h3>
-This web-based interface allows you to search the finding aid for the Collection of Television Movie Scripts held by the UCLA Performing Arts Library Special Collections. The finding aid contains over 1,500 titles, but <b>does not contain links to electronic versions of scripts</b>. Please see the <A HREF="http://www2.library.ucla.edu/specialcollections/performingarts/index.cfm">Performing Arts Special Collections</a> web page for contact and service information on viewing scripts.
+This web-based interface allows you to search the finding aid for the Collection of Television Movie Scripts held by the UCLA Performing Arts Library Special Collections. The finding aid contains over 1,500 titles, but <b>does not contain links to electronic versions of scripts</b>. Please see the <A HREF="http://www.library.ucla.edu/location/library-special-collections">Performing Arts Special Collections</a> web page for contact and service information on viewing scripts.
 See below for help on <A HREF="#SEARCH TERMS">searching</a>, <A HREF="#WILDCARDS">wildcards</A>, and <A HREF="#INDEX">indexes</A>.
 </P>
 
@@ -118,9 +116,9 @@ See below for help on <A HREF="#SEARCH TERMS">searching</a>, <A HREF="#WILDCARDS
 
 
 <BR><BR>
-<H4 ALIGN="CENTER">Return to <A HREF="http://www2.library.ucla.edu/specialcollections/performingarts/index.cfm">Performing Arts Special Collections</A></h4>
+<H4 ALIGN="CENTER">Return to <A HREF="http://www.library.ucla.edu/location/library-special-collections">Performing Arts Special Collections</A></h4>
 <P ALIGN="CENTER">
-<FONT SIZE="-1">(&copy; UC Regents; Performing Arts Library Special Collections http://www.library.ucla.edu/libraries/arts/speccoll/speccoll.htm;
+<FONT SIZE="-1">(&copy; UC Regents; Performing Arts Library Special Collections http://www.library.ucla.edu/location/library-special-collections;
 Last updated: 1 April 2008)</FONT></p>
 
 </body>
