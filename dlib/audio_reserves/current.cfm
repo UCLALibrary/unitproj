@@ -21,69 +21,69 @@
 <link rel="shortcut icon" href="http://www.library.ucla.edu/sites/all/themes/uclalib_omega/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
 <meta name="viewport" content="width=device-width" />
-  <style>@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/system/system.base.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/system/system.theme.css?ncli9j");</style>
-<style media="screen">@import url("http://www.library.ucla.edu/sites/all/modules/contrib/tipsy/stylesheets/tipsy.css?ncli9j");</style>
-<style>@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/comment/comment.theme.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/date/date_api/date.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/field/field.theme.css?ncli9j");
-@import url("http://www.library.ucla.edu/modules/node/node.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/custom/powell_res/powell_res.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/custom/rc_res/rc_res.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/search/search.theme.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/custom/site_alert/css/site-alert.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/unlimitedfield_remove/unlimitedfield_remove.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/user/user.theme.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/user/user.base.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/views/css/views.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/ckeditor/css/ckeditor.css?ncli9j");</style>
-<style>@import url("http://www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/custom/bsp_event_cal/bsp_event_cal.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/ctools/css/ctools.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/libraries/fancybox/source/jquery.fancybox.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/panels/css/panels.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/shib_auth/shib_auth.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/views_tooltip/views_tooltip.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/panels/layouts/sidebar-left-golden/../../../css/layouts/sidebar-left-golden/sidebar-left-golden.layout.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/icons/style.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/modules/contrib/panels/plugins/layouts/onecol/onecol.css?ncli9j");</style>
-<style>@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/css/modules/system/system.menus.theme.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/fonts/stylesheet.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.normalize.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.hacks.css?ncli9j");
-@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.styles.css?ncli9j");</style>
+  <style>@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/system/system.base.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/system/system.theme.css?ncli9j");</style>
+<style media="screen">@import url("//www.library.ucla.edu/sites/all/modules/contrib/tipsy/stylesheets/tipsy.css?ncli9j");</style>
+<style>@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/comment/comment.theme.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/date/date_api/date.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/field/field.theme.css?ncli9j");
+@import url("//www.library.ucla.edu/modules/node/node.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/custom/powell_res/powell_res.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/custom/rc_res/rc_res.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/search/search.theme.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/custom/site_alert/css/site-alert.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/unlimitedfield_remove/unlimitedfield_remove.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/user/user.theme.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/omega/omega/css/modules/user/user.base.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/views/css/views.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/ckeditor/css/ckeditor.css?ncli9j");</style>
+<style>@import url("//www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/custom/bsp_event_cal/bsp_event_cal.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/ctools/css/ctools.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/libraries/fancybox/source/jquery.fancybox.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/panels/css/panels.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/shib_auth/shib_auth.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/views_tooltip/views_tooltip.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/panels/layouts/sidebar-left-golden/../../../css/layouts/sidebar-left-golden/sidebar-left-golden.layout.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/icons/style.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/modules/contrib/panels/plugins/layouts/onecol/onecol.css?ncli9j");</style>
+<style>@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/css/modules/system/system.menus.theme.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/fonts/stylesheet.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.normalize.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.hacks.css?ncli9j");
+@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.styles.css?ncli9j");</style>
 
 <!--[if lte IE 8]>
-<style>@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.no-query.css?ncli9j");</style>
+<style>@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/css/uclalib-omega.no-query.css?ncli9j");</style>
 <![endif]-->
-<style>@import url("http://www.library.ucla.edu/sites/all/themes/uclalib_omega/css/layouts/basic/basic.layout.css?ncli9j");</style>
-  <script src="http://www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1"></script>
-<script src="http://www.library.ucla.edu/misc/jquery.once.js?v=1.2"></script>
-<script src="http://www.library.ucla.edu/misc/drupal.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/themes/omega/omega/js/no-js.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/tipsy/javascripts/jquery.tipsy.js?v=0.1.7"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/tipsy/javascripts/tipsy.js?v=0.1.7"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.8.11"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.8.11"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.8.11"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/navbar/js/debounce.js?v=7.26"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/navbar/js/displace.js?v=7.26"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/navbar/js/navbar-tableheader.js?v=7.26"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/features/uclalib_opening_hours/uclalib_opening_hours.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/fancybox/fancybox.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/libraries/fancybox/source/jquery.fancybox.pack.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/linkit/editors/ckeditor/linkitDialog.js?v=7.3"></script>
-<script src="http://www.library.ucla.edu/misc/tableheader.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/features/uclalib_location/uclalib_location.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/contrib/panels_tabs/js/panels_tabs.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/modules/custom/site_alert/site_alert.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/themes/uclalib_omega/js/uclalib-omega.behaviors.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/themes/uclalib_omega/js/qualaroo.js?ncli9j"></script>
-<script src="http://www.library.ucla.edu/sites/all/themes/uclalib_omega/js/libsurvey.js?ncli9j"></script>
+<style>@import url("//www.library.ucla.edu/sites/all/themes/uclalib_omega/css/layouts/basic/basic.layout.css?ncli9j");</style>
+  <script src="//www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1"></script>
+<script src="//www.library.ucla.edu/misc/jquery.once.js?v=1.2"></script>
+<script src="//www.library.ucla.edu/misc/drupal.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/themes/omega/omega/js/no-js.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/tipsy/javascripts/jquery.tipsy.js?v=0.1.7"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/tipsy/javascripts/tipsy.js?v=0.1.7"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.8.11"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.8.11"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.8.11"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/navbar/js/debounce.js?v=7.26"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/navbar/js/displace.js?v=7.26"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/navbar/js/navbar-tableheader.js?v=7.26"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/features/uclalib_opening_hours/uclalib_opening_hours.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/fancybox/fancybox.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/libraries/fancybox/source/jquery.fancybox.pack.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/linkit/editors/ckeditor/linkitDialog.js?v=7.3"></script>
+<script src="//www.library.ucla.edu/misc/tableheader.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/features/uclalib_location/uclalib_location.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/contrib/panels_tabs/js/panels_tabs.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/modules/custom/site_alert/site_alert.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/themes/uclalib_omega/js/uclalib-omega.behaviors.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/themes/uclalib_omega/js/qualaroo.js?ncli9j"></script>
+<script src="//www.library.ucla.edu/sites/all/themes/uclalib_omega/js/libsurvey.js?ncli9j"></script>
 <script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","fancybox":{"options":{"autoSize":0,"autoResize":0,"autoCenter":0,"fitToView":0,"mouseWheel":0,"loop":0,"openEffect":"elastic","closeEffect":"elastic","openOpacity":0,"closeOpacity":0},"helpers":{"title":{"position":"top"},"overlay_enabled":0,"overlay":null,"thumbs":{"width":"","height":"","position":"top"}},"callbacks":{"beforeShow":"fancybox_beforeshow","afterShow":"fancybox_aftershow"}},"tipsy":{"custom_selectors":[{"selector":".tipsy","options":{"fade":1,"gravity":"w","delayIn":0,"delayOut":0,"trigger":"hover","opacity":"0.8","offset":0,"html":0,"tooltip_content":{"source":"attribute","selector":"title"}}},{"selector":".views-tooltip","options":{"fade":1,"gravity":"autoNS","delayIn":0,"delayOut":0,"trigger":"hover","opacity":"0.8","offset":0,"html":1,"tooltip_content":{"source":"attribute","selector":"tooltip-content"}}}]},"locationNid":{"nid":"375"},"panelsTabs":{"tabsID":["tabs-0-below_main_left"]},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"tableHeaderOffset":"Drupal.navbar.height"});</script>
 </head>
 <body class="html not-front not-logged-in page-node page-node- page-node-375 node-type-location section-music">
