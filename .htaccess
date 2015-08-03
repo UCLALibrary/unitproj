@@ -1,0 +1,12 @@
+RewriteEngine on
+
+#Fix missing trailing slash char on folders
+RewriteRule ^([^.?]+[^.?/])$ $1/ [R,L]
+
+#Redirect non-HTTPS to HTTPS
+RewriteEngine on
+
+RewriteCond %{SERVER_PORT} !443
+RewriteCond %{HTTP_HOST} ^(www\.)?(.+)$
+RewriteRule ^(.*)$ https://%2/$1 [R,L]
+
