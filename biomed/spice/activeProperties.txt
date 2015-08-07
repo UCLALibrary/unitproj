@@ -1,0 +1,72 @@
+<h3>CHEMICALS IN SPICES</h3>
+<p class="justify">Most spices and savory herbs have been used as gastrointestinal therapies, aphrodisiacs and non-specific tonics.  The more pungent ones are counter-irritants, and have been used for relieving pain and for an anti-inflammatory effect.  Many have antibacterial or antifungal properties.  Some are claimed to be able to prevent cancers, perhaps because they appear to have strong antioxidant effects.  Most of the more potent medical benefits have not been proved, and the responsible chemical(s) are difficult to identify.</p>
+
+<table bgcolor="#FFFFFF" cellspacing="10" cellpadding="3" border="0" class="smlsans">
+<tr>
+    <th valign="top" align="left">Group</th>
+    <th valign="top" align="left">Description</th>
+    <th valign="top" align="left">Example</th>
+    <th valign="top" align="left">Effect</th>
+</tr>
+<tr>
+    <td valign="top">Alkaloids</td>
+    <td valign="top">bitter amines</td>
+    <td valign="top">chile:  capsaicin</td>
+    <td valign="top">counter-irritant for pain</td>
+</tr>
+<tr>
+    <td valign="top">Bioflavonoids</td>
+    <td valign="top">phenolic pigments</td>
+    <td valign="top">rosemary: luteolin</td>
+    <td valign="top">antioxidant</td>
+</tr>
+<tr>
+    <td valign="top">Essential oils</td>
+    <td valign="top">Mixtures of volatiles</td>
+    <td valign="top">clove:  various</td>
+    <td valign="top">aphrodisiacs, perfume</td>
+</tr>
+<tr>
+    <td valign="top">Glycosides</td>
+    <td valign="top">carbohydrate derivatives</td>
+    <td valign="top">garlic:  alliin</td>
+    <td valign="top">expectorant, etc.</td>
+</tr>
+<tr>
+    <td valign="top">Phenylpropanoids</td>
+    <td valign="top">cinnamic acid derivatives</td>
+    <td valign="top">cinnamon:  eugenol</td>
+    <td valign="top">topical anesthetic</td>
+</tr>
+<tr>
+    <td valign="top">Resins</td>
+    <td valign="top">terpene oxidants</td>
+    <td valign="top">myrrh:  resin acids</td>
+    <td valign="top">antibacterial</td>
+</tr>
+<tr>
+    <td valign="top">Saponins</td>
+    <td valign="top">soapy hemolysants</td>
+    <td valign="top">licorice:  glycyrrhizin</td>
+    <td valign="top">anti-inflammatory</td>
+</tr>
+<tr>
+    <td valign="top">Sterols</td>
+    <td valign="top">steroid precursors</td>
+    <td valign="top">sesame:  linoleic acid</td>
+    <td valign="top">anti-oxidant</td>
+</tr>
+<tr>
+    <td valign="top">Tannins</td>
+    <td valign="top">polyphenolics</td>
+    <td valign="top">tea:  catechin</td>
+    <td valign="top">anti-oxidant</td>
+</tr>
+<tr>
+    <td valign="top">Terpenes</td>
+    <td valign="top">isoprene derivatives</td>
+    <td valign="top">ginger:  zingiberene</td>
+    <td valign="top">anti-nauseant</td>
+</tr>
+</table>
+<p class="smlsans" align="right"><a href="#" onClick="history.go(-1)">Back to Record</a></p>

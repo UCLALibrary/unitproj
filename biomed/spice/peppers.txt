@@ -1,0 +1,293 @@
+<h3>MAJOR PEPPER SPICES</h3>
+<table class=smlsans border=0 cellspacing=10 cellpadding=3 width="100%">
+ <tr>
+  <td valign=top style="smlsans">
+  <h3>Botanical</h3>
+  </td>
+  <td valign=top style="smlsans">
+  <h3>Characteristics</h3>
+  </td>
+  <td valign=top style="smlsans">
+  <h3>Heat*</h3>
+  </td>
+  <td valign=top style="smlsans">
+  <h3>Examples</h3>
+  </td>
+ </tr>
+ <th colspan="4" align="left">Capsicums</th>
+ <tr>
+  <td valign=top style="smlsans">
+  <em>C. annuum</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  very variable
+  </td>
+  <td valign=top style="smlsans">
+  
+  0-9
+  </td>
+  <td valign=top style="smlsans">
+  
+  ancho, bird
+  (chiltepin), bell (paprika), cayenne, New Mexican, jalapeño, pasilla,
+  serrano, etc.
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+  
+  
+<em> C. frutescens</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  pepper for sauce
+  </td>
+  <td valign=top style="smlsans">
+  
+  8
+  </td>
+  <td valign=top style="smlsans">
+  
+  tabasco
+  </td>
+ </tr>
+ <tr >
+  <td valign=top style="smlsans">
+  
+  
+ <em>C. baccatum</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  rarely used
+  </td>
+  <td valign=top style="smlsans">
+  
+  5
+  </td>
+  <td valign=top style="smlsans">
+  
+  South American
+  varieties, aji, puca-uchu
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+  
+  
+ <em>C. pubescens</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  rarely used
+  </td>
+  <td valign=top style="smlsans">
+  
+  10
+  </td>
+  <td valign=top style="smlsans">
+  
+  rocoto
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+  
+  
+ <em>C. chinense</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  painfully hot
+  </td>
+  <td valign=top style="smlsans">
+  
+  10
+  </td>
+  <td valign=top style="smlsans">
+  
+  habanero, scot’s
+  bonnet
+  </td>
+ </tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <th colspan="4" align="left">Peppercorns (<em>Piper nigrum</em>)</th>
+ <tr>
+  <td valign=top style="smlsans">
+  
+  Black pepper
+  </td>
+  <td valign=top style="smlsans">
+  
+  aromatic
+  </td>
+  <td valign=top style="smlsans">
+  
+  2-5
+  </td>
+  <td valign=top style="smlsans">
+  
+  dried, partially
+  fermented
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+  
+  Yellow pepper
+  </td>
+  <td valign=top style="smlsans">
+  
+  for cooking
+  </td>
+  <td valign=top style="smlsans">
+  
+  1-3
+  </td>
+  <td valign=top style="smlsans">
+  
+  berry husks removed
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+  
+  Green pepper
+  </td>
+  <td valign=top style="smlsans">
+  
+  gourmet
+  </td>
+  <td valign=top style="smlsans">
+  
+  2-3
+  </td>
+  <td valign=top style="smlsans">
+  
+  unripe pepper
+  berries
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+  
+  Mixed peppers
+  </td>
+  <td valign=top style="smlsans">
+  
+  gourmet
+  </td>
+  <td valign=top style="smlsans">
+  
+  2-5
+  </td>
+  <td valign=top style="smlsans">
+  
+  may be pink, red,
+  green, black
+  </td>
+ </tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <th colspan="4" align="left">Others</th>
+ <tr>
+  <td valign=top style="smlsans">
+  <em>Xanthoxylum piperitum</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  aromatic
+  </td>
+  <td valign=top style="smlsans">
+  
+  2-5
+  </td>
+  <td valign=top style="smlsans">
+  
+  Szechwan pepper or
+  fagara
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+ <em> Aframomum melegueta</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  bitter
+  </td>
+  <td valign=top style="smlsans">
+  
+  2-4
+  </td>
+  <td valign=top style="smlsans">
+  
+  melegueta, 
+    
+   Guinea
+  
+  pepper, grains of 
+   
+  Paradise
+  
+ 
+  </td>
+ </tr>
+ <tr >
+  <td valign=top style="smlsans">
+  <em>Piper cubeba</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  bitter
+  </td>
+  <td valign=top style="smlsans">
+  
+  2-4
+  </td>
+  <td valign=top style="smlsans">
+  
+  cubeb
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+  <em>Piper longum</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  sweet
+  </td>
+  <td valign=top style="smlsans">
+  
+  2-4
+  </td>
+  <td valign=top style="smlsans">
+  
+  long pepper
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style="smlsans">
+<em>Schinus terepinthifolius</em>
+  </td>
+  <td valign=top style="smlsans">
+  
+  subtle
+  </td>
+  <td valign=top style="smlsans">
+  
+  0-2
+  </td>
+  <td valign=top style="smlsans">
+  
+  Brazilian
+  peppertree
+  </td>
+ </tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td colspan="4">* Heat is measured on
+a 0-10 scale</td></tr>
+</table>

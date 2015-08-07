@@ -1,0 +1,48 @@
+<p class="smlsans">
+<table width="80%" border="0">
+<th colspan="2"><h3>Contacts and Acknowledgments</h3></th>
+<tr><td width="100">&nbsp;</td><td class="smlsans" valign="top">
+<strong>Curator</strong><br>
+<em>Responsible for intellectual content.</em><br>
+<br>
+Irwin Ziment, M.D.<br>
+Profesor Emeritus of Clinical Medicine,<br>
+David Geffen School of Medicine at UCLA;<br>
+Olive View-UCLA Medical Center, Sylmar, CA<br>
+<a href="mailto:iziment@ucla.edu">iziment@ucla.edu</a><br>
+<br><br>
+<strong>History & Special Collections Division</strong><br>
+<em>Responsible for image selection and digitization</em><br>
+<br>
+<a href="http://unitproj.library.ucla.edu/biomed/staffdir/individual.cfm?staffid=17">Katharine Donahue, M.L.S.</a><br>
+Head, History & Special Collections Division<br>
+Louise M. Darling Biomedical Library,<br>
+UCLA<br>
+<a href="mailto:kdonahue@library.ucla.edu">kdonahue@library.ucla.edu</a><br>
+<br>
+Rob Stibravy<br>
+History Division Assistant<br>
+Collection Development for Complementary and Alternative Medicine<br>
+Louise M. Darling Biomedical Library,<br>
+UCLA<br><br>
+<strong>Exhibit and Database Design</strong><br><br>
+
+Randy Ahn, Ph.D., M.L.I.S.<br>
+Digital Projects Coordinator<br>
+Reference Librarian<br>
+Louise M. Darling Biomedical Library,<br>
+UCLA<br><br>
+
+<strong>Exhibit and Database Maintenance</strong><br><br>
+
+<a href="mailto:rdavidon@library.ucla.edu">Richard Davidon</a><br>
+Collection Development and Digital Projects<br>
+Louise M. Darling Biomedical Library,<br>
+UCLA<br>
+<a href="mailto:rdavidon@library.ucla.edu">rdavidon@library.ucla.edu</a><br><br>
+
+<strong>Support for the online exhibit provided by:</strong><br>
+<img src="images/rootenberg4.gif" alt="" width="447" height="75" border="0">
+</td></tr></table>
+</p>
+

@@ -1,0 +1,301 @@
+<h3>Taste and “Hotness” of Spices</h3>
+<table width="100%" cellpadding="3" cellspacing="3">
+<tr>
+	<th align="left" class="smlsans">Spice</th>
+	<th align="left" class="smlsans">Family</th>
+	<th align="left"  class="smlsans">Taste/Smell</th>
+	<th align="left"  class="smlsans">Heat*</td>
+	<th align="left"  class="smlsans">Major Uses</th>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Ajowan</td>
+	<td class="smlsans" valign="top">Umbelliferae</td>
+	<td class="smlsans" valign="top">thyme-like, astringent</td>
+	<td class="smlsans" valign="top">5</td>
+	<td class="smlsans" valign="top">flavor for Indian vegetables</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Allspice</td>
+	<td class="smlsans" valign="top">Myrtaceae</td>
+	<td class="smlsans" valign="top">pungent, mixed, spicy</td>
+	<td class="smlsans" valign="top">4</td>
+	<td class="smlsans" valign="top">pickles, wines, desserts, liquors</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Anise</td>
+	<td class="smlsans" valign="top">Umbelliferae</td>
+	<td class="smlsans" valign="top">licorice-like, sweet</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">pastries, candies, liquors</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Annatto</td>
+	<td class="smlsans" valign="top">Bixaceae</td>
+	<td class="smlsans" valign="top">sweet, peppery</td>
+	<td class="smlsans" valign="top">2</td>
+	<td class="smlsans" valign="top">dye, stews; insect repellant</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Asafetida</td>
+	<td class="smlsans" valign="top">Umbelliferae</td>
+	<td class="smlsans" valign="top">pungent, rotten</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">curries; expectorant</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Bay</td>
+	<td class="smlsans" valign="top">Lauraceae</td>
+	<td class="smlsans" valign="top">bitter, pungent</td>
+	<td class="smlsans" valign="top">2</td>
+	<td class="smlsans" valign="top">bouqet-garnis; liniments</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Cardamom</td>
+	<td class="smlsans" valign="top">Zingiberaceae</td>
+	<td class="smlsans" valign="top">pungent, eucalyptus-like</td>
+	<td class="smlsans" valign="top">2</td>
+	<td class="smlsans" valign="top">desserts, coffees, curries</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Cassia</td>
+	<td class="smlsans" valign="top">Lauraceae</td>
+	<td class="smlsans" valign="top">pungent, cinnamon-like</td>
+	<td class="smlsans" valign="top">3</td>
+	<td class="smlsans" valign="top">flavor; diarrhea</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Chiles</td>
+	<td class="smlsans" valign="top">Solanaceae</td>
+	<td class="smlsans" valign="top">pungent, fiery</td>
+	<td class="smlsans" valign="top">4-10</td>
+	<td class="smlsans" valign="top">flavors; analgesic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Cinnamon</td>
+	<td class="smlsans" valign="top">Lauraceae</td>
+	<td class="smlsans" valign="top">sweet, fragrant, pungent</td>
+	<td class="smlsans" valign="top">3</td>
+	<td class="smlsans" valign="top">flavor; anti-microbial</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Clove</td>
+	<td class="smlsans" valign="top">Myrtaceae</td>
+	<td class="smlsans" valign="top">sweet, pungent, astringent</td>
+	<td class="smlsans" valign="top">5</td>
+	<td class="smlsans" valign="top">meats, sauces; anesthetic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Coriander</td>
+	<td class="smlsans" valign="top">Umbelliferae</td>
+	<td class="smlsans" valign="top">warm, aromatic, sweet</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">curries; anti-microbial</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Cubeb</td>
+	<td class="smlsans" valign="top">Piperaceae</td>
+	<td class="smlsans" valign="top">pungent, camphor-like</td>
+	<td class="smlsans" valign="top">3</td>
+	<td class="smlsans" valign="top">peppery; anti-asthma, diuretic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Cumin</td>
+	<td class="smlsans" valign="top">Apiaceae</td>
+	<td class="smlsans" valign="top">peppery, aromatic</td>
+	<td class="smlsans" valign="top">4</td>
+	<td class="smlsans" valign="top">curries, breads; colic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Dill</td>
+	<td class="smlsans" valign="top">Umbelliferae</td>
+	<td class="smlsans" valign="top">bitter-sweet, cool</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">pickles, fish, breads; gripe</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Fennel</td>
+	<td class="smlsans" valign="top">Umbelliferae</td>
+	<td class="smlsans" valign="top">licorice-like, warm</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">fish, breads, sausages; colic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Fenugreek</td>
+	<td class="smlsans" valign="top">Leguminoseae</td>
+	<td class="smlsans" valign="top">like burnt sugar, bitter</td>
+	<td class="smlsans" valign="top">2</td>
+	<td class="smlsans" valign="top">curries, breads; diabetes</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Galangal</td>
+	<td class="smlsans" valign="top">Zingiberaceae</td>
+	<td class="smlsans" valign="top">gingery, camphor-like</td>
+	<td class="smlsans" valign="top">5</td>
+	<td class="smlsans" valign="top">Indonesian curries; anti-emetic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Garlic</td>
+	<td class="smlsans" valign="top">Liliaceae</td>
+	<td class="smlsans" valign="top">fiery, alliaceous</td>
+	<td class="smlsans" valign="top">2-6</td>
+	<td class="smlsans" valign="top">meats, marinades; expectorant</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Ginger</td>
+	<td class="smlsans" valign="top">Zingiberaceae</td>
+	<td class="smlsans" valign="top">fiery, pungent</td>
+	<td class="smlsans" valign="top">7</td>
+	<td class="smlsans" valign="top">Asian cooking; anti-emetic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Lemon Grass</td>
+	<td class="smlsans" valign="top">Gramineae</td>
+	<td class="smlsans" valign="top">lemony, gingery</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">Asian cooking; insect-repellant</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Licorice</td>
+	<td class="smlsans" valign="top">Leguminoseae</td>
+	<td class="smlsans" valign="top">sweet, bitter, salty</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">confectionary; peptic ulcers</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Mace</td>
+	<td class="smlsans" valign="top">Myristicaceae</td>
+	<td class="smlsans" valign="top">warm, sharp, sweet</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">as for nutmeg, but stronger</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Melegueta</td>
+	<td class="smlsans" valign="top">Zingiberaceae</td>
+	<td class="smlsans" valign="top">peppery</td>
+	<td class="smlsans" valign="top">5</td>
+	<td class="smlsans" valign="top">as for pepper; liquors</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Mint</td>
+	<td class="smlsans" valign="top">Labiata</td>
+	<td class="smlsans" valign="top">aromatic, cooling</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">salads, garnishes; colic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Mustard</td>
+	<td class="smlsans" valign="top">Cruciferae</td>
+	<td class="smlsans" valign="top">sharp, fiery</td>
+	<td class="smlsans" valign="top">3-8</td>
+	<td class="smlsans" valign="top">pickles, meats; counter-irritant</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Nigella</td>
+	<td class="smlsans" valign="top">Ranunculaceae</td>
+	<td class="smlsans" valign="top">peppery, bitter</td>
+	<td class="smlsans" valign="top">3</td>
+	<td class="smlsans" valign="top">breads; galactogogue</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Nutmeg</td>
+	<td class="smlsans" valign="top">Myristicaceae</td>
+	<td class="smlsans" valign="top">sweet, warm, nutty</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">desserts, eggnog; diahrrhea</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Paprika</td>
+	<td class="smlsans" valign="top">Solanaceae</td>
+	<td class="smlsans" valign="top">warm, sweet</td>
+	<td class="smlsans" valign="top">2-6</td>
+	<td class="smlsans" valign="top">goulash, salads; vitamin C</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Peppercorns</td>
+	<td class="smlsans" valign="top">Piperaceae</td>
+	<td class="smlsans" valign="top">pungent, hot</td>
+	<td class="smlsans" valign="top">3-8</td>
+	<td class="smlsans" valign="top">flavors; colds</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Poppy seed</td>
+	<td class="smlsans" valign="top">Papaveraceae</td>
+	<td class="smlsans" valign="top">nutty, aromatic</td>
+	<td class="smlsans" valign="top">0</td>
+	<td class="smlsans" valign="top">confectionary, salads</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Saffron</td>
+	<td class="smlsans" valign="top">Iridaceae</td>
+	<td class="smlsans" valign="top">pungent, bitter</td>
+	<td class="smlsans" valign="top">0</td>
+	<td class="smlsans" valign="top">bouillabaise, rice; fevers</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Sesame</td>
+	<td class="smlsans" valign="top">Pedaliaceae</td>
+	<td class="smlsans" valign="top">nutty, earthy</td>
+	<td class="smlsans" valign="top">0</td>
+	<td class="smlsans" valign="top">garnishes; cosmetics</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Star anise</td>
+	<td class="smlsans" valign="top">Magnoliaceae</td>
+	<td class="smlsans" valign="top">bitter, licorice-like</td>
+	<td class="smlsans" valign="top">3</td>
+	<td class="smlsans" valign="top">meats, desserts; colic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Sumac</td>
+	<td class="smlsans" valign="top">Anacardiaceae</td>
+	<td class="smlsans" valign="top">sour, fruity</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">kebabs, salads; diuretic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Szechwan pepper</td>
+	<td class="smlsans" valign="top">Umbelliferae</td>
+	<td class="smlsans" valign="top">woodsy, peppery</td>
+	<td class="smlsans" valign="top">3</td>
+	<td class="smlsans" valign="top">meats; colic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Tamarind</td>
+	<td class="smlsans" valign="top">Leguminoseae</td>
+	<td class="smlsans" valign="top">sour, fruity</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">rice, meats; pharyngitis</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Turmeric</td>
+	<td class="smlsans" valign="top">Zingiberaceae</td>
+	<td class="smlsans" valign="top">warm, acrid, bitter</td>
+	<td class="smlsans" valign="top">3</td>
+	<td class="smlsans" valign="top">curries, dye; antiseptic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Vanilla</td>
+	<td class="smlsans" valign="top">Orchidaceae</td>
+	<td class="smlsans" valign="top">fragrant, sweet, delicious</td>
+	<td class="smlsans" valign="top">1</td>
+	<td class="smlsans" valign="top">desserts; flavor</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top">Zedoary</td>
+	<td class="smlsans" valign="top">Zingiberaceae</td>
+	<td class="smlsans" valign="top">gingery, camphor-like</td>
+	<td class="smlsans" valign="top">4</td>
+	<td class="smlsans" valign="top">curries; antiseptic</td>
+</tr>
+<tr>
+	<td class="smlsans" valign="top"></td>
+	<td class="smlsans" valign="top"></td>
+	<td class="smlsans" valign="top"></td>
+	<td class="smlsans" valign="top"></td>
+	<td class="smlsans" valign="top"></td>
+</tr>
+<tr><td class="smlsans" colspan="5">Savory herbs are generally less flavorful and less pungent.  Their culinary use is very variable, and their medical uses are disputable.</td></tr>
+<tr><td colspan="5" class="smlsans">* Heat is measured on
+a 0-10 scale</td></tr>
+<tr><td class="smlsans" colspan="5"><h3>References</h3><a href="http://www.cnn.com/HEALTH/indepth.food/herbs/index.html">CNN Interactive: food/herbs and spices</a><br>http://www.cnn.com/HEALTH/indepth.food/herbs/index.html<br><br><a href="http://www.theepicentre.com/Spices/spiceref.html">The Epicentre: The Encyclopedia of Spices</a><br>http://www.theepicentre.com/Spices/spiceref.html</td></tr>
+</table>

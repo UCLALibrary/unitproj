@@ -1,0 +1,128 @@
+<h3>MEDICAL USE OF SPICES*</h3>
+<p class="smlsans">
+<table width="100%" cellpadding="3">
+<th colspan="3"><h2>Traditional Spices</h2></th>
+<tr>
+	<td class="smlsans">&nbsp;</td>
+	<td class="medsans"><strong>Spice</strong></td>
+	<td class="medsans"><strong>Medical Properties/Indications</strong></td>
+</tr>
+<tr>
+	<td class="medsans" valign="top"><strong>Hot,&nbsp;Pungent,&nbsp;Exotic</strong></td>
+	<td class="smlsans">Ajowan</td><td class="smlsans">expectorant, anti-flatulent</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Allspice</td><td class="smlsans">anti-emetic, purgative</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Asafetida</td><td class="smlsans">anti-helminthic, anti-tussive</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Capsicum peppers</td><td class="smlsans">analgesic, counter-irritant, expectorant</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Cinnamon, Cassia</td><td class="smlsans">antiseptic, anti-diarrhea</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Clove</td><td class="smlsans">topical anesthetic, anti-dyspeptic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Coriander</td><td class="smlsans">anti-spasmodic, diuretic, anti-inflammatory</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Cumin</td><td class="smlsans">anti-microbial, vermifuge, diuretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Curry leaves</td><td class="smlsans">anti-emetic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Galangal</td><td class="smlsans">expectorant, anti-bacterial</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Ginger</td><td class="smlsans">for colds, anti-emetic, anti-rheumatic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Nutmeg, Mace</td><td class="smlsans">astringent, hallucinogen</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Peppercorns</td><td class="smlsans">expectorant, anti-microbial</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Saffron</td><td class="smlsans">anti-rheumatic, for neuralgia</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Turmeric</td><td class="smlsans">anti-arthritic, anti-oxidant, anti-cancer</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Wasabi</td><td class="smlsans">expectorant, for sinusitis</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Zedoary</td><td class="smlsans">expectorant, diuretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td></tr>
+	<tr><td class="medsans"><strong>Hot,&nbsp;Pungent,&nbsp;Non&#45;Exotic</strong></td><td class="smlsans">Chive</td><td class="smlsans">antispetic, diuretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Garlic</td><td class="smlsans">anti-microbial, anti-hypercholesterolemic, anti-cancer, anti-hypertensive</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Horseradish</td><td class="smlsans">anti-microbial, expectorant, purgative</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Mustards</td><td class="smlsans">counter-irritant, emetic, purgative</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Onion, Shallot</td><td class="smlsans">for colds, expectorant, anti-cancer, asthma</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Paprika</td><td class="smlsans">colorant, source of ascorbic acid</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td></tr>
+	<tr><td class="medsans"><strong>Warm,&nbsp;Fragrant,&nbsp;Exotic</strong></td><td class="smlsans">Aniseed</td><td class="smlsans">anti-spasmodic, expectorant, sedative</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Bergamot</td><td class="smlsans">antiseptic, anti-spasmodic, sedative</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Camphor</td><td class="smlsans">antiseptic, cardiostmulant, anti-spasmodic</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Caraway</td><td class="smlsans">diuretic, anti-spasmodic, galactogogue</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Cardamom</td><td class="smlsans">antiseptic</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Cilantro</td><td class="smlsans">antibacterial, anti-inflammatory</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Cubeb</td><td class="smlsans">antiseptic, diuretic, anti-asthma</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Fennel</td><td class="smlsans">anti-spasmodic, diuretic</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Fenugreek</td><td class="smlsans">anti-diabetes, anti-hypercholesterolemia</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Lemon Grass</td><td class="smlsans">fever, insect bites</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Licorice</td><td class="smlsans">anti-spasmodic, anti-tussive, peptic ulcer</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Nigella</td><td class="smlsans">diuretic, anti-helminthic, purgative</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Sesame seed</td><td class="smlsans">diuretic, galactogogue, demulcent</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Star anise</td><td class="smlsans">antiseptic, anti-rheumatic</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Vanilla</td><td class="smlsans">anti-spasmodic, febrifuge</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans"></td><td class="smlsans"></td></tr>
+<th colspan="3"><h2>Savory Herbs</h2></th>
+<tr>
+	<td class="smlsans">&nbsp;</td>
+	<td class="medsans"><strong>Spice</strong></td>
+	<td class="medsans"><strong>Medical Properties/Indications</strong></td>
+</tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Basil</td><td class="smlsans">for colds, anti-diarrhea, kidney disease</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Bay (Laurel)</td><td class="smlsans">embrocation, anti-rheumatic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Caper</td><td class="smlsans">diuretic, expectorant, astringent</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Celery</td><td class="smlsans">diuretic, emmenagogue</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Chervil</td><td class="smlsans">diuretic, expectorant, tonic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Cilantro (Chinese Parsley)</td><td class="smlsans">diuretic, sedative</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Dill ("gripe water")</td><td class="smlsans">anti-flatulent, anti-colic, galactogogue</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Marjoram</td><td class="smlsans">indigestion, colic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Mint</td><td class="smlsans">expectorant, for colds, local anesthesia, anti-spasm</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Oregano</td><td class="smlsans">anti-tussive, anti-rheumatic, vermifuge</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans"Parsley></td><td class="smlsans">diuretic, deodorizer</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Poppy seed</td><td class="smlsans">sedative, anti-spasmodic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Rosemary</td><td class="smlsans">anti-cancer</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Sage</td><td class="smlsans">antiseptic, gastroenteritis, sedative</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Savory</td><td class="smlsans">antispasmodic, sedative, vermifuge, diuretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Tarragon</td><td class="smlsans">diuretic, vermifuge, emmenagogue</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Thyme</td><td class="smlsans">expectorant, antiseptic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans"></td><td class="smlsans"></td></tr>
+	<th colspan="3"><h2>Drinks</h2></th>
+	<tr>
+	<td class="smlsans">&nbsp;</td>
+	<td class="medsans"><strong>Spice</strong></td>
+	<td class="medsans"><strong>Medical Properties/Indications</strong></td>
+</tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Carob</td><td class="smlsans">astringent, purgative, diuretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Chocolate</td><td class="smlsans">sedative, anti-oxidant, diuretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Coffee</td><td class="smlsans">stimulant, diuretic, bronchodilator</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Cola</td><td class="smlsans">anti-emetic, astringent</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Tea</td><td class="smlsans">anti-oxidant, source of theophylline</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Juniper (gin)</td><td class="smlsans">diuretic, sudorific, antiseptic, anti-rheumatic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Quinine (tonic water)</td><td class="smlsans">febrifuge, anti-arrhythmic, astringent</td></tr>
+<tr><td class="smlsans">&nbsp;</td><td class="smlsans"></td><td class="smlsans"></td></tr>
+<th colspan="3"><h2>Other</h2></th>
+<tr>
+	<td class="smlsans">&nbsp;</td>
+	<td class="medsans"><strong>Spice</strong></td>
+	<td class="medsans"><strong>Medical Properties/Indications</strong></td>
+</tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Annatto</td><td class="smlsans">colorant, astringent, analgesic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Eucalyptus</td><td class="smlsans">antiseptic, febrifuge, for colds, expectorant</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans"Frankincense></td><td class="smlsans">astringent, sedative, diuretic, fumigant</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Myrrh</td><td class="smlsans">anti-spasmodic, expectorant, antimicrobial</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Nard (e.g. spikenard)</td><td class="smlsans">emetic, diuretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Sandalwood</td><td class="smlsans">antiseptic, sudorific</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Sugar</td><td class="smlsans">cholagogue, demulcent</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Sumac</td><td class="smlsans">anti-diarrhea, anti-spasmodic, febrifuge</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">Tamarind</td><td class="smlsans">antiseptic, cholagogue, laxative, antipyretic</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td></tr>
+	<tr><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td><td class="smlsans">&nbsp;</td></tr>
+	<tr><td class="smlsans" colspan="3">
+*  In addition to digestive, stomactic, and carminative actions, spices and herbs     
+   are used as flavors and aphrodisiacs.  They are believed to have tonic   
+   and stimulatory effects and to provide pleasure-giving sensory input.
+</td></tr>
+
+</table>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+<h3>SUGAR VARIETIES</h3>
+<table>
+<th colspan="2" align="left">Botanical Sweeteners</th>
+<tr>
+<td class="smlsans" valign="top">Fruit sugar	</td>
+<td class="smlsans" valign="top">Sweet fruits contain 10-20% sugar</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Honey</td>
+<td class="smlsans" valign="top">Syrupy viscous fluid with vitamins and minerals</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Sugar cane</td>
+<td class="smlsans" valign="top">Sugar juice from cane; contains molasses</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Beets (e.g. from Oxnard)</td>
+<td class="smlsans" valign="top">Similar to cane sugar; beet molasses are inedible</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Date sugar</td>
+<td class="smlsans" valign="top">Various products from dates</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Corn syrup</td>
+<td class="smlsans" valign="top">Contains high percentage of fructose</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Maple, palm and sorghum syrups</td>
+<td class="smlsans" valign="top">From saps of these plants; form syrups or sugars</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Malt sugar (maltose)</td>
+<td class="smlsans" valign="top">From malts treated with diastase</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Fructose</td>
+<td class="smlsans" valign="top">From fruit sugar; very sweet</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Dextrose</td>
+<td class="smlsans" valign="top">Produced from cornstarch; less sweet</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Lactose</td>
+<td class="smlsans" valign="top">Milk sugar; less sweet</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">&nbsp;</td>
+<td class="smlsans" valign="top">&nbsp;</td>
+</tr>
+<th colspan="2" align="left">Sugar Derivatives</th>
+<tr>
+<td class="smlsans" valign="top">Cane sugar</td>
+<td class="smlsans" valign="top">Any type of sugar from sugar cane</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Sucanat</td>
+<td class="smlsans" valign="top">Unrefined natural sugar</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Molasses (blackstrap, etc.)</td>
+<td class="smlsans" valign="top">Cane juice with sugar removed to give a thick, brown nutritious syrup</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Brown sugars</td>
+<td class="smlsans" valign="top">White sugar combined with sugar cane molasses</td>
+</tr>
+<ul>
+<tr>
+<td class="smlsans" valign="top"><li style="margin-left: 10px">
+Muscovado, Barbados
+</li></td>
+<td class="smlsans" valign="top">Brown unrefined sugar with molasses removed</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top"><li style="margin-left: 10px">
+Demerara
+</li></td>
+<td class="smlsans" valign="top">Golden brown crystals with some molasses</td>
+</tr>
+	 <tr>
+<td class="smlsans" valign="top"><li style="margin-left: 10px">
+Turbinado
+</li></td>
+<td class="smlsans" valign="top">Partially refined tan-brown sugar with some molasses</td>
+</tr>        
+	 <tr>
+<td class="smlsans" valign="top"><li style="margin-left: 10px">
+Panela, panocha, respadura
+</li></td>
+<td class="smlsans" valign="top">Unrefined, whole sugar products from Mexico</td>
+</tr>        
+<tr>
+<td class="smlsans" valign="top"><li style="margin-left: 10px">
+Jaggery
+</li></td>
+<td class="smlsans" valign="top">Unrefined, flavorful, from India; similar to panela</td>
+</tr></ul>
+<tr>
+<td class="smlsans" valign="top">Caramelized golden syrup</td>
+<td class="smlsans" valign="top">Refined sugar, heated under pressure and burnt</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Candied</td>
+<td class="smlsans" valign="top">Large crystals from sugar derivatives</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Caster, powdered, confectioner’s</td>
+<td class="smlsans" valign="top">Crystals in very fine powder form</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Cubes, lumps, loafs, rock</td>
+<td class="smlsans" valign="top">White granulated, refined; accreted with sugar liquor</td>
+</tr>
+<tr>
+<td class="smlsans" valign="top">Granulated</td>
+<td class="smlsans" valign="top">Granules of varying fineness, from sugar crystals</td>
+</tr>        
+<tr>
+<td class="smlsans" valign="top">Icing sugar</td>
+<td class="smlsans" valign="top">Powdered sugar with cornstarch</td>
+</tr>     
+</table>
+<p class="smlsans" align="right"><a class="nonunder" href="#" onClick="history.go(-1)">Back to Sugar</a></p>
