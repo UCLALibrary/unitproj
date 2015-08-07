@@ -1,0 +1,207 @@
+  BODY  {
+  	color : Black;
+  	background-color : White;
+  }
+  
+  .biomed  {
+  	font-size : 20pt;
+  	font-family : Arial Black,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #FFCC00;
+  }
+  
+  .uclalibrary  {
+  	font-size : 20pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : lighter;
+  	color : #666666;
+  }
+
+.title {
+	font-size: 40pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: Black;
+}
+
+
+  .louise  {
+  	font-size : 9pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+    color : #999999;
+  }
+  
+  .bgcolor1  {
+  	background-color : #006699;
+  }
+  
+  .bgcolor2  {
+  	background-color : #3399CC;
+  }
+  
+  .bgcolor3  {
+  	background-color : #FFFF99;
+  }
+  
+  .tab0  {
+  	background-color : #CCCCCC;
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #000000;
+  }
+  
+  .tab1off  {
+  	background-color : #006699;
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #FFFFFF;
+  }
+  
+  .tab1on  {
+  	background-color : #006699;
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #FFFFFF;
+  }
+  
+  .tab2off  {
+  	background-color : #3399CC;
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #FFFFFF;
+  }
+  
+  .tab2on  {
+  	background-color : #FFFFFF;
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #000000;
+  }
+
+  .tab3off  {
+  	background-color : #99CC66;
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #FFFFFF;
+  }
+  
+  .tab3on  {
+  	background-color : #FFFFFF;
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	font-weight : bold;
+  	color : #000000;
+  }
+  
+  .buttonsml  {
+ 	background-color : #006699;
+  	font-size : 9pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  	color : #FFFFFF;
+  }
+  
+  .spacer  {
+  	font-size : 7pt;
+  }
+  
+  .white  {
+  	color : #FFFFFF;
+  }
+  
+  .red  {
+  	color : #CC0000;
+  }
+  
+  h1  {
+  	font-size : 22pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  }
+  
+  h2  {
+  	font-size : 18pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  }
+  
+  h3  {
+  	font-size : 14pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  }
+  
+  .sml  {
+  	font-size : 10pt;
+  	font-family : Times New Roman;
+  }
+  
+  .med  {
+  	font-size : 12pt;
+  	font-family : Times New Roman;
+  }
+  
+  .lrg  {
+  	font-size : 16pt;
+  	font-family : Times New Roman;
+  }
+  
+  .smlsans  {
+  	font-size : 9pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  }
+    .verysmlsans  {
+  	font-size : 8pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  }
+  .medsans  {
+  	font-size : 10pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  }
+  
+  .lrgsans  {
+  	font-size : 12pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+  }
+  
+  .xlrg  {
+  	font-size : 18pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+ 	font-weight : bold;
+  }
+  
+  .leaded  {
+  	font-size : 12pt;
+  	font-family : Times New Roman;
+	line-height : 25pt;
+  }
+  
+  A:link  {
+  	color : #0000FF;
+  }
+  
+  A:active  {
+  	color : #009900;
+  }
+  
+  A:visited  {
+  	color : #0000CC;
+  }
+  
+  A.nonunder  {
+  	text-decoration : none;
+  }
+  
+  .whitelink:link  {
+	color: #ffffff;
+   }
+
+  .whitelink:visited  {
+	color: #FFFFFF;
+   }
+     
+    .justify  { font-size : 9pt;
+  	font-family : Arial,Helvetica,Sans-Serif;
+	text-align: justify; }
