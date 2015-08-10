@@ -178,7 +178,6 @@
 		skin: 'bekle',
 		stretching: "uniform",
 		autostart: "false"
-
 	});
 </script>
 <cfelse>
@@ -197,10 +196,7 @@
 		fallback: 'false',
         primary: 'flash',
 		androidhls: 'true',
-		skin: 'bekle',
-		height: 30,
-	    abouttext:"Copyright and Access",
-        aboutlink:"http://frontera-dev.library.ucla.edu/access.html"
+		height: 30
     });
 </script>
 </cfif>
