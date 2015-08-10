@@ -175,7 +175,6 @@
         primary: 'flash',
         androidhls: 'true',
 		sharing: '{}',
-		skin: 'bekle',
 		stretching: "uniform",
 		autostart: "false"
 	});
