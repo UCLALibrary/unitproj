@@ -6,7 +6,7 @@
 		</td>
 	</tr>
 	<tr valign="top">
-		<td align="left" bgcolor="#808080" class="smalltitle"><b>&nbsp;<cfoutput>#session.user#</cfoutput> - <a href="logout.cfm" class="smalltitle">logout</a></b> 
+		<td align="left" bgcolor="#808080" class="smalltitle"><b>&nbsp;<cfoutput>#session.user#</cfoutput> - <a href="logout.cfm" class="smalltitle">logout</a> - <a href="changePassword.cfm" class="smalltitle">change password</a></b> 
 		</td>
 	</tr>
 	<tr valign="top">
