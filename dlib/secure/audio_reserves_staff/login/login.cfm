@@ -39,7 +39,7 @@
 		<tr>
 			<td align="right">
 			<b>Password:</b></td>
-			<td><input type="password" name="password" size="16" maxlength="16"></td>
+			<td><input type="password" name="password" size="16" maxlength="30"></td>
 			<td>
 			<input type="submit" name="submitform" value="Submit">
 			</td>
