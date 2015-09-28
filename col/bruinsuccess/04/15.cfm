@@ -1,7 +1,7 @@
 <cfquery name="getTip" datasource = #dsn_np#>
 SELECT *
 FROM Tips
-ORDER BY Update_D DESC, Update_T DESC
+ORDER BY Update_DT DESC, TipID DESC
 </cfquery>
 
 <!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
@@ -65,7 +65,7 @@ The following are tips on studying & researching, juggling busy schedules, tackl
 </p>
 <p class="citation">
 Submitted by: #na#<br>
-On: #DateFormat(Update_D, "mmmm d, yyyy")#
+On: #DateFormat(Update_DT, "mmmm d, yyyy")#
 </p>
 
 
