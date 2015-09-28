@@ -1,0 +1,246 @@
+p {
+	font-family: Georgia, Times, Serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin-top : 0px;
+	padding : 0px;
+}
+.copy {
+	padding: 0 24px 0 24px;
+}
+a {
+	text-decoration : underline;
+} 
+a:visited {
+	text-decoration : underline;
+}
+a:hover {
+	text-decoration : underline;
+	background-color : transparent;
+}
+.q {
+	font-family: Georgia, Times, Serif;
+	font-size: 13px;
+	line-height: 18px;
+	width:100%;
+	border-style : solid;
+	border-width : 1px;
+	padding : 12px;
+}
+.a {
+	font-family: Georgia, Times, Serif;
+	font-size: 13px;
+	line-height: 18px;
+	width:100%;
+	border-style : solid;
+	border-width : 0px 1px 1px 1px;
+	padding : 12px;
+}
+.q p, .a p {
+	text-align: left;
+}
+.inset {
+	border-style : solid;
+	border-width : 1px;
+	padding : 12px;
+	margin : 25px 0px 25px 0px;
+}
+.inset p {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #ffffff;
+	line-height : 16px;
+	margin : 0px 0px 14px 0px;
+}
+.inset h2 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 14px;
+	line-height : 18px;
+	border : none;
+	margin : 0px;
+}
+em {
+	font-weight : lighter;
+}
+h1 {
+	font-family: Georgia, Times, Serif;
+	line-height : 1em;
+}
+h2 {
+	font-family: Georgia, Times, Serif;
+	font-size : 16px;
+	font-weight : bold;
+	margin-bottom : 1em;
+	padding : 0px;
+}
+ol,ul {
+	font-family: Georgia, Times, Serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin-top : 0px;
+	margin-bottom : 1em;
+	text-align: left;	
+}
+li {
+	margin-top : 0px;
+	margin-bottom : 1em;		
+}
+form {
+	margin-bottom : 0px;
+}
+.prev {
+	margin: 0 10px 0 0;
+}
+.next {
+	margin: 0 0 0 10px;
+}
+.citation {
+	font-family: Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+	font-family : georgia, times, serif;
+	text-align : right;
+	text-decoration : none;
+	color : #777777;
+}
+.citation a:link {
+	font-family: Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+	text-decoration : underline;
+	color : #777777;
+}
+.citation a:hover {
+	font-family: Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+	text-decoration : underline;
+}
+.citation a:visited {
+	font-family: Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+	text-decoration : underline;
+	color : #333333;
+}
+.quiz_number {
+	font-family: Georgia, Times, Serif;
+	font-size : 13px;
+	font-weight : bold;
+}
+.quiz_a {
+	font-family: Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+	margin-top : 1.5em;
+	z-index : 100;
+}
+.grade {
+	font-family: Georgia, Times, Serif;
+	font-size : 55px;
+	margin : .5em 0 .5em 0;
+}
+.side_bar {
+	padding: 12px;
+}
+.side_bar p, .side_bar a:link, .side_bar a:visited, .inset a:link, .inset a:visited {
+	font-family : verdana, arial, helvetica, sans-serif;
+	font-size : 11px;
+	line-height : 16px;
+}
+.side_bar h2 {
+	font-family : verdana, arial, helvetica, sans-serif;
+	font-size: 14px;
+	margin : 14px 0px 0px 0px;
+}
+.form {
+	font-size : 14px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration : none;
+	background-color : #ffde5b;
+	color : #58283d;
+}
+.webliography, .bibliography {
+	font-family : Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+}
+.webliography h1, .bibliography h1 {
+	margin : 1em 0 .5em 0;
+	font-family : Georgia, Times, Serif;
+	font-weight : bold;
+	font-size : 19px;
+}
+.webliography dl, .bibliography dl {
+	margin : 0px 0px 24px 0px;
+}
+.webliography dt {
+	font-weight : bold;
+}
+.bibliography dt {
+	text-indent : -20px;
+	margin : 0px 0px 0px 20px;
+}
+.bibliography dd, .webliography dd {
+	margin : 0px 0px 0px 20px;
+}
+.bib_title {
+	text-decoration : underline;
+}
+.bibliography p {
+	text-indent : -20px;
+	margin-top : 0px;
+	margin-left : 20px;
+}
+.close {
+	text-align : right;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+.table {
+	margin : 0px 0px 24px 0px;
+}
+.table td {
+	font-size: 13px;
+	background-color : #ffffff;
+	padding : 4px;
+}
+.table_list {
+	margin-top : 0px;
+	margin-bottom : 0px;
+	margin-left : -20px;
+}
+.typewriter {
+	font-family : "Courier New", Courier, monospace;
+	font-size : 12px;
+	color : Black;
+	line-height : 1.5em;
+}
+.typewriter_bib {
+	font-family : "Courier New", Courier, monospace;
+	font-size : 12px;
+	color : Black;
+	line-height : 1.5em;
+	text-indent : -20px;
+	margin-left : 40px;
+	margin-right : 40px;
+}
+.typewriter_copy {
+	font-family : "Courier New", Courier, monospace;
+	font-size : 12px;
+	color : Black;
+	line-height : 1.5em;
+	margin-left : 20px;
+	margin-right : 20px;
+}
+.hilite {
+	background-color : #ffff00;
+}
+.note {
+	font-size : 11px;
+}
+.logo {
+	text-align: center;
+	padding: 25px 0 25px 0;
+}

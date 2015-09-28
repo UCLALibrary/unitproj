@@ -1,0 +1,20 @@
+body{
+	background-color:#ffffff;
+	font-family:Georgia,Times,Serif;
+	font-size:13px;
+	line-height:18px;
+	color:#58283d;
+	margin:12px;
+}
+
+a:link{
+	color:#cc0000;
+}
+
+a:visited{
+	color:#cc0000;
+}
+
+a:hover{
+	background-color:#ffcc00;
+}

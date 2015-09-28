@@ -1,0 +1,63 @@
+body{
+	background-color : #cad9e5;
+	margin : 0px;
+	color : #003366;
+}
+a{
+	color : #8fa9e6;
+	text-decoration : none;
+}
+a : visited{
+	color : #cc66cc;
+	text-decoration : none;
+}
+a : hover{
+	background-color : #cad9e5;
+	text-decoration : none;
+}
+.citationa : hover{
+	color : #222222;
+	background-color : #cad9e5;
+}
+.side_bar{
+	background-color : #00418d;
+	color : #ffffff;	
+}
+.inset{
+	border-color : #c464c9;
+	background-color : #00418D;
+}
+.inseth2,.side_barh2{
+	color : #cad9e5;
+}
+.inseta : link,.side_bara : link{
+	color : #8fa9e6;
+}
+.inseta : visited,.side_bara : visited{
+	color : #cc66cc;
+}
+.inseta : hover,.side_bara : hover{
+	background-color : #cad9e5;
+}
+.q{
+	border-color : #c464c9;
+}
+.a{
+	border-color : #c464c9;
+}
+.quiz_ap{
+	color : #4d7bb0;
+}
+.quiz_number{
+	color : #00418d;
+}
+.form{
+	background-color : #ffde5b;
+	color : #003366;
+}
+.webliography,.bibliography{
+	color : #003366;
+}
+.webliographyh1,.bibliographyh1{
+	color : #003366;
+}

@@ -1,0 +1,377 @@
+body {
+	background-color : #f0dcae;
+	margin : 0px;
+}
+
+p {
+	margin-top : 0px;
+	padding : 0px;
+}
+
+h2 {
+	font-size : 16px;
+	font-weight : bold;
+	margin-bottom : 0px;
+	padding : 0px;
+}
+
+ol,ul {
+	margin-top : 0px;
+	margin-bottom : 1em;	
+}
+
+li {
+	margin-top : 0px;
+	margin-bottom : 1em;		
+}
+
+a {
+	color:#ff602d;
+	text-decoration : none;
+} 
+a:visited {
+	color : #ff283d;
+	text-decoration : none;
+}
+a:hover {
+	text-decoration : none;
+	background-color : #f0dcae;
+	text-decoration : none;
+}
+
+#nav_this {
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	width : 33%;
+	background-color : #6d2842;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	color : White;
+	font-weight : bold;
+	padding : 4px;
+	height : 26px;
+	text-align : center;
+}
+	
+#nav_inter {
+	position : absolute;
+	top : 0px;
+	left : 32%;
+	width : 30%;
+	height : 26px;
+	padding : 3px 0px 3px 0px;
+	background-color : #ff602d;
+	text-align : center;
+}
+
+.nav_inter {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration : none;
+	color : #6d2842;
+	background-color : #ff602d;
+	font-size : 9px;
+}
+	
+#nav_intra {
+	position : absolute;
+	top : 0px;
+	right : 0;
+	width : 40%;
+	height : 26px;
+	padding : 3px 0px 3px 0px;
+	background-color : #e7c67c;
+	text-align : center;
+}
+	
+.nav_intra {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration : none;
+	color : #6d2842;
+	background-color : #e6c579;
+	font-size : 9px;
+}
+	
+#live_area {
+	position : absolute;
+	right : 30%;
+	width : 426px;
+	font-family: Georgia, Times, Serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #58283d;
+	text-align : left;
+}
+
+#border_top {
+	position : absolute;
+	width : 426px;
+	height : 19px;
+	top : -22;
+	left : 0;
+	background-image : url(../images/01_border_top.gif);
+	z-index : -1;	
+}
+
+#border_bottom {
+	position : absolute;
+	width : 426px;
+	height : 19px;
+	bottom : -22;
+	left : 0;
+	background-image : url(../images/01_border_bottom.gif);
+	z-index : -1;	
+}
+
+#quiz_border_top {
+	position : absolute;
+	width : 426px;
+	height : 123px;
+	top : -10;
+	left : 0;
+	background-image : url(../images/01_quiz_border_top.gif);
+	z-index : -1;
+}
+
+#quiz_border_bottom {
+	position : absolute;
+	width : 426px;
+	height : 123px;
+	bottom : -12;
+	left : 0;
+	background-image : url(../images/01_quiz_border_bottom.gif);
+	z-index : -1;
+}
+
+#side_bar {
+	position : absolute;
+	right : -210px;
+	width : 200px;
+	height : auto;
+	background-color : #6d2842;
+}
+
+#side_bar_border_top {
+	position : absolute;
+	top : -12px;
+	width : 200px;
+	height : 12px;
+	background-image : url(../images/01_sidebar_stripe.gif);
+	background-repeat : no-repeat;
+}
+
+#side_bar_border_bottom {
+	position : absolute;
+	bottom : -12px;
+	width : 200px;
+	height : 12px;
+	background-image : url(../images/01_sidebar_stripe.gif);
+	background-repeat : no-repeat;
+}
+
+#next {
+	position : absolute;
+	bottom : 0px;
+	right : -110px;	
+	width : 100px;
+	height : auto;
+	z-index : 10;  
+}
+	
+#previous {
+	position : absolute;
+	bottom : 0px;
+	left : -100px;	
+	width : 100px;
+	height : auto;
+	z-index : 10;  
+}
+
+#footer {
+	position : absolute;
+	bottom : -120px;
+	height : 100px;
+	z-index : 10;  
+}
+	
+.main_copy {
+	margin : 1.5em;
+	z-index : 10;
+}
+
+.citation {
+	font-size : 13px;
+	color : #777777;
+	line-height : 18px;
+	font-family : georgia, times, serif;
+	text-align : right;
+}
+	
+.citation A:link {
+	color : #777777;
+	text-decoration : none;
+}
+
+.citation A:visited {
+	color : #333333;
+}
+
+.citation A:hover {
+	color : #222222;
+	background-color : #f0dcae;
+	text-decoration : none;
+}
+
+.inset {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-style : solid;
+	border-color : #ff602d;
+	border-width : 1px;
+	background-color : #6d2842;
+	padding : 20px;
+	margin : 24px 0px 24px 0px;
+}
+
+.inset P {
+	font-size : 11px;
+	color : #ffffff;
+	line-height : 16px;
+	margin : 0px 0px 14px 0px;
+}
+
+.inset H2 {
+	font-weight : bold;
+	font-size : 14px;
+	color : #f0dcae;
+	line-height : 18px;
+	border : none;
+	margin : 0px;
+}
+
+.inset A:link {
+	color : #ff602d;
+	text-decoration : none;
+}
+
+.inset A:visited {
+	color : #ff283d;
+	text-decoration : none;
+}
+
+.inset A:hover {
+	background-color : #f0dcae;
+	text-decoration : none;
+}
+
+.q {
+	border-style : solid;
+	border-width : 1px 1px 1px 1px;
+	border-color : #ff602d;
+	padding : 12px;
+	margin : 24px 0px 0px 0px;
+}
+
+.a {
+	border-style : solid;
+	border-width : 0px 1px 1px 1px;
+	border-color : #ff602d;
+	padding : 12px;
+	margin : 0px 0px 24px 0px;
+}
+
+.quiz_copy {
+	margin : 2.5em;
+	z-index : 10;
+}
+
+.quiz_a P {
+	color: #ee4010;
+}
+
+.quiz_number {
+	position : relative;
+	top : 0;
+	font-size : 55px;
+	color : #6d2842;
+}
+.quiz_q {
+	position : relative;
+	top : -2em;
+	left : 60px;
+	width : 300px
+}
+
+.side_bar_copy {
+	font-family : verdana, arial, helvetica, sans-serif;
+	font-size : 11px;
+	color : #ffffff;
+	line-height : 16px;
+	text-align : left;
+	padding : 0px 16px 0px 16px;
+}
+
+.side_bar_copy P {
+	margin : 0px 0px 14px 0px;
+}
+
+.side_bar_copy H2 {
+	font-size: 14px;
+	margin : 14px 0px 0px 0px;
+}
+
+.side_bar_copy A:link {
+	color : #ff602d;
+}
+
+.side_bar_copy A:visited {
+	color : #ff283d;
+}
+
+.side_bar_copy A:hover {
+	background-color : #f0dcae;
+}
+
+.form {
+	font-size : 14px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color : #ffde5b;
+	text-decoration : none;
+	color : #58283d;
+}
+
+.citation {
+	font-family : Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+	color : #777777;
+	text-align : right}
+	
+.webliography, .bibliography {
+	font-family : Georgia, Times, Serif;
+	font-size : 13px;
+	line-height : 18px;
+	color : #58283d;
+}
+.webliography H1, .bibliography H1 {
+	margin : 1em 0 .5em 0;
+	font-family : georgia, times, serif;
+	font-weight : bold;
+	font-size : 19px;
+	color : #58283d;
+}
+.webliography DL, .bibliography DL {
+	margin : 0px;
+}
+.webliography DT {
+	font-weight : bold;
+}
+.bibliography DT {
+	text-indent : -20px;
+	margin : 0px 0px 0px 20px;
+}
+.bibliography DD, .webliography DD {
+	margin : 0px 0px 0px 20px;
+}
+.bib_title {
+	text-decoration : underline;
+}

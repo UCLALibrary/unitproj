@@ -1,0 +1,17 @@
+BODY {
+	font-family : Georgia;
+	background-color : #ffffff;
+	margin : 24px;
+}
+
+A:link {
+	color : #cc0000;
+}
+
+A:visited {
+	color : #cc0000;
+}
+
+A:hover {
+	background-color : #ffcc00;
+}
