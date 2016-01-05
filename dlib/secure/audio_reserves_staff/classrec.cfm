@@ -129,6 +129,7 @@ order by classinfo,composer,title,works.workid
 	<cfif url.t is "view">#year#
 	<cfelse>
 	<select name="year">
+	<option value="2016" <cfif srch.year is "2016">selected</cfif>>2016</option>
 	<option value="2015" <cfif srch.year is "2015">selected</cfif>>2015</option>
 	<option value="2014" <cfif srch.year is "2014">selected</cfif>>2014</option>
 	<option value="2013" <cfif srch.year is "2013">selected</cfif>>2013</option>
