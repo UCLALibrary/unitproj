@@ -1,0 +1,116 @@
+App.progressCountTotal = 14;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/brownpelicans.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'brownpelicans.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/brownpelicans_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/brownpelicans_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/brownpelicans_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/brownpelicans_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/brownpelicans_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/brownpelicans_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/chipmunk.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'chipmunk.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/chipmunk_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/chipmunk_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/chipmunk_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/chipmunk_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/chipmunk_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/chipmunk_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/cowmoose.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'cowmoose.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/cowmoose_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/cowmoose_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/cowmoose_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/cowmoose_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/cowmoose_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/cowmoose_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/deerbutt.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'deerbutt.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/deerbutt_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/deerbutt_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/deerbutt_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/deerbutt_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/deerbutt_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/deerbutt_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/deerface.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'deerface.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/deerface_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/deerface_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/deerface_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/deerface_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/deerface_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/deerface_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/doublehummernest.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'doublehummernest.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/doublehummernest_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/doublehummernest_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/doublehummernest_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/doublehummernest_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/doublehummernest_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/doublehummernest_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/drd.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'drd.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/drd_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/drd_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/drd_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/drd_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/drd_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/drd_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/fairytern.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'fairytern.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/fairytern_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/fairytern_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/fairytern_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fairytern_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fairytern_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fairytern_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/fairytern_inflight.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'fairytern_inflight.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/fairytern_inflight_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/fairytern_inflight_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/fairytern_inflight_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fairytern_inflight_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fairytern_inflight_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fairytern_inflight_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/fox.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'fox.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/fox_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/fox_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/fox_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fox_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fox_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/fox_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/hummerleaf.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'hummerleaf.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/hummerleaf_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/hummerleaf_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/hummerleaf_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/hummerleaf_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/hummerleaf_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/hummerleaf_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/laysanalbatross.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'laysanalbatross.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/laysanalbatross_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/laysanalbatross_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/laysanalbatross_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/laysanalbatross_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/laysanalbatross_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/laysanalbatross_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/mockingbird.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'mockingbird.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/mockingbird_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/mockingbird_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/mockingbird_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/mockingbird_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/mockingbird_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/mockingbird_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///N|/dickey/MartinJohnsonArt/imagefolder/moose.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'moose.jpg';
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/images/moose_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/images/moose_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/images/moose_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/moose_jpg.jpg') || confirm('file:///N|/dickey/MartinJohnsonArt/site/thumbnails/moose_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///N|/dickey/MartinJohnsonArt/site/thumbnails/moose_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';
