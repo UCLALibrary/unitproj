@@ -58,6 +58,7 @@ update classes
 		instructorID='#form.instructorID#',
 		department='#form.department#',
 		classnumber='#form.classnumber#',
+		srs='#form.srs#',
 		title='#form.title#',
 		year='#form.year#',
 		quarter='#quarter#',

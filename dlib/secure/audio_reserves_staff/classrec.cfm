@@ -118,6 +118,13 @@ order by classinfo,composer,title,works.workid
 	<cfelse><input type="text" name="classnumber" value="#classnumber#" size="15" maxlength="15"></cfif></td>
 </tr>
 <tr>
+	<th width="100" align="right">SRS:</th>
+	<td>
+	<cfif url.t is "view">#srs#
+	<cfelse><input type="text" name="srs" value="#srs#" size="9" maxlength="9"</cfif>
+	</td>
+</tr>
+<tr>
 	<th width="100" align="right">Title:</th>
 	<td>
 	<cfif url.t is "view">#title#

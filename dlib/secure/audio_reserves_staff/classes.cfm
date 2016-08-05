@@ -22,6 +22,8 @@ order by department,classnumber,title
 order by year desc,quarter,instructors.instructor,department,classnumber
 <cfelseif url.ord is "qr">
 order by quarter,year,department,classnumber
+<cfelseif url.ord is "sr">
+order by srs
 <cfelseif url.ord is "ti">
 order by title
 <cfelse>
@@ -45,6 +47,7 @@ order by classid
 	<th><a href="classes.cfm?ord=qr" class="head">Quarter</th>
 	<th><a href="classes.cfm?ord=in" class="head">Owner</th>
 	<th><a href="classes.cfm?ord=cl" class="head">Department/No.</th>
+	<th><a href="classes.cfm?ord=sr" class="head">SRS</th>
 	<th><a href="classes.cfm?ord=ti" class="head">Title</th>
 	<th>Password</th>
 </tr>
@@ -57,6 +60,7 @@ order by classid
 	<td>#quarter#</td>
 	<td>#instructor#</td>
 	<td>#department# #classnumber#</td>
+	<td>#srs#</td>	
 	<td><a href="classrec.cfm?t=view&classid=#classid#&listadd=no">#title#</a></td>
 	<td><cfif len(#password#) and ((trim(session.acctype) neq "readonly") or (session.user eq UCLA_ID) or (ListContainsNoCase(TAs,session.user)))>#password#<cfelse>&nbsp;</cfif></td>
 </tr>
