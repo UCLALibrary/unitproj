@@ -1,0 +1,9 @@
+Staff Directory, ../../staff/index.cfm;
+Key Contacts, ../../keycontacts/index.cfm;
+Sections, ../../sections/index.cfm;
+Policies and Procedures, ../../policies/index.cfm;
+Reference Shelf, ../../refshelf/index.cfm;
+Minutes, ../../minutes/index.cfm;
+Forms, ../../forms/index.cfm;
+Training and Documentation, ../../training/index.cfm;
+Electronic Resources Cataloging, ../../erc_general/index.cfm

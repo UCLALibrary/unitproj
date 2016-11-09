@@ -1,0 +1,19 @@
+								<!--input type="hidden" name="zrequired" value="name"-->
+	<!---cfparam name="URL.name" default="[required]"--->
+
+	<cfparam name="URL.email" default="[required]">
+	<cfparam name="URL.cc_email" default="[list emails separated by commas]">
+	<cfparam name="URL.title" default="[required]">
+	<cfparam name="URL.address" default="[required]">
+	<cfparam name="URL.summary" default="[include special instructions & comments]">
+	<cfparam name="URL.isbn" default="[optional]">
+	<cfparam name="URL.sfx_id" default="[optional]">
+	<cfparam name="URL.serials_id" default="[optional]">
+	<cfparam name="URL.selectors" default="[optional]">
+	<cfparam name="URL.type" default="book">
+	<cfparam name="URL.priority" default="normal">
+	<cfparam name="URL.unit" default="[e.g. Biomed/RICS, YRL/CRIS, Music, Arts, etc.]">
+	<cfparam name="URL.bibid" default="[required; enter 0 if no Voyager Bib ID]">
+	<cfparam name="URL.po_num" default="[required]">
+	<cfparam name="URL.edition" default="[required]">
+	<cfparam name="URL.package" default="[Please explain in Notes field if requesting collection-level cataloging, title-level cataloging, or both.]">

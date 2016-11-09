@@ -1,0 +1,7 @@
+Contacts, ../erc_contacts/index.cfm;
+Documentation: Cataloging, ../erc_cataloging/index.cfm;
+Documentation: Record Loads/Error reports, ../erc_reports/index.cfm;
+Documentation: SFX, ../erc_SFX/index.cfm;
+Documentation: Special Tools, ../erc_special/index.cfm;
+E-Resources Interest Group, ../erc_erig/index.cfm;
+Library Cataloging & Metadata Center home, ../index.cfm

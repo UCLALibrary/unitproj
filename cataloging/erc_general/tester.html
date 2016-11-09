@@ -1,0 +1,63 @@
+<http>
+<head>
+<title>
+Script Test
+</title>
+</head>
+<body>
+<form action="" method="get" name="eres" id="eres">
+Other recipients:&nbsp;
+<input type="text" id="cc_email" name="cc_email" value="[list emails separated by commas]" size="68">
+<input type="button" name="submit_button" value="Send to Cataloging" onclick="validateForm()">
+<br/>
+</form>
+<script type="text/javascript">
+	function validateForm()
+	{
+		var modAddresses = "";
+		numErrors = 0;
+		if (document.eres.cc_email.value != "" && document.eres.cc_email.value != "[list emails separated by commas]" )
+		{
+			var addresses = document.eres.cc_email.value.split(",");
+			for ( i = 0; i < addresses.length; i++ )
+			{
+				if ( addresses[i].indexOf("@") == -1 )
+				{
+					modAddresses = modAddresses + "," + addresses[i] + "@library.ucla.edu";
+				}
+				else
+				{
+					var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					if (!filter.test(addresses[i]))
+					{
+						numErrors = 1;
+						break;
+					}
+					else
+					{
+						modAddresses = modAddresses + "," + addresses[i];
+					}
+				}
+			}
+
+		}
+		if (numErrors != 0)
+		{
+			document.eres.cc_email.style.background = "pink";
+			alert("One or more of your CC addresses has an invalid format.");
+		}
+		else
+		{
+			if (modAddresses.charAt(0) == ",")
+			{
+				modAddresses = modAddresses.substring(1,modAddresses.length);
+			}
+			document.eres.cc_email.value = modAddresses;
+			document.eres.method = "POST";
+			document.eres.action= "results.cfm";
+			document.eres.submit();
+		}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>REQUEST TO CATALOG Freely-Available Web Sites</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+	.webtool {border-color: #5075a1; border-style: outset; border-width: medium; background-color: #5075a1; height: 100%; width: 60%;}	
+	.inputbox {background-color: #ffffcc; border-color: #5075a1; border-style: inset; height: 26px; padding: 2px;}
+	.radio {background-color: #5075a1; border-color: #5075a1; border-style: none; color: #ffffff;}	
+	.button {border-color: #5075a1; border-width: medium; border-style: outset; height: 30px; padding: 2px; color: #ffffff; background-color: #5075a1;}	
+	#webool_form td {border-style: none;}
+	.leftcol {color: #ffffff; font-weight: bold;}
+	.textarea {border-color: #5075a1; border-style: inset; background-color: #ffffcc;}
+</style>
+</head>
+
+<body bgcolor="#ffffff" text="#ffffff">
+
+<center>
+
+<table class="webtool" cellpadding="2" id="webtool_form">
+	<form action="http://www.library.ucla.edu/cgi-bin/formmail" method="post" name="eres">
+		<tr><td colspan="2" align="center"><h2>REQUEST TO CATALOG<br>
+										   Freely-Available Web Sites</h2>
+										   <hr size="1" width="50%"><br>
+										   Instructions: Type request yourself; or: press "F8"; pull up web site; press "F9."
+		</td></tr>		
+		<input type="hidden" name="zrequired" value="name">
+		<input type="hidden" name="zrecipient" value="rhunter@library.ucla.edu">
+		<input type="hidden" name="zsubject" value="NEW Cat Request">
+		<input type="hidden" name="zsort" value="order:name,email,title,URL,type,summary">
+		<tr><td align="right" class="leftcol">Your name:</td><td><input class="inputbox" type="text" name="name" value="[required]" size="68"></td></tr>
+		<tr><td align="right" class="leftcol">Your email:</td><td><input class="inputbox" type="text" name="email" value="[required]" size="68"></td></tr>
+		<tr><td align="right" class="leftcol">Title:</td><td><input class="inputbox" type="text" name="title" value="[required]" size="68"></td></tr>
+		<tr><td align="right" class="leftcol">URL:</td><td><input class="inputbox" type="text" name="URL" value="[required]" size="68"></td></tr>
+
+		<tr><td align="right" class="leftcol">Resource type:</td><td><input class="radio" type="radio" name="type" value="book" checked>Book&nbsp&nbsp&nbsp&nbsp&nbsp
+									   <input class="radio" type="radio" name="type" value="serial">Serial<br>
+									   <input class="radio" type="radio" name="type" value="website">Web site
+									   <input class="radio" type="radio" name="type" value="database">Database</td></tr>
+	
+		<tr><td align="right" class="leftcol">Summary:<br>(include priority & comments)</td><td><textarea class="textarea" name="summary" rows="10" cols="52">[optional]</textarea></td></tr>
+		<tr><td></td><td align="right"><input class="button" type="submit" name="submit_button" value="Send to Cataloging">		
+						 			   <input class="button" type="reset" value="Clear"> 					     
+		</td></tr>
+	</form>
+</table>
+
+
+</center>
+</body>
+</html>

@@ -1,0 +1,356 @@
+/* CSS Document */
+/*
+Fonts
+	Identity/Logo
+		Caslon 540 Italic
+		16 pt
+		Anti-aliasing: strong		
+		Tracking: 5
+	Subtitles
+		Caslon 540 Italic
+		15 pt
+		Anti-aliasing: strong		
+		Tracking: 5
+	Global Menu
+		Frutiger 65 Bold
+		10 pt
+		Anti-aliasing: crisp
+		Tracking: 15
+		Leading: 10 pt
+		Colors:
+				Off: #FFFFFF
+				On: #000000
+Color Palette
+	Blue: #536895
+	Yellow: #FEBB36
+	Global navigation: #000000
+	Table column headings and borders: #999999
+	Menu separators: #FFFFFF
+*/
+
+* {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+p, blockquote {
+	line-height: 1.5em;
+}
+#header {
+	width: 100%;
+	background-color: #536895;
+}
+#header2 {
+	width: 100%;
+	background-color: #ffffff;
+}
+#menu_global {
+	width: 100%;
+	background-color: #000000;
+}
+#live_area {
+	width: 100%;
+}
+#footer {
+	font-size: 10px;
+	line-height: 1.3em;
+	width: 100%;
+	padding: 100px 0 20px 10px;
+}
+#footer p, #footer a:link, #footer a:visited {
+	font-size: 10px;
+}
+.prev_next, .button_container {
+	margin: 4em 0 0 0;
+}
+.links, .links_caption {
+	padding: 0 0 10px 0;
+	line-height: 1.5em;	
+}
+.links_caption {
+	font-style: normal;
+	font-weight: bold;
+}
+.links_container {
+	width: 299px;
+	border-style: solid;
+	border-color: #999999;
+	border-width: 0 1px 0 0;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	font-style: italic;
+	line-height: 1em;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+.darrowco_address {
+	line-height: 1em;
+	text-align: left;
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+.address {
+	font-size: 10px;
+	text-align: right;
+	line-height: 1.3em;
+	padding: 10px 20px 0 10px;
+	margin: 0;	
+}
+.address a:link, .address a:visited {
+	font-size: 10px;
+}
+.copy, .copy_formatted {
+	padding: 20px 20px 0 20px;
+	margin: 0;
+}
+.copy_10 {
+	padding: 0 20px 0 20px;
+	margin: 0;
+}
+.copy_10 p, .copy_110 p {
+	margin: 0 0 1em 0;
+	line-height: 1.5em;
+}
+.copy_10 h2, .copy_110 h2 {
+	line-height: 1.5em;
+	font-weight: normal;
+	font-style: italic;
+	margin: 1em 0 1em 0;
+}
+.copy_10 h3, .copy_110 h3 {
+	line-height: 1.5em;
+	font-weight: bold;
+	margin: 0 0 .5em 0;
+}
+.copy_110 {
+	width: 299px;
+	padding: 20px 0 0 20px;
+	margin: 0;	
+}
+.copy h2, .copy h2 a {
+	font-size: 13px;
+	margin: 0 0 1em 0;
+}
+.copy h3, .form h3 {
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.5em;
+	margin: .5em 0 0 0;
+	line-height: 1.3em;
+}
+.copy p {
+	margin: 0 0 1em 0;
+}
+.table {
+	margin: 0 20px 0 20px;
+}
+.table_full_width table {
+	margin: 20px 0 0 0;
+}
+.table_scroll {
+  position: relative;
+  width: 740px;
+  height: 300px;
+  overflow: scroll;
+}
+.table td, .table th, .table_full_width td, .table_full_width th {
+	line-height: 1.2em;
+	padding: 4px;
+}
+caption {
+	font-style: italic;
+	padding: 0 0 .5em 0;	
+	text-align: center;
+}
+.copy ul, .copy_10 ul, .table ul {
+	list-style-type: square;
+	margin: 0 0 1em 20px;
+	padding: 0;
+}
+.copy ol {
+	margin: 1em 0 1em 24px;
+	padding: 0;
+}
+.copy li, .copy_10 li, .table li {
+	line-height: 1.5em;
+}
+.copy dl {
+	line-height: 1.5em;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+.copy dt {
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.copy dd {
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;	
+}
+
+.closed {
+	color: #990000;
+}
+.alert {
+	color: #990000;
+}
+.alert a:link, .alert a:visited {
+	color: #990000;
+}
+table.b1000, td.b1000 {
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px 0 0 0;
+}
+table.b0100, td.b0100 {
+	border-style: solid;
+	border-color: #999999;
+	border-width: 0 1px 0 0;
+}
+table.b0010, td.b0010 {
+	border-style: solid;
+	border-color: #999999;
+	border-width: 0 0 1px 0;
+}
+table.b0001, td.b0001 {
+	border-style: solid;
+	border-color: #999999;
+	border-width: 0 0 0 1px;
+}
+table.b0110, td.b0110 {
+	border-style: solid;
+	border-color: #999999;
+	border-width: 0 1px 1px 0;
+}
+.table td.b1000, .table_full_width td.b1000 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 1px 0 0 0;
+}
+.table td.b1010, .table_full_width td.b1010 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 1px 0 1px 0;
+}
+.table td.b0100, .table_full_width td.b0100 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 0 1px 0 0;
+}
+.table td.b0010, .table_full_width td.b0010 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 0 0 1px 0;
+}
+.table td.b0001, .table_full_width td.b0001 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 0 0 0 1px;
+}
+.table td.b0110, .table_full_width td.b0110 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 0 1px 1px 0;
+}
+.table td.b0011, .table_full_width td.b0011 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 0 0 1px 1px;
+}
+.table td.b1100, .table_full_width td.b1100 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 1px 1px 0 0;
+}
+.table td.b1110, .table_full_width td.b1110 {
+	border-style: dashed;
+	border-color: #999999;
+	border-width: 1px 1px 1px 0;
+}
+th {
+	background-color: #E6E6E6;
+	font-weight: normal;
+}
+th.b0100 {
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+th.b0010 {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+th.b1000 {
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+input, textarea, select {
+	color: Black;
+	margin: 0 0 0 0;
+}
+.submit, .reset {
+	margin: 10px 0 0 0;
+}
+.form_field_caption {
+	margin: 1em 0 0 0;
+}
+.form_b1010 {
+	border-style: dashed;
+	border-width: 1px 0 1px 0;
+	border-color: #999999;
+	padding: 0 20px 0 20px;
+	margin: 0;	
+}
+.form_b0010 {
+	border-style: dashed;
+	border-width: 0 0 1px 0;
+	border-color: #999999;
+	padding: 0 20px 0 20px;
+	margin: 0;	
+}
+.form_textbox {
+	background-color: #FFFFFF;
+}
+.photo_caption {
+	font-size: 10px;
+	padding: .3em .5em 0 .5em;
+}
+.photo_caption_float p {
+	font-size: 10px;
+	padding: .3em 20px 0 20px;
+}
+.photo_caption em, .photo_caption_float em {
+	font-size: 10px;
+}
+.hilite {
+	background-color: #FFFF33;
+}
+.alert_box {
+	background-color: #FFFFCC;
+	color: #CC0000;
+	border-style: dashed;
+	border-width: 0 0 1px 0;
+	border-color: #999999;
+	padding: 20px;
+	margin: 0;	
+}
+.alert_box p {
+	padding: 0;
+	margin: 0;	
+}
+.alert_box a:link, .alert_box a:visited {
+	color: #CC0000;
+}

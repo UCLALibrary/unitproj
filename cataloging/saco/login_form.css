@@ -1,0 +1,11 @@
+p.main {
+	font-family : Arial;
+	font-size: 12px;
+}
+#login_form {
+	margin: 0 0 10px;
+	border : 1px solid #5075a1;
+}
+#login_form input { width: 130px; border: 1px solid #02349a; height: 14px; padding: 2px; } 
+#login_form input.submit { font-family: arial; courier new; font-size: 14px; padding: 1px; width: 76px; height: 20px; color: #fff; text-align: center; background: #5075a1; border: none; } 
+#login_form td { font-family: arial, courier new; font-size: 12px; }

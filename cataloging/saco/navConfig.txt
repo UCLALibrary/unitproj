@@ -1,0 +1,10 @@
+Staff Directory, /cataloging/staff/index.cfm;
+Key Contacts, /cataloging/keycontacts/index.cfm;
+Sections, /cataloging/sections/index.cfm;
+Policies and Procedures, /cataloging/policies/index.cfm;
+Reference Shelf, /cataloging/refshelf/index.cfm;
+Minutes, /cataloging/minutes/index.cfm;
+Forms, /cataloging/forms/index.cfm;
+Training and Documentation, /cataloging/training/index.cfm;
+Electronic Resources Cataloging, /cataloging/erc_general/index.cfm;
+Logout, /cataloging/saco/saco_logout.cfm
