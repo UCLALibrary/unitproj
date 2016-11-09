@@ -1,3 +1,15 @@
 # LAUCLA site, temporarily uploaded to Hostek during rewrite in Drupal
 laucla/
 
+# Thumbnails
+Thumbs.db
+
+# Documents in cataloging directory (and subdirectories, but only cataloging)
+cataloging/**/*.doc
+cataloging/**/*.docx
+cataloging/**/*.pdf
+cataloging/**/*.ppt
+cataloging/**/*.pptx
+cataloging/**/*.wav
+cataloging/**/*.xls
+cataloging/**/*.xlsx
