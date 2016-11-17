@@ -10,11 +10,10 @@
 <h3>Cataloging & Metadata Center Reference Resources</h3>
 <!--- <p>put something here</p> --->
 
+<!--- 2016-11-17 akohler: Database query of resources no longer supported 
 <cfinclude template="reference_final2.cfm">
-
-  
-
-
+--->
+<p>Searching the reference resources database is no longer supported.  Please contact Paul Priebe with any questions.</p>
 
 <!--- ************************************
 			END PAGE CONTENT
