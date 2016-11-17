@@ -13,3 +13,6 @@ cataloging/**/*.pptx
 cataloging/**/*.wav
 cataloging/**/*.xls
 cataloging/**/*.xlsx
+
+# Other documents
+lis/voyager/gbs/*.pdf
