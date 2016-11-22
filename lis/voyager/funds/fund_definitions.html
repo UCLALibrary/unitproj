@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Voyager Fund Definitions</title>
+	<link rel="StyleSheet" href="../common/voyager.css" type="text/css" media="screen">
+</head>
+<body>
+	<h3 id="fundname">Fund Name</h3>
+	Fund name (up to 25 characters).
+
+	<h3 id="fundcode">Fund Code</h3>
+	Fund code (up to 10 characters).
+
+	<h3 id="origalloc">Original Allocation</h3>
+	Amount allocated to the fund when initially created.  This amount is rolled from year to year -
+	Voyager does <em>not</em> roll the <a href="#curralloc">current allocation</a>.
+
+	<h3 id="curralloc">Current Allocation</h3>
+	Amount currently allocated to the fund, according to this formula:
+	<p class="formula">Original Allocation + Allocation Increases - Allocation Decreases</p>
+
+	<h3 id="commit">Commitments</h3>
+	Amount committed (encumbered) to the fund on approved purchase orders.
+
+	<h3 id="pendcommit">Pending Commitments</h3>
+	Amount committed (encumbered) to the fund on pending purchase orders.  Once the orders are approved, the corresponding amounts will
+	move to (regular) <a href="#commit">commitments</a>.
+
+	<h3 id="expend">Expenditures</h3>
+	Amount expended from the fund on approved invoices (or approved prepaid purchase orders).
+
+	<h3 id="pendexpend">Pending Expenditures</h3>
+	Amount expended from the fund on pending invoices (or pending prepaid purchase orders).  Once the invoices (or prepaid POs) are approved,
+	the corresponding amounts will move to (regular) <a href="#expend">expenditures</a>.
+
+	<h3 id="cashbal">Cash Balance</h3>
+	Amount currently in the fund, according to this formula:
+	<p class="formula">Current Allocation - Expenditures</p>
+
+	<h3 id="availbal">Available Balance</h3>
+	Amount which will be available in the fund if commitments are honored, according to this formula:
+	<p class="formula">Current Allocation - Expenditures - Commitments</p>
+
+	<h3 id="percentspent">Percent Spent</h3>
+	Percentage of the current allocation which has been expended or committed, according to this formula:
+	<p class="formula">100 - ((Available Balance / Current Allocation) * 100)</p>
+
+	<h3 id="placeholder">&nbsp;</h3>
+
+</body>
+</html>
