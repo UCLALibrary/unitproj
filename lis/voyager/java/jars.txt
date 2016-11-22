@@ -1,0 +1,4 @@
+Java jar files used for the Item Sorter application:
+* itemsorter.jar: the program itself, and supporting item class
+* retroweaver-rt-1.2.5.jar: used for ancient Cold Fusion compatibility
+* vapi.jar: internal Voyager APIs 
