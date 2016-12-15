@@ -19,11 +19,11 @@
 	<cfset classid=new2.classid>
 	</cfoutput>
 <cfelse>
-	<cfset classid=url.classid>	
+	<cfset classid=url.classid>
 </cfif>
 
 <cfquery name="srch" datasource="#dsn#">
-select * from classes 
+select * from classes
 where classid=#variables.classid#
 </cfquery>
 
@@ -71,7 +71,7 @@ order by classinfo,composer,title,works.workid
 	<font color="red">NO DEPARTMENT WAS SELECTED</font></p>
 	<p>
 </cfif>
-	
+
 <table border="0"
        cellspacing="2"
        cellpadding="2">
@@ -104,7 +104,7 @@ order by classinfo,composer,title,works.workid
 		<cfoutput query="departments">
 		<option value="#department#" <cfif srch.department eq departments.department>selected</cfif>>#department#</option>
 		</cfoutput>
-		</select>	
+		</select>
 	</cfif></td>
 </tr>
 
@@ -136,6 +136,9 @@ order by classinfo,composer,title,works.workid
 	<cfif url.t is "view">#year#
 	<cfelse>
 	<select name="year">
+	<option value="2019" <cfif srch.year is "2019">selected</cfif>>2019</option>
+	<option value="2018" <cfif srch.year is "2018">selected</cfif>>2018</option>
+	<option value="2017" <cfif srch.year is "2017">selected</cfif>>2017</option>
 	<option value="2016" <cfif srch.year is "2016">selected</cfif>>2016</option>
 	<option value="2015" <cfif srch.year is "2015">selected</cfif>>2015</option>
 	<option value="2014" <cfif srch.year is "2014">selected</cfif>>2014</option>
@@ -167,7 +170,7 @@ order by classinfo,composer,title,works.workid
 	<option value="Spring" <cfif srch.quarter is "Spring">selected</cfif>>Spring</option>
 	<option value="Summer" <cfif srch.quarter is "Summer">selected</cfif>>Summer</option>
 	</select>
-	
+
 	</cfif></td>
 </tr>
 <tr>
@@ -184,10 +187,10 @@ order by classinfo,composer,title,works.workid
 	<td>
 	<cfif url.t is "view">#facultyNote#
 	<cfelse>
-	<textarea wrap="virtual" 
-			name="facultyNote" 
-			rows="3" 
-			cols="69" 
+	<textarea wrap="virtual"
+			name="facultyNote"
+			rows="3"
+			cols="69"
 			class="general">#facultyNote#</textarea>
 	</cfif>
 	</td>
@@ -217,14 +220,14 @@ order by classinfo,composer,title,works.workid
             </td></tr>
             <tr><td></td><td>
         	<a href="duplist.cfm?classid=#classid#" class="go2">DUPLICATE THIS LIST</a>
-		</cfif>	
+		</cfif>
 	<cfelse>
 	&nbsp;</td></tr><tr><td></td><td>
 	<input type="submit" value="SAVE">
 	</td>
     </tr>
 	</cfif>
-	
+
 
 <tr><td colspan="2">&nbsp;</td></tr>
 </cfoutput>
@@ -233,7 +236,7 @@ order by classinfo,composer,title,works.workid
 	<tr><td colspan="2"><hr noshade></td></tr>
 	<tr><td colspan="2">
 	<p><b><u>LISTENING LIST</u></b></p>
-	
+
 	<cfif url.listadd is "yes">
 		<cfquery name="complist" datasource="#dsn#">
 		select workid,composer,title,label,labelnumber,librarycallnumber,classinfo from works
@@ -279,10 +282,10 @@ order by classinfo,composer,title,works.workid
 		<input type="submit" value="ADD">
 		</form>
 	<cfelseif (trim(session.acctype) neq "readonly") or (isInstructor)>
-		<cfoutput><p>ADD TO LIST: FIND BY 
+		<cfoutput><p>ADD TO LIST: FIND BY
 		[<a href="classrec.cfm?t=view&listadd=yes&addby=id&classid=#classid#" class="go2">ID</a>] /
 		[<a href="classrec.cfm?t=view&listadd=yes&addby=cn&classid=#classid#" class="go2">CALL NUMBER</a>] /
-		[<a href="classrec.cfm?t=view&listadd=yes&addby=ct&classid=#classid#" class="go2">COMPOSER &amp; TITLE</a>] / 
+		[<a href="classrec.cfm?t=view&listadd=yes&addby=ct&classid=#classid#" class="go2">COMPOSER &amp; TITLE</a>] /
 		[<a href="classrec.cfm?t=view&listadd=yes&addby=ci&classid=#classid#" class="go2">CLASS INFO</a>]
 		</p></cfoutput>
 	</cfif>
