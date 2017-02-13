@@ -28,7 +28,7 @@
 		<tr>
 			<td align="right">
 			<b>Username:<font></b></td>
-			<td><input type="text" name="user" id="user" size="16" maxlength="16" autofocus></td>
+			<td><input type="text" name="user" id="user" size="16" maxlength="10" autofocus></td>
 			<td></td>
 		</tr>
 		<tr>
