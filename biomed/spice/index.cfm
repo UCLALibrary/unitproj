@@ -157,12 +157,12 @@ Order by doctitle
 <br><font color="A6A6A6">Click image to enlarge</font></td></tr></cfoutput>
 </table></cfcase>
 	<cfcase value=2>
-	<h3>Keyword Search Results: <cfoutput>#keyword#</cfoutput></h3>
+	<h3>Keyword Search Results: <cfoutput>#EncodeForHTML(keyword)#</cfoutput></h3>
 <table width=100% cellpadding="3" cellspacing="2" bgcolor="" border="0"><th colspan="4" bgcolor="EEEDF2">Document Search </th>
 
 <cfif kwtextsearch.RecordCount is '0'><tr><td colspan="4" class="medsans" align="center">No Documents Found</td></tr><cfelse><tr><td class="smlsans" align="right" valign="top" width="10%"><strong>Documents</strong></td><td class="smlsans" align="left" valign="top" width="300" colspan="2">
 
-	<CFOUTPUT query="kwtextsearch"><A href="index.cfm?spicefilename=#spicetextfilename#&keyword=#keyword#&itemsuppress=yes&displayswitch=0" class="nonunder">#doctitle#</A><br>
+	<CFOUTPUT query="kwtextsearch"><A href="index.cfm?spicefilename=#spicetextfilename#&keyword=#EncodeForHTML(keyword)#&itemsuppress=yes&displayswitch=0" class="nonunder">#doctitle#</A><br>
 	</CFOUTPUT></td><td class="smlsans" align="left" valign="top">&nbsp;</td></tr>
 </CFIF> 
 
@@ -170,7 +170,7 @@ Order by doctitle
 <br>
 <table width=100% cellpadding="3" cellspacing="3" bgcolor="" border="0">
 <th colspan="4" bgcolor="EEEDF2">Spice Search</th>
-<cfif kwsearch.recordcount is '0'><tr><td colspan="4" class="medsans" align="center">No Spices Found</td></tr><cfelse><tr><td class="smlsans" align="left" valign="top" width="15%"><strong>Family</strong></td><td class="smlsans" align="left" valign="top"><strong>Common&nbsp;Name</strong></td><td>&nbsp;</td><td class="smlsans" align="right" valign="top" width="10%">&nbsp;</td></tr><cfoutput query="kwsearch" group="family"><tr><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#family#&itemsuppress=yes&displayswitch=1">#family#</a></td><td class="smlsans" align="left" valign="top"><cfoutput><a class="nonunder" href="index.cfm?displayID=#ResourceID#&keyword=#keyword#">#REReplaceNoCase(DisplayName, " ", "&nbsp;", "all")#</a>
+<cfif kwsearch.recordcount is '0'><tr><td colspan="4" class="medsans" align="center">No Spices Found</td></tr><cfelse><tr><td class="smlsans" align="left" valign="top" width="15%"><strong>Family</strong></td><td class="smlsans" align="left" valign="top"><strong>Common&nbsp;Name</strong></td><td>&nbsp;</td><td class="smlsans" align="right" valign="top" width="10%">&nbsp;</td></tr><cfoutput query="kwsearch" group="family"><tr><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#family#&itemsuppress=yes&displayswitch=1">#family#</a></td><td class="smlsans" align="left" valign="top"><cfoutput><a class="nonunder" href="index.cfm?displayID=#ResourceID#&keyword=#EncodeForHTML(keyword)#">#REReplaceNoCase(DisplayName, " ", "&nbsp;", "all")#</a>
 <br>
 </cfoutput></td><td>&nbsp;</td><td class="smlsans" align="right" valign="top" width="10%">&nbsp;</td></tr></cfoutput></cfif></table>
 	</cfcase>
