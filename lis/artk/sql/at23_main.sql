@@ -11,6 +11,6 @@ left outer join ArchDescriptionRepeatingData n -- notes
 left outer join NotesEtcTypes nt
 	on n.notesEtcTypeId = nt.notesEtcTypeId
 where b.levelNumber = 0
-and nt.notesEtcLabel in ('Physical Characteristics and Technical Requirements', 'Separated Material')
+--and nt.notesEtcLabel in ('Physical Characteristics and Technical Requirements', 'Separated Material')
 order by b.levelNumber, b.sequenceNumber, cast(b.title as varchar)
 ;

@@ -10,6 +10,6 @@ left outer join ArchDescriptionRepeatingData n -- notes
 left outer join NotesEtcTypes nt
 	on n.notesEtcTypeId = nt.notesEtcTypeId
 where b.resourceLevel = 'series'
-and nt.notesEtcLabel in ('Scope and Content', 'Physical Description', 'Physical Characteristics and Technical Requirements')
+--and nt.notesEtcLabel in ('Scope and Content', 'Physical Description', 'Physical Characteristics and Technical Requirements')
 order by b.levelNumber, b.sequenceNumber, cast(b.title as varchar)
 ;

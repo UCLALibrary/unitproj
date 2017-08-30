@@ -26,6 +26,6 @@ left outer join ArchDescriptionRepeatingData n -- notes
 left outer join NotesEtcTypes nt
 	on n.notesEtcTypeId = nt.notesEtcTypeId
 where b.resourceLevel = 'file'
-and nt.notesEtcLabel in ('Scope and Content', 'Physical Description', 'General note')
+--and nt.notesEtcLabel in ('Scope and Content', 'Physical Description', 'General note')
 order by b.levelNumber, b.sequenceNumber, cast(b.title as varchar)
 ;
