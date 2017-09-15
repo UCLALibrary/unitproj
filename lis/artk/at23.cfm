@@ -83,7 +83,7 @@
 				SpreadsheetCreateSheet(workbook, "Files");
 				SpreadsheetSetActiveSheet(workbook, "Files");
 				// Files data is different from other sheets
-				SpreadsheetAddRow(workbook, "TItle, Date Expression, Label 1, Label 2, Label 3, Note Type, Content");
+				SpreadsheetAddRow(workbook, "Series Title, Type, File TItle, Date Expression, Label 1, Label 2, Label 3, Note Type, Content");
 				SpreadsheetFormatRow(workbook, {bold=true, underline=true}, 1);
 				SpreadsheetAddRows(workbook, qryFiles);
 
