@@ -20,13 +20,13 @@ select
 ,	nt.notesEtcLabel -- use the standard consistent label, not the resource-specific override
 ,	replace(cast(n.noteContent as varchar(max)), char(10), '') as noteContent
 from at23_base b
--- include some parent info for files
-inner join at23_base s on b.parentResourceComponentId = s.resourceComponentId
 inner join ArchDescriptionInstances adi on b.resourceComponentId = adi.resourceComponentId
 left outer join ArchDescriptionRepeatingData n -- notes
 	on b.resourceComponentId = n.resourceComponentId 
 left outer join NotesEtcTypes nt
 	on n.notesEtcTypeId = nt.notesEtcTypeId
+-- include some parent info for files, if it exists
+left outer join at23_base s on b.parentResourceComponentId = s.resourceComponentId
 where b.resourceLevel = 'file'
 order by b.levelNumber, s.sequenceNumber, cast(s.title as varchar), b.sequenceNumber, cast(b.title as varchar)
 ;
