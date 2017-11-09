@@ -32,14 +32,14 @@
     <cfif dspitm><p><cfelse><table><tr><th bgcolor="FFCCCC"></cfif>&diams;<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
       <cfif session.reservelist is "yes" and incl>
         [#classinfo#]
-      </cfif>	  
+      </cfif>
 	  <cfset numTracks=0>
     <cfloop query="reslist">
 		<cfif workid eq worklist.workid[worklist.currentRow] and not ListContains(items,itemid)>
 			<cfset numTracks=numTracks+1>
             <cfinclude template="item_caption.cfm">
 		</cfif>
-      </cfloop>	  
+      </cfloop>
       #composer# <cfif dspitm><a href="audioreserves.cfm?classid=#classid#&displayitem=#numbdisplayitems#"></cfif><cfif numTracks eq 1 and ListLen(items) neq 0>&quot;#cpt#&quot; from <cfelseif ListLen(items) gt 1>Excerpts from </cfif><i>#title#</i><cfif dspitm></a></cfif>
       <cfif librarycallnumber is not "">
         <font size="-2">[#librarycallnumber#]</font>
@@ -104,8 +104,8 @@
   </cfoutput>
   <table>
   <cfset itemsTemp=items>
-  <cfif ListLen(itemsTemp) eq 0><cfset itemsTemp="-2"></cfif> 
-  <cfloop index="looper" from="1" to="#ListLen(itemsTemp)#">  
+  <cfif ListLen(itemsTemp) eq 0><cfset itemsTemp="-2"></cfif>
+  <cfloop index="looper" from="1" to="#ListLen(itemsTemp)#">
   <cfoutput query="reslist">
       <cfif workid eq worklist.workid[worklist.currentRow] and (itemid eq ListGetAt(itemsTemp,looper) or ListGetAt(itemsTemp,looper) eq "-2")>
         <cfif encFormat is 5>
@@ -145,7 +145,7 @@
             <tr>
               <cfif trim(audioLink) is "">
                 <th bgcolor="FFCCCC" nowrap="nowrap"><div align="left">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>#cpt#</i></font></div>
-                
+
                 <cfset p=p+1>
 <cfset pl="player"&p>
 
@@ -165,8 +165,8 @@
 
 	jwplayer("#pl#").setup({
 		sources: [
-		    {file: "rtmp://stream.library.ucla.edu/dlp/mp4:audioreserves/#lcase(rmfile)#.mp4"},
-			{file: "http://stream.library.ucla.edu:1935/dlp/_definst_/mp4:audioreserves/#lcase(rmfile)#.mp4/playlist.m3u8"}
+		    {file: "rtmps://wowza.library.ucla.edu/dlp/mp4:audioreserves/#lcase(rmfile)#.mp4"},
+			{file: "https://wowza.library.ucla.edu/dlp/definst/mp4:audioreserves/#lcase(rmfile)#.mp4/playlist.m3u8"}
         ],
 		rtmp: {
 			bufferlength: 3
@@ -183,11 +183,11 @@
 <script type="text/javascript">
     var ua = navigator.userAgent.toLowerCase();
     var isAndroid = ua.indexOf("android") > -1;
-	
+
     jwplayer("#pl#").setup({
 	sources: [
-		    {file: "rtmp://stream.library.ucla.edu/dlp/mp3:audioreserves/#lcase(rmfile)#.mp3"},
-			{file: "http://stream.library.ucla.edu:1935/dlp/_definst_/mp3:audioreserves/#lcase(rmfile)#.mp3/playlist.m3u8"}
+		    {file: "rtmps://wowza.library.ucla.edu/dlp/mp3:audioreserves/#lcase(rmfile)#.mp3"},
+			{file: "https://wowza.library.ucla.edu/dlp/definst/mp3:audioreserves/#lcase(rmfile)#.mp3/playlist.m3u8"}
         ],
 		rtmp: {
 			bufferlength: 3
@@ -200,18 +200,18 @@
 </script>
 </cfif>
 </div>
-                
-                
+
+
                 </th>
-                
-                
+
+
               <!--- items --->
-                
+
               </cfif>
               <cfif trim(audioLink) is not "">
                 </tr><tr><th bgcolor="FFCCCC">c2 <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="javascript:spawnwindow0('#audioLink#')"><i>#cpt#</i></a> [Windows Media]</font></div></th>
-                
-                               
+
+
               </cfif>
               <cfif scorecaption is not "">
                 </tr><tr><th bgcolor="CCFFFF">c3 <div align="left"><a href="javascript:spawnwindow1('image.cfm?k=#startimageID#&baseaddr=#imgbaseaddr#&l=#lowestimageID#&m=#highestimageID#')"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>#scorecaption#</i></font></a></div></th>
@@ -225,12 +225,12 @@
               <cfif trim(hLink) is not "">
                 </tr><tr><th bgcolor="FFFFCC">c6 <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Related website: <a href="javascript:spawnwindow3('#hLink#')"><i>#hLink#</i></a></font></div></th>
               </cfif>
-            
-            
-  
-            
-            
-            
+
+
+
+
+
+
             </tr>
 			<cfloop query="itemannot">
 			<cfif itemid eq reslist.itemid[reslist.currentRow]>
@@ -459,4 +459,4 @@
     </cfloop>
     </b></font>
   </cfif>
-</cfoutput> End Old List ---> 
+</cfoutput> End Old List --->
