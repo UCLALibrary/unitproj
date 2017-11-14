@@ -165,8 +165,12 @@
 
 	jwplayer("#pl#").setup({
 		sources: [
-		    {file: "rtmps://wowza.library.ucla.edu/dlp/mp4:audioreserves/#lcase(rmfile)#.mp4"},
-			{file: "https://wowza.library.ucla.edu/dlp/definst/mp4:audioreserves/#lcase(rmfile)#.mp4/playlist.m3u8"}
+		    {file: "rtmps://54118ec122221.streamlock.net:443/dlp/mp4:audioreserves/#lcase(rmfile)#.mp4"},
+		    //{file: "rtmps://stream.library.ucla.edu/dlp/mp4:audioreserves/#lcase(rmfile)#.mp4"},
+		    //{file: "rtmps://wowza.library.ucla.edu/dlp/mp4:audioreserves/#lcase(rmfile)#.mp4"},
+			{file: "https://54118ec122221.streamlock.net:443/dlp/definst/mp4:audioreserves/#lcase(rmfile)#.mp4/playlist.m3u8"}
+			//{file: "https://stream.library.ucla.edu:1935/dlp/_definst_/mp4:audioreserves/#lcase(rmfile)#.mp4/playlist.m3u8"}
+			//{file: "https://wowza.library.ucla.edu/dlp/definst/mp4:audioreserves/#lcase(rmfile)#.mp4/playlist.m3u8"}
         ],
 		rtmp: {
 			bufferlength: 3
@@ -186,8 +190,12 @@
 
     jwplayer("#pl#").setup({
 	sources: [
-		    {file: "rtmps://wowza.library.ucla.edu/dlp/mp3:audioreserves/#lcase(rmfile)#.mp3"},
-			{file: "https://wowza.library.ucla.edu/dlp/definst/mp3:audioreserves/#lcase(rmfile)#.mp3/playlist.m3u8"}
+		    {file: "rtmps://54118ec122221.streamlock.net:443/dlp/mp3:audioreserves/#lcase(rmfile)#.mp3"},
+		    //{file: "rtmps://stream.library.ucla.edu/dlp/mp3:audioreserves/#lcase(rmfile)#.mp3"},
+		    //{file: "rtmps://wowza.library.ucla.edu/dlp/mp3:audioreserves/#lcase(rmfile)#.mp3"},
+			{file: "https://54118ec122221.streamlock.net:443/dlp/definst/mp3:audioreserves/#lcase(rmfile)#.mp3/playlist.m3u8"}
+			//{file: "https://stream.library.ucla.edu:1935/dlp/_definst_/mp3:audioreserves/#lcase(rmfile)#.mp3/playlist.m3u8"}
+			//{file: "https://wowza.library.ucla.edu/dlp/definst/mp3:audioreserves/#lcase(rmfile)#.mp3/playlist.m3u8"}
         ],
 		rtmp: {
 			bufferlength: 3
