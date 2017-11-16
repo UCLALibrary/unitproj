@@ -87,8 +87,9 @@
 <script src="//www.library.ucla.edu/sites/all/themes/uclalib_omega/js/libsurvey.js?ncli9j"></script>
 <script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","fancybox":{"options":{"autoSize":0,"autoResize":0,"autoCenter":0,"fitToView":0,"mouseWheel":0,"loop":0,"openEffect":"elastic","closeEffect":"elastic","openOpacity":0,"closeOpacity":0},"helpers":{"title":{"position":"top"},"overlay_enabled":0,"overlay":null,"thumbs":{"width":"","height":"","position":"top"}},"callbacks":{"beforeShow":"fancybox_beforeshow","afterShow":"fancybox_aftershow"}},"tipsy":{"custom_selectors":[{"selector":".tipsy","options":{"fade":1,"gravity":"w","delayIn":0,"delayOut":0,"trigger":"hover","opacity":"0.8","offset":0,"html":0,"tooltip_content":{"source":"attribute","selector":"title"}}},{"selector":".views-tooltip","options":{"fade":1,"gravity":"autoNS","delayIn":0,"delayOut":0,"trigger":"hover","opacity":"0.8","offset":0,"html":1,"tooltip_content":{"source":"attribute","selector":"tooltip-content"}}}]},"locationNid":{"nid":"375"},"panelsTabs":{"tabsID":["tabs-0-below_main_left"]},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"tableHeaderOffset":"Drupal.navbar.height"});</script>
 
-<script type="text/javascript" src="//jwpsrv.com/library/UvuochZ3EeSzjCIACtqXBA.js"></script>
-
+<!--script type="text/javascript" src="//jwpsrv.com/library/UvuochZ3EeSzjCIACtqXBA.js"></script-->
+<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="gv7fJnDFTUhdwHRTZKMk7+c2DPq424LkdzFY/HVUvBA=";</script>
 </head>
 <body class="html not-front not-logged-in page-node page-node- page-node-375 node-type-location section-music">
   <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
@@ -97,41 +98,41 @@
     <div class="l-header" role="banner">
         <div class="l-region l-region--branding">
     <div class="panel-pane pane-page-logo" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <a href="http://www.library.ucla.edu/" rel="home" id="logo" title="Home"><img src="http://www.library.ucla.edu/sites/all/themes/uclalib_omega/logo.png" alt="Home" /></a>  </div>
 
-  
+
   </div>
   </div>
         <div class="l-region l-region--header">
     <div class="panel-pane pane-block pane-system-user-menu" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <ul class="menu"><li class="first leaf"><a href="http://www.library.ucla.edu/hours">Hours</a></li>
 <li class="last collapsed"><a href="http://www.library.ucla.edu/contact">Contact</a></li>
 </ul>  </div>
 
-  
+
   </div>
 <div class="panel-pane pane-custom pane-3 pane-ask-a-librarian" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <p><a class="btn-ask" href="http://www.library.ucla.edu/support/research-help"><span class="icon-help"></span> Ask A Librarian</a></p>
   </div>
 
-  
+
   </div>
 <div class="panel-pane pane-search-form" >
-  
-      
-  
+
+
+
   <div class="pane-content">
         <div class="header-search-form-wrapper">
       <form class="header-search-form" action="http://www.library.ucla.edu/site-search" method="get" accept-charset="UTF-8">
@@ -146,7 +147,7 @@
       </form>
     </div>  </div>
 
-  
+
   </div>
   </div>
     </div>
@@ -156,9 +157,9 @@
     <div id="menu" class="l-navigation">
         <div class="l-region l-region--navigation">
     <div class="panel-pane pane-page-primary-links" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <ul class="links primary-links">
 <li class="menu-1612"><a href="http://www.library.ucla.edu/">Home</a></li>
@@ -169,7 +170,7 @@
 <li class="menu-2433 last"><a href="http://www.library.ucla.edu/use">Using the Library</a></li>
 </ul>  </div>
 
-  
+
   </div>
   </div>
     </div>
@@ -179,149 +180,149 @@
     <div class="l-highlighted">
         <div class="l-region l-region--help">
     <div class="panel-pane pane-panels-mini pane-alert-pane" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="panel-display panel-1col clearfix" id="mini-panel-alert_pane">
   <div class="panel-panel panel-col">
     <div><div class="panel-pane pane-page-site-alert" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="site-alert"></div>  </div>
 
-  
+
   </div>
 </div>
   </div>
 </div>
   </div>
 
-  
+
   </div>
   </div>
         <div class="l-region l-region--highlighted">
     <div class="panel-pane pane-page-title" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <h1></h1>
   </div>
 
-  
+
   </div>
   </div>
     </div>
   </div>
-  
+
   <div class="l-main-wrapper">
     <div class="l-main">
 
       <div class="l-content" role="main">
         <a name="main-content"></a>
         <div class="panel-pane pane-page-content" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="sidebar-left-golden panel-sidebar-left-golden with-sidebar-left">
 <!---
       <div class="l-region l-region--top">
       <div class="panel-pane pane-panels-mini pane-location-header" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="panel-display panel-1col clearfix" id="mini-panel-location_header">
   <div class="panel-panel panel-col">
     <div><div class="panel-pane pane-node-title" >
-  
-      
+
+
   <!---
   <div class="pane-content">
     <h1><a href="http://www.library.ucla.edu/music" class="active">Music Library</a></h1>
   </div>
 --->
-  
+
   </div>
 <!---<div class="panel-pane pane-views-panes pane-location-map-pin-map-pin-pane" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="view view-location-map-pin view-id-location_map_pin view-display-id-map_pin_pane view-dom-id-85914a0dc8f796af1cb5cd1357973ab1">
-        
-  
-  
+
+
+
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-      
+
   <div class="views-field views-field-field-location-map-link">        <div class="field-content"><a href="http://maps.ucla.edu/campus/?%3Fz=14&amp;locid=83846"><span class="icon icon-mappin"></span></a></div>  </div>  </div>
     </div>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 </div>  </div>
 
-  
+
   </div>
 <div class="panel-pane pane-entity-field pane-node-field-address" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="field field--name-field-address field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even">1102 Schoenberg Music Building
 Los Angeles, CA  90095-9006</div></div></div>  </div>
 
-  
+
   </div>--->
 <!---<div class="panel-pane pane-entity-field pane-node-field-location-phone" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="field field--name-field-location-phone field--type-phone field--label-hidden"><div class="field__items"><div class="field__item even">(310) 825-4882</div></div></div>  </div>
 
-  
+
   </div>
 <div class="panel-pane pane-entity-field pane-node-field-location-social-links" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="field field--name-field-location-social-links field--type-social-links field--label-hidden"><div class="field__items"><div class="field__item even"><a href="https://www.facebook.com/UCLA.Music.Library"><img class="social-link social-link-facebook" src="/sites/all/modules/features/uclalib_location/social_icons/facebook-32-black.png"/></a></div></div></div>  </div>
 
-  
+
   </div>--->
 </div>
   </div>
 </div>
   </div>
 
-  
+
   </div>
     </div>
   --->
       <!---<div class="l-region l-region--sidebar-left">
       <div class="panel-pane pane-open-now sidebar-tier-1" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="open-now-pane"></div>  </div>
 
-  
+
   </div>
 <!---<div class="panel-pane pane-block pane-menu-block-1 sidebar-tier-1" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-3">
   <ul class="menu"><li class="first leaf menu-mlid-1761"><a href="http://www.library.ucla.edu/music/about" title="About">About</a></li>
@@ -333,35 +334,35 @@ Los Angeles, CA  90095-9006</div></div></div>  </div>
 </ul></div>
   </div>
 
-  
+
   </div>--->
 <!---<div class="panel-pane pane-quick-links sidebar-tier-2" >
-  
+
         <h2 class="pane-title">Quick Links</h2>
-    
-  
+
+
   <div class="pane-content">
     <div class="field field--name-field-quick-links field--type-link-field field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://unitproj.library.ucla.edu/dlib/audio_reserves/current.cfm?i=1">Digital Audio Reserves</a></div><div class="field__item odd"><a href="http://guides.library.ucla.edu/musicresearch">Music Research Resources Online</a></div><div class="field__item even"><a href="http://guides.library.ucla.edu/cat.php?cid=6065">Guides to Music Research</a></div><div class="field__item odd"><a href="http://www.library.ucla.edu/support/research-help/drop-and-scheduled-research-assistance/music-library">Schedule a Consultation</a></div></div></div>  </div>
 
-  
+
   </div>--->
 <!---<div class="panel-pane pane-custom pane-2 sidebar-tier-3" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <p>Have questions about your research? <a href="http://www.library.ucla.edu/support/research-help" style="font-weight: normal">We can help!</a></p>
   </div>
 
-  
+
   </div>--->
     </div>--->
-  
+
  <!---<div class="l-region l-region--main-column">---><div >
 
-  
-      
-  
+
+
+
 
 
 <p>&nbsp;</p>
@@ -385,7 +386,7 @@ the Music Library about accessing your online reserves listening assignment. <p>
 
 
 
-<a name="top"></a> 
+<a name="top"></a>
 
 <cfif isdefined("form.classid")>
 	<cfset session.classid = form.classid>
@@ -428,9 +429,9 @@ the Music Library about accessing your online reserves listening assignment. <p>
 				and classes.year = currentquarter.year
 				and classes.quarter = currentquarter.quarter
 			order by works.classinfo, works.composer, works.title, classes.classid
-	</cfquery>	
+	</cfquery>
 	<cfquery name="reslist" datasource="#dsn#">
-		select classes.classid, instructor, department, classnumber, works.classinfo, works.incl, works.composer, works.title, works.video, performers, note1, note2, label, labelnumber, librarycallnumber, caption, volume, disc, side, track, baseaddress, link.workid, ramlink, score, scorecaption, imgbaseaddr, startimageID, lowestimageID, highestimageID, EncFormat, itemid, LocalHTMFile, LFileCaption, wwwLink, wLinkCaption, include, excludefrom, 
+		select classes.classid, instructor, department, classnumber, works.classinfo, works.incl, works.composer, works.title, works.video, performers, note1, note2, label, labelnumber, librarycallnumber, caption, volume, disc, side, track, baseaddress, link.workid, ramlink, score, scorecaption, imgbaseaddr, startimageID, lowestimageID, highestimageID, EncFormat, itemid, LocalHTMFile, LFileCaption, wwwLink, wLinkCaption, include, excludefrom,
 works.exLink, items.audioLink, items.hLink
 			from works, link, items, classes, currentquarter
 			where works.workid = link.workid
@@ -442,8 +443,8 @@ works.exLink, items.audioLink, items.hLink
 	</cfquery>
 <cfelse>
 	<cfquery name="instinfo" datasource="#dsn#">
-		select * 
-			from instructors,classes 
+		select *
+			from instructors,classes
 			where instructors.instructorID = classes.instructorID
 				and classes.classid = #session.classid#
 	</cfquery>
@@ -452,7 +453,7 @@ works.exLink, items.audioLink, items.hLink
 			where works.workid = link.workid
 				and link.classid = #session.classid#
 			order by works.classinfo, works.composer, works.title
-	</cfquery>	
+	</cfquery>
 	<cfquery name="reslist" datasource="#dsn#">
 		select * from works, link, items
 			where works.workid = link.workid
@@ -475,7 +476,7 @@ works.exLink, items.audioLink, items.hLink
 	<p><font size="+1" face="Verdana, Arial, Helvetica, sans-serif">ALL AUDIO SELECTIONS</font></p>
     <!---<p><strong>Having trouble connecting with wifi? <em>Try the EDUROAM connection first!</em></strong>
     <p><strong>NOTICE</strong>: Please use the embedded player to play audio. The Real version of Audio Reserves is being retired. For a short time the Real stream will still be available by clicking the TITLE of each item.<p>--->
-    
+
 	<cfoutput query="yearquarter">
 	<p><font face="Verdana, Arial, Helvetica, sans-serif"><b>#quarter# #year#</b></font></p>
 	</cfoutput>
@@ -487,7 +488,7 @@ works.exLink, items.audioLink, items.hLink
 	  <font size="-1">#quarter# #year#</font></font></p>
     <!---<p><strong>Having trouble connecting with wifi? <em>Try the EDUROAM connection first!</em></strong>
     <p><strong>NOTICE</strong>: Please use the embedded player to play audio. The Real version of Audio Reserves is being retired. For a short time the Real stream will still be available by clicking the TITLE of each item.<p><p>--->
-    
+
 	</cfoutput>
 </cfif>
 
@@ -503,38 +504,38 @@ works.exLink, items.audioLink, items.hLink
 <li>MP3, through the embedded viewer. This should work on most computers, tablets and smartphones.</li>
 <li>Real Audio, using a Real Cloud plugin. Click on the TITLE to initiate the audio stream. If needed, the free playback client can be downloaded from <a href="https://realnetworks.zendesk.com/entries/23690683-Installing-RealPlayer-for-the-first-time" target="_blank">www.real.com</a>.</li>
 </ul>
-<a name="labs"></a>  
-<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Where to use 
-  these files:</b> For the best sound quality these files should be used over 
-  the campus network, in multimedia-equipped computer labs. These include the 
-  <a href="http://www.clicc.ucla.edu/" style="text-decoration: none" target="_top">College Library CLICC lab</a>, <a href="http://www.cdh.ucla.edu/labs" style="text-decoration: none" target="_top">Center for Digital Humanities Computer Labs</a>, and <a href="https://www.it.ucla.edu/ucla-computer-labs" style="text-decoration: none" target="_top">other labs</a>. 
-  There are also six multimedia/internet computer workstations in the Music 
+<a name="labs"></a>
+<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Where to use
+  these files:</b> For the best sound quality these files should be used over
+  the campus network, in multimedia-equipped computer labs. These include the
+  <a href="http://www.clicc.ucla.edu/" style="text-decoration: none" target="_top">College Library CLICC lab</a>, <a href="http://www.cdh.ucla.edu/labs" style="text-decoration: none" target="_top">Center for Digital Humanities Computer Labs</a>, and <a href="https://www.it.ucla.edu/ucla-computer-labs" style="text-decoration: none" target="_top">other labs</a>.
+  There are also six multimedia/internet computer workstations in the Music
   Library Media Room.</font></p>
 <a name="offcampus"></a>
-<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Off-campus 
-  access: </b>These files may also be accessed over a modem from off campus. The sound quality 
+<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Off-campus
+  access: </b>These files may also be accessed over a modem from off campus. The sound quality
   over a modem is considerably lower than over the campus network.</font></font></p>
 <a name="problems"></a>
-<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Email questions/problems</b> to 
+<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Email questions/problems</b> to
 <a href="mailto:music-circ@library.ucla.edu" style="text-decoration: none">music-circ@library.ucla.edu</a></font>
 </p>
 
 <a name="wifi"></a>
 <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>WiFi:</b>
-  If you are experiencing connection problems, try using a different wireless connection. 
+  If you are experiencing connection problems, try using a different wireless connection.
 On campus, the preferred network is "eduroam", but "UCLA_WIFI" may also work. "UCLA_SECURE" does not work.
 In the dorms, "UCLA WEB RES WIFI", "UCLA WIFI RES" have been known to work. "UCLA WEB RES" does not work.
 </p>
 --->
-    
 
-  
+
+
   </div>
-  
+
 </div>
   </div>
 
-  
+
   </div>
       </div>
 
@@ -545,9 +546,9 @@ In the dorms, "UCLA WEB RES WIFI", "UCLA WIFI RES" have been known to work. "UCL
     <div class="l-colophon" role="contentinfo">
         <div class="l-region l-region--colophon-first">
     <div class="panel-pane pane-bean-text-block pane-bean-colophon-about" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <div class="entity entity-bean bean-text-block clearfix" class="entity entity-bean bean-text-block">
 
@@ -559,35 +560,35 @@ In the dorms, "UCLA WEB RES WIFI", "UCLA WIFI RES" have been known to work. "UCL
 </div>
   </div>
 
-  
+
   </div>
   </div>
         <div class="l-region l-region--colophon-second">
     <div class="panel-pane pane-block pane-menu-menu-colophon-first" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <ul class="menu"><li class="first leaf"><a href="http://www.library.ucla.edu/about" title="">About UCLA Library</a></li>
 <li class="leaf"><a href="http://www.library.ucla.edu/about/collections" title="">About the Collections</a></li>
 <li class="last leaf"><a href="http://www.library.ucla.edu/about/giving-library" title="">Giving to UCLA Library</a></li>
 </ul>  </div>
 
-  
+
   </div>
   </div>
         <div class="l-region l-region--colophon-third">
     <div class="panel-pane pane-block pane-menu-menu-colophon-second" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <ul class="menu"><li class="first leaf"><a href="http://www.library.ucla.edu/about/employment-human-resources" title="">Employment</a></li>
 <li class="leaf"><a href="http://www.ucla.edu/" title="">UCLA Homepage</a></li>
 <li class="last leaf"><a href="http://www.library.ucla.edu/about/social-media-directory" title="">Social Media Directory</a></li>
 </ul>  </div>
 
-  
+
   </div>
   </div>
     </div>
@@ -597,14 +598,14 @@ In the dorms, "UCLA WEB RES WIFI", "UCLA WIFI RES" have been known to work. "UCL
     <div class="l-footer" role="contentinfo">
         <div class="l-region l-region--footer">
     <div class="panel-pane pane-block pane-menu-menu-footer" >
-  
-      
-  
+
+
+
   <div class="pane-content">
     <ul class="menu"><li class="first last leaf"><span title="" class="footer-copyright nolink">2014 &copy; UC Regents</span></li>
 </ul>  </div>
 
-  
+
   </div>
   </div>
     </div>
