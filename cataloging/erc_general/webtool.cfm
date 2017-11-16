@@ -72,10 +72,8 @@
 <table border="0" height="100%" width="100%">
 <tr><td valign="middle" align="center">
 	<form action="#CGI.SCRIPT_NAME#" method="get" name="eres" id="eres">
-			<input type="hidden" name="zrequired" value="name">
     		<input type="hidden" name="zrecipient" value="erdb-newcat@library.ucla.edu">
 			<input type="hidden" name="zsubject" value="NEW Cat Request">
-			<input type="hidden" name="zsort" value="order:name,email,title,address,type,priority,summary">
 	<table class="webtool" id="webtool_form" cellpadding="2">
 			<tr><td colspan="2" align="center"><h2>REQUEST TO CATALOG<br>
 											   Freely-Available Web Sites</h2>
@@ -140,6 +138,29 @@ Problems? Please send us an email: <a href="mailto:erdb-newcat@library.ucla.edu?
 </table>
 </center>
 
+<!--- 20171115 akohler: Hacked in cfmail instead of dead services/formmail per WS-1155 --->
+<cfif IsDefined("URL.email") And URL.email neq "[required]">
+	<script type="text/javascript">
+		alert("Your request has been sent to Cataloging");
+	</script>
+
+	<cfmail
+		to = "#URL.zrecipient#"
+		from = "#URL.email#"
+		subject = "#URL.zsubject#"
+		>
+<cfoutput>
+Name: #URL.name#
+Email: #URL.email#
+Title: #URL.title#
+Address: #URL.address#
+Type: #URL.type#
+Priority: #URL.priority#
+Summary: #URL.summary#
+</cfoutput>		
+	</cfmail>
+</cfif>
+
 <script type="text/javascript">
 
 	function openHelp() {
@@ -164,14 +185,6 @@ Problems? Please send us an email: <a href="mailto:erdb-newcat@library.ucla.edu?
 		}
 	}
 	
-	function submitForm() {
-		if (document.eres.priority[1].checked == true) {
-			document.eres.zsubject.value = "RUSH: NEW Cat Request";
-		}
-		document.eres.action="http://services.library.ucla.edu/cgi-bin/formmail";
-		document.eres.submit();
-	}
-  
     function validateForm() {
 		numErrors = 0;
 
@@ -211,7 +224,6 @@ Problems? Please send us an email: <a href="mailto:erdb-newcat@library.ucla.edu?
 			if (document.eres.priority[1].checked == true) {
 			document.eres.zsubject.value = "RUSH: NEW Cat Request";
 			}
-			document.eres.action="http://services.library.ucla.edu/cgi-bin/formmail";
 			document.eres.submit();
 			}
 		else { 
