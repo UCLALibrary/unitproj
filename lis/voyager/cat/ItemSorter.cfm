@@ -19,11 +19,11 @@
 	m_testmode = false;
 	if (m_testmode EQ true) {
 		m_server = "ils-db-test.library.ucla.edu";
-		m_version = "2009.1.1";
+		m_version = "2010.0.0";
 		m_port = 7010;
 	} else {
 		m_server = "ils-db-prod.library.ucla.edu";
-		m_version = "2009.1.1";
+		m_version = "2010.0.0";
 		m_port = 7010;
 	}
 </cfscript>
