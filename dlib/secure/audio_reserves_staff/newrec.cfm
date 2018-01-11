@@ -31,10 +31,10 @@
 <input type="text" name="title" value="" size="80" maxlength="150">
 </td></tr>
 <tr><th align="right">Performers:</th><td>
-<textarea wrap="virtual" 
-			name="performers" 
-			rows="3" 
-			cols="69" 
+<textarea wrap="virtual"
+			name="performers"
+			rows="3"
+			cols="69"
 			class="general"></textarea>
 </td></tr>
 <tr><th align="right">Note:</td><td>
@@ -42,6 +42,9 @@
 </td></tr>
 <tr><th align="right">Note:</td><td>
 <input type="text" name="note2" value="" size="80" maxlength="255">
+</td></tr>
+<tr><th align="right">Embedded URL:</td><td>
+<input type="text" name="embedURL" value="" size="80" maxlength="255">
 </td></tr>
 <tr><th align="right">Label/number:</td><td>
 <input type="text" name="label" value="" size="30" maxlength="50">

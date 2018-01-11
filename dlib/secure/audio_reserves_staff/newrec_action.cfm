@@ -33,7 +33,8 @@ insert into works
 	deleteOn,
 	liborder,
 	incl,
-    video
+    video,
+    embedURL
 	)
 values
 	(
@@ -54,7 +55,8 @@ values
 	'#form.deleteOn#',
 	#variables.liborder#,
 	#variables.incl#,
-    #form.video#
+    #form.video#,
+    #form.embedURL#
 	)
 </cfquery>
 <cfquery name="loc" datasource="#dsn#">

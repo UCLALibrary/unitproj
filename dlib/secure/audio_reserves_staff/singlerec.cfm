@@ -54,6 +54,7 @@ and classes.instructorID=instructors.instructorID
 <cfset performers=srch1.performers>
 <cfset note1=srch1.note1>
 <cfset note2=srch1.note2>
+<cfset embedURL=srch1.embedURL>
 <cfset label=srch1.label>
 <cfset labelnumber=srch1.labelnumber>
 <cfset librarycallnumber=srch1.librarycallnumber>
@@ -127,10 +128,10 @@ order by ordr,volume,disc,side,track,caption
 <cfif url.ed is "no">
 #performers#
 <cfelse>
-<textarea wrap="virtual" 
-			name="performers" 
-			rows="3" 
-			cols="69" 
+<textarea wrap="virtual"
+			name="performers"
+			rows="3"
+			cols="69"
 			class="general">#performers#</textarea>
 </cfif>
 </td></tr>
@@ -146,6 +147,13 @@ order by ordr,volume,disc,side,track,caption
 #note2#
 <cfelse>
 <input type="text" name="note2" value="#replace(note2,'"',"&quot;","all")#" size="80" maxlength="255">
+</cfif>
+</td></tr>
+<tr><th align="right">Embedded URL:</td><td>
+<cfif url.ed is "no">
+#embedURL#
+<cfelse>
+<input type="text" name="embedURL" value="#embedURL#" size="80" maxlength="255">
 </cfif>
 </td></tr>
 <tr><th align="right">Label/number:</th><td colspan="2">
@@ -236,7 +244,7 @@ function listMouseDown(formNum, track){
   mouseDown=true;
   document.getElementsByName('items'+formNum+'-'+track)[0].checked=!document.getElementsByName('items'+formNum+'-'+track)[0].checked;
   dragCheck=document.getElementsByName('items'+formNum+'-'+track)[0].checked;
-  if(document.getElementsByName('items'+formNum+'-'+track)[0].checked) 
+  if(document.getElementsByName('items'+formNum+'-'+track)[0].checked)
     document.getElementById('td'+formNum+'-'+track).style.backgroundColor='#listSelected#';
   else
     document.getElementById('td'+formNum+'-'+track).style.backgroundColor='#listUnselected#';
@@ -261,18 +269,18 @@ function listMouseOver(formNum, track){
 <tr><th colspan="3">Class &quot;<a href="classrec.cfm?t=view&classid=#classid#&listadd=no" class="go2">#title# - #quarter# #year#</a>&quot;</th></tr>
 <tr><th colspan="3">Annotations:</th></tr>
 <cfif url.ed is "yes" or structKeyExists(url,"edannot")>
-<tr><td align="center" colspan="3"> 
-<textarea wrap="virtual" 
-			name="annotation#form_num#" 
-			rows="3" 
-			cols="69" 
+<tr><td align="center" colspan="3">
+<textarea wrap="virtual"
+			name="annotation#form_num#"
+			rows="3"
+			cols="69"
 			class="general">#replace(annotation,'"',"&quot;","all")#</textarea>
 </td></tr>
 <cfif session.acctype neq "admin">
 <tr><td align="center" colspan="3"><input type="hidden" name="edannot"><input type="submit" value="Save"></td></tr>
 </cfif>
 <cfelse>
-<tr><td colspan="3"> 
+<tr><td colspan="3">
 #annotation#
 <cfif session.acctype neq "admin" and not structKeyExists(url,"editems")></td></tr>
 <tr><td align="center" colspan="3"><a href="singlerec.cfm?ed=no&ited=no&id=#variables.workid#&edannot" class="go2">EDIT</a></td></tr></cfif>
@@ -281,7 +289,7 @@ function listMouseOver(formNum, track){
 <tr><th colspan="3">Selected Tracks:</td></tr>
 
 <cfif url.ed is "yes" or structKeyExists(url,"editems")>
-	<tr><td align="center" colspan="3"> 
+	<tr><td align="center" colspan="3">
 	<p>Click tracks to toggle status.  Drag mouse for multiple tracks.</p>
 	<p>Selected tracks will be ordered by the numbers to their left.</p>
 	<table id="table#form_num#" cellpadding="0" cellspacing="0">
@@ -438,16 +446,16 @@ function listMouseOver(formNum, track){
 <cfloop query="annots">
 <cfif session.acctype eq "admin" or session.user eq UCLA_ID or ListContainsNoCase(TAs,session.user)>
 <cfif annots.itemid eq srch2.itemid[srch2.currentRow]>
-<tr><td colspan="10"><div style="text-align:center"><b>Annotation for class 
+<tr><td colspan="10"><div style="text-align:center"><b>Annotation for class
 <cfif url.ited eq "yes" and (url.itemid eq annots.itemannotid)>
 <input type="hidden" name="ItemAnnot" value="true">
 <input type="hidden" name="itemannotid" value="#annots.itemannotid#">
 <select name="id"><cfloop query="classes"><cfif session.acctype eq "admin" or UCLA_ID eq session.user or ListContainsNoCase(TAs,session.user)><option value="#id#" <cfif annots.id eq classes.id>selected</cfif>>#title# - #quarter# #year#</option></cfif></cfloop></select></b></div>
 <a name="ItemAnnot">
-<textarea wrap="virtual" 
-			name="itemannotation" 
-			rows="3" 
-			cols="69" 
+<textarea wrap="virtual"
+			name="itemannotation"
+			rows="3"
+			cols="69"
 			class="general">#replace(annots.itemannotation,'"',"&quot;","all")#</textarea>
 <cfelse>
 <a href="classrec.cfm?t=view&classid=#classid#&listadd=no" class="go2">#annots.title# - #annots.quarter# #annots.year#</a></b></div>#annots.itemannotation#
@@ -473,10 +481,10 @@ function listMouseOver(formNum, track){
 <input type="hidden" name="itemid" value="#srch2.itemid#">
 <tr>
 <th colspan="10">Annotation for class <select name="id"><cfloop query="classes"><cfif session.acctype eq "admin" or UCLA_ID eq session.user or ListContainsNoCase(TAs,session.user)><option value="#id#">#title# - #quarter# #year#</option></cfif></cfloop></select></th></tr><tr><td colspan="10">
-<textarea wrap="virtual" 
-			name="itemannotation" 
-			rows="3" 
-			cols="69" 
+<textarea wrap="virtual"
+			name="itemannotation"
+			rows="3"
+			cols="69"
 			class="general"></textarea></td></tr><tr><td align="center" colspan="10"><input type="submit" value="Save"></td>
 </tr>
 </cfif>
