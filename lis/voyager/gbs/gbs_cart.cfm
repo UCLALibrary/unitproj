@@ -5,7 +5,7 @@
 <body>
 
 <cfset p_cart_id = URL.cart_id>
-<cfset catalog_url = "http://catalog.library.ucla.edu/cgi-bin/Pwebrecon.cgi?DB=local&BBID=">
+<cfset catalog_url = "https://catalog.library.ucla.edu/vwebv/holdingsInfo?bibId=">
 
 <cfquery name="qryCart" datasource="#DSN#" cachedwithin="#CreateTimeSpan(0, 0, 1, 0)#">
 select
