@@ -153,7 +153,7 @@ order by ordr,volume,disc,side,track,caption
 <cfif url.ed is "no">
 #embedURL#
 <cfelse>
-<input type="text" name="embedURL" value="#embedURL#" size="80" maxlength="255">
+<input type="text" name="embedURL" value="#replace(embedURL,'"',"&quot;","all")#" size="80" maxlength="255">
 </cfif>
 </td></tr>
 <tr><th align="right">Label/number:</th><td colspan="2">

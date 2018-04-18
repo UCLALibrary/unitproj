@@ -41,7 +41,7 @@ update works
 				exlink='#form.exlink#',
 				incl=#variables.incl#,
                 video=#form.video#,
-                embedURL=#form.embedURL#
+                embedURL='#form.embedURL#'
 			where
 				workid=#form.workid#
 </cfquery>

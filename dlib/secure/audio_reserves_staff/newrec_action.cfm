@@ -56,7 +56,7 @@ values
 	#variables.liborder#,
 	#variables.incl#,
     #form.video#,
-    #form.embedURL#
+    '#form.embedURL#'
 	)
 </cfquery>
 <cfquery name="loc" datasource="#dsn#">
