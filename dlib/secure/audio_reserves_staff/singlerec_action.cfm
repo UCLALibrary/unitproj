@@ -22,7 +22,7 @@
 <cfif not structKeyExists(form,"edannot") and not structKeyExists(form,"editems")>
 <cfquery name="upd" datasource="#dsn#">
 update works
-			set 
+			set
 				composer='#form.composer#',
 				title='#form.title#',
 				performers='#form.performers#',
@@ -40,8 +40,9 @@ update works
 				liborder=#variables.liborder#,
 				exlink='#form.exlink#',
 				incl=#variables.incl#,
-                video=#form.video#
-			where 
+                video=#form.video#,
+                embedURL='#form.embedURL#'
+			where
 				workid=#form.workid#
 </cfquery>
 </cfif>
