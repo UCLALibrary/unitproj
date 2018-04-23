@@ -141,13 +141,13 @@
 <tr><td valign="top">Image ID:</td><td valign="top">#Subject4#</td></tr>
 <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
 <!--extra row to balance top empty row-->
-<tr><td colspan="2"><cfif ListFind(photolist,Subject4) GT 1><a href="photo.cfm?id=#ListGetAt(photolist,ListFind(photolist,Subject4)-1)#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><img src="previous.gif" alt="Previous Image" border=0></a></cfif></td><td align="right"><cfif ListFind(photolist,Subject4)+1 LTE ListLen(photolist)><a href="photo.cfm?id=#ListGetAt(photolist,ListFind(photolist,Subject4)+1)#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><img src="next.gif" alt="Next Image" border=0></a></cfif></td></tr>
+<tr><td colspan="2"><cfif ListFind(photolist,Subject4) GT 1><a href="photo.cfm?id=#ListGetAt(photolist,ListFind(photolist,Subject4)-1)#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><img src="previous.gif" alt="Previous Image" border=0></a></cfif></td><td align="right"><cfif ListFind(photolist,Subject4)+1 LTE ListLen(photolist)><a href="photo.cfm?id=#ListGetAt(photolist,ListFind(photolist,Subject4)+1)#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><img src="next.gif" alt="Next Image" border=0></a></cfif></td></tr>
 
 
 </table>
 <br><br>
 <a href="search.cfm?#Subject1#=on&searchtype=Identifier">Browse #Subject1# photo listings</a><br>
-<a href="search.cfm?query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">Back to the results page</a>
+<a href="search.cfm?query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">Back to the results page</a>
 </cfoutput>
 
 

@@ -151,7 +151,7 @@ Order by doctitle
 </cfif>
 
 	</cfcase>
-	<cfcase value=1><table width=100% cellpadding="5" bgcolor="" border="0"><th colspan="2" bgcolor="EEEDF2">Family Search Results: <cfoutput>#family#</cfoutput></th><cfoutput query="familyList"><tr><td class="smlsans" align="right" valign="top"><a class="nonunder" href="index.cfm?displayID=#ResourceID#">#REReplaceNoCase(DisplayName, " ", "&nbsp;", "all")#</a><br></td>
+	<cfcase value=1><table width=100% cellpadding="5" bgcolor="" border="0"><th colspan="2" bgcolor="EEEDF2">Family Search Results: <cfoutput>#EncodeForHTML(family)#</cfoutput></th><cfoutput query="familyList"><tr><td class="smlsans" align="right" valign="top"><a class="nonunder" href="index.cfm?displayID=#ResourceID#">#REReplaceNoCase(DisplayName, " ", "&nbsp;", "all")#</a><br></td>
 <td  valign="top" align="left" class="smlsans">
 <a class="nonunder" href="images/#ReReplaceNoCase(CommonName, " ", "", "all")#.jpg"><img src="thumbs/#ReReplaceNoCase(CommonName, " ", "", "all")#.jpg" alt="#CommonName#" border="0"  height="100"></a> 
 <br><font color="A6A6A6">Click image to enlarge</font></td></tr></cfoutput>
@@ -170,7 +170,7 @@ Order by doctitle
 <br>
 <table width=100% cellpadding="3" cellspacing="3" bgcolor="" border="0">
 <th colspan="4" bgcolor="EEEDF2">Spice Search</th>
-<cfif kwsearch.recordcount is '0'><tr><td colspan="4" class="medsans" align="center">No Spices Found</td></tr><cfelse><tr><td class="smlsans" align="left" valign="top" width="15%"><strong>Family</strong></td><td class="smlsans" align="left" valign="top"><strong>Common&nbsp;Name</strong></td><td>&nbsp;</td><td class="smlsans" align="right" valign="top" width="10%">&nbsp;</td></tr><cfoutput query="kwsearch" group="family"><tr><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#family#&itemsuppress=yes&displayswitch=1">#family#</a></td><td class="smlsans" align="left" valign="top"><cfoutput><a class="nonunder" href="index.cfm?displayID=#ResourceID#&keyword=#EncodeForHTML(keyword)#">#REReplaceNoCase(DisplayName, " ", "&nbsp;", "all")#</a>
+<cfif kwsearch.recordcount is '0'><tr><td colspan="4" class="medsans" align="center">No Spices Found</td></tr><cfelse><tr><td class="smlsans" align="left" valign="top" width="15%"><strong>Family</strong></td><td class="smlsans" align="left" valign="top"><strong>Common&nbsp;Name</strong></td><td>&nbsp;</td><td class="smlsans" align="right" valign="top" width="10%">&nbsp;</td></tr><cfoutput query="kwsearch" group="family"><tr><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#EncodeForHTML(family)#&itemsuppress=yes&displayswitch=1">#EncodeForHTML(family)#</a></td><td class="smlsans" align="left" valign="top"><cfoutput><a class="nonunder" href="index.cfm?displayID=#ResourceID#&keyword=#EncodeForHTML(keyword)#">#REReplaceNoCase(DisplayName, " ", "&nbsp;", "all")#</a>
 <br>
 </cfoutput></td><td>&nbsp;</td><td class="smlsans" align="right" valign="top" width="10%">&nbsp;</td></tr></cfoutput></cfif></table>
 	</cfcase>
@@ -222,7 +222,7 @@ Order by doctitle
 <br><font color="A6A6A6">Click image to enlarge</font></td></tr>
 	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Genus&nbsp;Species</font></td><td class="smlsans" align="left" valign="top"><em>#GenusSpecies#</em><cfif altgenusspecies is not ""> or <em>#altgenusspecies#</em></cfif>
 </td></tr>
-	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Family</font></td><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#family#&itemsuppress=yes&displayswitch=1">#family#</a></td></tr>
+	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Family</font></td><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#EncodeForHTML(family)#&itemsuppress=yes&displayswitch=1">#EncodeForHTML(family)#</a></td></tr>
 	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Origin</font></td><td class="smlsans" align="left" valign="top"><CF_HIGHLIGHT String="#origin#"
               SubString="#ReReplaceNoCase(stopkeyword, " ",",","all")#"
 			  OpenTag="<span class=tab0><b>"
@@ -245,7 +245,7 @@ Order by doctitle
 #CF_HIGHLIGHT#</td><td rowspan="7" valign="top" align="right"  class="smlsans"></td></tr>
 	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Genus&nbsp;Species</font></td><td class="smlsans" align="left" valign="top"><em>#GenusSpecies2#</em><cfif altgenusspecies2 is not ""> or <em>#altgenusspecies2#</em></cfif>
 </td></tr>
-	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Family</font></td><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#family#&itemsuppress=yes&displayswitch=1">#family2#</a></td></tr>
+	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Family</font></td><td class="smlsans" align="left" valign="top"><a class="nonunder" href="index.cfm?familySearch=yes&family=#EncodeForHTML(family)#&itemsuppress=yes&displayswitch=1">#EncodeForHTML(family2)#</a></td></tr>
 	<tr><td class="smlsans" align="right" valign="top"><font color="A6A6A6">Origin</font></td><td class="smlsans" align="left" valign="top"><CF_HIGHLIGHT String="#origin2#"
               SubString="#ReReplaceNoCase(stopkeyword, " ",",","all")#"
 			  OpenTag="<span class=tab0><b>"

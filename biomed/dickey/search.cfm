@@ -158,7 +158,7 @@
 		<td colspan="4" align="center">
 			<cfif IsDefined("query")>
 			<cfif IsDefined("searchtype")>
-				Your search for "<b>#oldquery#</b>" 
+				Your search for "<b>#EncodeForHTML(oldquery)#</b>" 
 				
 					<u><cfswitch expression="#searchtype#">
 						<cfcase value="Identifier">in all fields</cfcase>
@@ -202,12 +202,12 @@
 		<cfoutput>
 			<cfif results.recordcount GT 0>
 				<tr><td colspan="4" align="Left">
-					<small>View these results as a list [<A href="search.cfm?query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">click here</a>]</small><br><br>
+					<small>View these results as a list [<A href="search.cfm?query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">click here</a>]</small><br><br>
 				</td></tr>
 				<tr>
-					<td><a href="search.cfm?query=#oldquery#&searchmode=columns&sort=Title3&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><b>Location</b></a></td>
-					<td><A href="search.cfm?query=#oldquery#&searchmode=columns&sort=Title1&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><b>Scientific Name</b></a></td>
-					<td><A href="search.cfm?query=#oldquery#&searchmode=columns&sort=Title5&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><b>Common Name</b></a></td>
+					<td><a href="search.cfm?query=#EncodeForHTML(oldquery)#&searchmode=columns&sort=Title3&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><b>Location</b></a></td>
+					<td><A href="search.cfm?query=#EncodeForHTML(oldquery)#&searchmode=columns&sort=Title1&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><b>Scientific Name</b></a></td>
+					<td><A href="search.cfm?query=#EncodeForHTML(oldquery)#&searchmode=columns&sort=Title5&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#"><b>Common Name</b></a></td>
 					<td><b>Image</b></td>
 				</tr>
 			</cfif>
@@ -216,23 +216,23 @@
 
 		<tr>
 			<td>
-				<a href="photo.cfm?id=#Subject4#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
+				<a href="photo.cfm?id=#Subject4#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
 					#Title3#
 				</a>
 			</td>
 			<td>
-				<a href="photo.cfm?id=#Subject4#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
+				<a href="photo.cfm?id=#Subject4#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
 					<i>#Title1#</i>
 				</a>
 			</td>
 			<td>
-				<a href="photo.cfm?id=#Subject4#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
+				<a href="photo.cfm?id=#Subject4#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
 					#Title5#
 				</a>
 			</td>
 			
 			<td>
-				<a href="photo.cfm?id=#Subject4#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
+				<a href="photo.cfm?id=#Subject4#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
 					<img src="thumbnails/thumbnails/#Subject4#_JPG.jpg" border="0">
 				</a>
 			</td>
@@ -244,7 +244,7 @@
 		<cfif results.recordcount GT 0>
 			<cfoutput>
 				<tr><td colspan="4">
-					<small>Alternative Display Option: Sortable Columns [<A href="search.cfm?query=#oldquery#&searchmode=columns&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">click here</a>]</small><br>
+					<small>Alternative Display Option: Sortable Columns [<A href="search.cfm?query=#EncodeForHTML(oldquery)#&searchmode=columns&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">click here</a>]</small><br>
 				</td></tr>
 			</cfoutput>
 		</cfif>
@@ -256,11 +256,11 @@
 			<td width="15%">&nbsp;</td>
 			
 			<td>
-				<a href="photo.cfm?id=#Subject4#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
+				<a href="photo.cfm?id=#Subject4#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
 					<img src="thumbnails/thumbnails/#Subject4#_JPG.jpg" border="0" align="right">
 				</a>
 		
-			<a href="photo.cfm?id=#Subject4#&query=#oldquery#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
+			<a href="photo.cfm?id=#Subject4#&query=#EncodeForHTML(oldquery)#&searchtype=#searchtype#&mammal=#mammal#&bird=#bird#&geographic=#geographic#">
 				<cfif Subject1 IS NOT "geographic">
 					#Title5#<br>
 					<i>#Title1#</i><br>
