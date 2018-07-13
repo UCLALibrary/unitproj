@@ -89,7 +89,7 @@
 				m_show_survey = true;
 			}
 		}
-		else {
+ 		else {
 			setSessionInfo();
 			m_show_survey = true;
 		}
@@ -124,25 +124,26 @@
 </cfif>
 
 <!--- DEBUGGING ONLY--->
-<!---
-<cfoutput>
-<ul>
-	<li>Target URL: #m_target_url#</li>
-	<li>Real URL: #m_url#</li>
-	<li>User IP: #m_browser_ip#</li>
-	<li>ip base: #m_ip_base#</li>
-	<li>ip num: #m_ip_num#</li>
-	<li>Timestamp: handled by database</li>
-	<li>Now per CF: #m_now#</li>
-	<li>Survey expires: #m_expires#</li>
-	<li>Survey session ID: #m_survsession_id#</li>
-	<li>Staff PC: #m_staff#</li>
-	<li>Show survey: #m_show_survey#</li>
-</ul>
-<p onclick="javascript:window.location='#m_target_url#';">Continue to #m_target_url# ?</p>
-<p onclick="javascript:alert('Cookie: ' + unescape(document.cookie));">Cookie</p>
-</cfoutput>
---->
+<cfif Find("127.0.0.1", CGI.HTTP_HOST) GT 0>
+	<cfoutput>
+	<ul>
+		<li>Target URL: #m_target_url#</li>
+		<li>Real URL: #m_url#</li>
+		<li>Host: #CGI.HTTP_HOST#</li>
+		<li>User IP: #m_browser_ip#</li>
+		<li>ip base: #m_ip_base#</li>
+		<li>ip num: #m_ip_num#</li>
+		<li>Timestamp: handled by database</li>
+		<li>Now per CF: #m_now#</li>
+		<li>Survey expires: #m_expires#</li>
+		<li>Survey session ID: #m_survsession_id#</li>
+		<li>Staff PC: #m_staff#</li>
+		<li>Show survey: #m_show_survey#</li>
+	</ul>
+	<p onclick="javascript:window.location='#m_target_url#';">Continue to #m_target_url# ?</p>
+	<p onclick="javascript:alert('Cookie: ' + unescape(document.cookie));">Cookie</p>
+	</cfoutput>
+</cfif>
 
 <!--- Show survey, or record data (target URL data, and survey if submitted) --->
 <cfif m_show_survey EQ true>
@@ -154,7 +155,7 @@
 	</cfif>
 	
 	<!--- Set/update cookies --->
-	<cfif CGI.HTTP_HOST EQ "unitdev.library.ucla.edu"> 
+	<cfif Find("127.0.0.1", CGI.HTTP_HOST) GT 0>
 		<!--- 2 minute cookie expiration makes testing easier; otherwise use default of 30 minutes set above --->
 		<cfset m_expires = DateAdd("n", 2, m_now)>  
 	</cfif>
@@ -163,7 +164,7 @@
 	
 	<!--- Capture URL data, regardless of whether survey was submitted --->
 	<cfquery name="qryInsertLCAS_URL" datasource="LCAS">
-		insert into lcas_urls_2014 (browser_ip, target_url, session_id)
+		insert into lcas_urls_2018 (browser_ip, target_url, session_id)
 		values (
 			  <cfqueryparam value="#m_browser_ip#" cfsqltype="cf_sql_varchar">
 			, <cfqueryparam value="#m_target_url#" cfsqltype="cf_sql_varchar">
@@ -173,10 +174,11 @@
 
 	<!--- Send user to the requested site after capturing data--->
 	<!--- DEBUG / TEST ONLY --->
-	<!---
-	<cfoutput>Survey data captured; in production, you would be redirected to #m_target_url#</cfoutput>
-	<cfabort>
-	--->
-	<cflocation url="#m_target_url#">
+	<cfif Find("127.0.0.1", CGI.HTTP_HOST) GT 0>
+		<cfoutput>Survey data captured; in production, you would be redirected to #m_target_url#</cfoutput>
+		<cfabort>
+	<cfelse>
+		<cflocation url="#m_target_url#">
+	</cfif>
 </cfif>
 

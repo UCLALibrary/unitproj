@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>UCLA Library User Survey 2014</title>
+	<title>UCLA Library User Survey 2018</title>
 	<script type="text/javascript" src="supportSurvey.js"></script>
 	<script type="text/javascript">
 		window.onload = function() {            
@@ -23,7 +23,7 @@
 
 	<div id="header" role="banner">
 		<div id="header-content">
-			<img src="http://www.library.ucla.edu/sites/all/themes/ucla_library/logo.png" width="150" height="35">
+			<img src="http://www.library.ucla.edu/sites/all/themes/uclalib_omega/logo.png" width="150" height="35">
 		</div>
 	</div>
 	<div id="main-content" role="main">
@@ -43,13 +43,9 @@
 			<option value="1">UCLA Graduate / Doctoral / Professional Student</option>
 			<option value="2">UCLA Undergraduate Student</option>
 			<option value="3">UCLA Faculty</option>
-			<option value="4">UCLA Staff</option>
-			<option value="5">UCLA Resident / Fellow</option>
-			<option value="6">UCLA Clinical Staff</option>
-			<option value="7">UCLA Research Staff</option>
-			<option value="8">UCLA Post Doctoral Student</option>
+			<option value="4">UCLA Staff (Including Residents/Fellows, Post-Doctoral Students, etc.)</option>
 			<option value="9">Visiting Scholar</option>
-			<option value="10">Other UCLA</option>
+			<option value="10">Other, UCLA</option>
 			<option value="11">Non-UCLA</option>
 		</select>
 		<br />
@@ -59,20 +55,20 @@
 		<select name="q2_affiliation" id="q2_affiliation">
 			<option value="0">--- Select affiliation ---</option>
 			<option value="1">College of Letters and Science</option>
-			<option value="2">School of the Arts and Architecture</option>
-			<option value="3">Graduate School of Education and Information Studies</option>
-			<option value="4">Henry Samueli School of Engineering and Applied Science</option>
-			<option value="5">School of Law</option>
-			<option value="6">Anderson School of Management</option>
-			<option value="7">Luskin School of Public Affairs</option>
-			<option value="8">School of Theater, Film and Television</option>
-			<option value="9">International Institute</option>
+			<option value="2">Henry Samueli School of Engineering and Applied Science</option>
+			<option value="3">School of the Arts and Architecture</option>
+			<option value="4">Graduate School of Education and Information Studies</option>
+			<option value="5">Anderson School of Management</option>
+			<option value="6">Luskin School of Public Affairs</option>
+			<option value="7">School of Theater, Film and Television</option>
+			<option value="8">Herb Alpert School of Music</option>
+			<option value="9">School of Law</option>
 			<option value="10">David Geffen School of Medicine</option>
-			<option value="11">School of Nursing</option>
-			<option value="12">School of Dentistry</option>
-			<option value="13">Fielding School of Public Health</option>
-			<option value="14">Ronald Reagan UCLA Medical Center / UCLA Healthcare</option>
-			<option value="15">Other UCLA</option>
+			<option value="11">School of Dentistry</option>
+			<option value="12">Fielding School of Public Health</option>
+			<option value="13">School of Nursing</option>
+			<option value="14">UCLA Health (RRMC, SMUCLA, etc.</option>
+			<option value="15">Other, UCLA</option>
 			<option value="16">Non-UCLA</option>
 		</select>
 		<br />
@@ -102,7 +98,7 @@
 
 		<div id="extraquestions">
 		<!-- Question 5 -->
-		<label for="q5_sponsor">5. Sponsor or fund source name (e.g., NIH, NSF, DOD, Dept of Energy, NASA)?</label>
+		<label for="q5_sponsor">5. Sponsor or fund source name, for example, NIH, NSF, Dept. of Energy, DOD, NASA, Dept. of Education, California Institute for Regenerative Medicine, The California Endowment, Novartis Pharmaceuticals, Microelectronics Advanced Corporation, etc.?</label>
 		<input name="q5_sponsor" id="q5_sponsor" type="text" maxlength="200" size="50">
 		<br />
 

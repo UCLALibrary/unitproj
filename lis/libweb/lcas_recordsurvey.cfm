@@ -1,6 +1,6 @@
 <cfquery name="qryInsertLCAS" datasource="LCAS">
 	<!--- List of values to insert.  First ones are static, the ones starting with Q are from the submitted form --->
-	insert into lcas_responses_2014 (session_id
+	insert into lcas_responses_2018 (session_id
 	<cfloop index="m_fieldname" list="#Form.fieldnames#">
 		<cfif Left(m_fieldname, 1) EQ "Q" AND Len(Form[m_fieldname])>
 			, #m_fieldname#
