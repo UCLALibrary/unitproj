@@ -45,11 +45,21 @@ function isSurveyTime() {
 	// mmm dd yyyy hh24:00 PST or PDT
 	// PDT 2018: Ends November 4 2 am; PST until March 10 2019, when PDT starts again
 	var testTimes = [
-		[Date.parse("Jul 18 2018 15:00 PDT"), Date.parse("Jul 25 2018 23:59 PDT")]
-	,	[Date.parse("Jul 31 2018 11:00 PDT"), Date.parse("Jul 31 2018 13:00 PDT")]
+		[Date.parse("Jul 31 2018 11:00 PDT"), Date.parse("Jul 31 2018 13:00 PDT")]
 	,	[Date.parse("Aug 20 2018 17:00 PDT"), Date.parse("Aug 20 2018 19:00 PDT")]
 	,	[Date.parse("Sep 19 2018 09:00 PDT"), Date.parse("Sep 19 2018 11:00 PDT")]
-];
+	];
+
+	// Add current test window for specific hosts, for testing
+	var host = window.location.host;
+	switch (host) {
+		case 'cattest.library.ucla.edu':
+		case 'www-test.library.ucla.edu':
+			testTimes.push([Date.parse("Jul 20 2018 00:00 PDT"), Date.parse("Jul 29 2018 23:59 PDT")]);
+			break;
+		// no default
+	}
+
 	var now = new Date().getTime();
 	for (var testTime in testTimes) {
 		var start = testTimes[testTime][0];
