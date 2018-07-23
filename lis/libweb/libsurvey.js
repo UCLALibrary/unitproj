@@ -43,21 +43,13 @@ function getCookie(cookieName) {
 function isSurveyTime() {
 	// Build array of testing periods (start and stop); there should be twelve pairs, one per month for a year, but not all are known yet
 	// mmm dd yyyy hh24:00 PST or PDT
-	// PDT 2014: Begins March 9 2 am, ends November 2 2 am
+	// PDT 2018: Ends November 4 2 am; PST until March 10 2019, when PDT starts again
 	var testTimes = [
-		[Date.parse("Jan 31 2014 10:00 PST"), Date.parse("Jan 31 2014 12:00 PST")]
-	,	[Date.parse("Feb 02 2014 12:00 PST"), Date.parse("Feb 02 2014 14:00 PST")]
-	,	[Date.parse("Mar 21 2014 08:00 PDT"), Date.parse("Mar 21 2014 10:00 PDT")]
-	,	[Date.parse("Apr 08 2014 16:00 PDT"), Date.parse("Apr 08 2014 18:00 PDT")]
-	,	[Date.parse("May 23 2014 08:00 PDT"), Date.parse("May 23 2014 10:00 PDT")]
-	,	[Date.parse("Jun 19 2014 15:00 PDT"), Date.parse("Jun 19 2014 17:00 PDT")]
-	,	[Date.parse("Jul 23 2014 15:00 PDT"), Date.parse("Jul 23 2014 17:00 PDT")]
-	,	[Date.parse("Aug 25 2014 13:00 PDT"), Date.parse("Aug 25 2014 15:00 PDT")]
-	,	[Date.parse("Sep 10 2014 11:00 PDT"), Date.parse("Sep 10 2014 13:00 PDT")]
-	,	[Date.parse("Oct 30 2014 16:00 PDT"), Date.parse("Oct 30 2014 18:00 PDT")]
-	,	[Date.parse("Nov 03 2014 16:00 PST"), Date.parse("Nov 03 2014 18:00 PST")]
-	,	[Date.parse("Dec 22 2014 11:00 PST"), Date.parse("Dec 22 2014 13:00 PST")]
-	];
+		[Date.parse("Jul 18 2018 15:00 PDT"), Date.parse("Jul 25 2018 23:59 PDT")]
+	,	[Date.parse("Jul 31 2018 11:00 PDT"), Date.parse("Jul 31 2018 13:00 PDT")]
+	,	[Date.parse("Aug 20 2018 17:00 PDT"), Date.parse("Aug 20 2018 19:00 PDT")]
+	,	[Date.parse("Sep 19 2018 09:00 PDT"), Date.parse("Sep 19 2018 11:00 PDT")]
+];
 	var now = new Date().getTime();
 	for (var testTime in testTimes) {
 		var start = testTimes[testTime][0];
