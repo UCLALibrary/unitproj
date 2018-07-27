@@ -54,9 +54,13 @@ function isSurveyTime() {
 	var host = window.location.host;
 	switch (host) {
 		case 'cattest.library.ucla.edu':
+		case 'digidev.library.ucla.edu':
+		case 'frontera.dev.gobsp.com':
+		case 'idep.dev.gobsp.com':
+		case 'laadp.dev.gobsp.com':
 		case 'ucla.preview.summon.serialssolutions.com':
 		case 'www-test.library.ucla.edu':
-			testTimes.push([Date.parse("Jul 20 2018 00:00 PDT"), Date.parse("Jul 29 2018 23:59 PDT")]);
+			testTimes.push([Date.parse("Jul 20 2018 00:00 PDT"), Date.parse("Jul 30 2018 23:59 PDT")]);
 			break;
 		// no default
 	}
@@ -374,11 +378,9 @@ function isDomainSurveyable(link) {
 	,	'diabetesjournals.org'
 	,	'dialogatsite.com'
 	,	'dictionaryofeconomics.com'
-	,	'digidev.library.ucla.edu'
 	,	'digital.library.ucla.edu'
 	,	'digitalcommons.library.arizona.edu'
 	,	'digitalconcerthall.com'
-	,	'digital-dev.library.ucla.edu'
 	,	'digitallibrary.sae.org'
 	,	'digizeitschriften.de'
 	,	'dmd.org'
