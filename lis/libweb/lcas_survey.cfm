@@ -23,7 +23,7 @@
 
 	<div id="header" role="banner">
 		<div id="header-content">
-			<img src="http://www.library.ucla.edu/sites/all/themes/uclalib_omega/logo.png" width="150" height="35">
+			<img src="//www.library.ucla.edu/sites/all/themes/uclalib_omega/logo.svg" width="150" height="35">
 		</div>
 	</div>
 	<div id="main-content" role="main">
@@ -67,7 +67,7 @@
 			<option value="11">School of Dentistry</option>
 			<option value="12">Fielding School of Public Health</option>
 			<option value="13">School of Nursing</option>
-			<option value="14">UCLA Health (RRMC, SMUCLA, etc.</option>
+			<option value="14">UCLA Health (RRMC, SMUCLA, etc.)</option>
 			<option value="15">Other, UCLA</option>
 			<option value="16">Non-UCLA</option>
 		</select>
