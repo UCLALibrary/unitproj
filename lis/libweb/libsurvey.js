@@ -84,11 +84,11 @@ function isDomainSurveyable(link) {
 	// List of domains from https://proxy.ucla.edu/raw-proxy-list.txt, in alpha order, with other domains added at top of list
 	var surveyableDomains = [
 		'uclibs.org'
-	,	'digidev.library.ucla.edu':
-	,	'frontera.dev.gobsp.com':
-	,	'idep.dev.gobsp.com':
-	,	'laadp.dev.gobsp.com':
-	,	'ucla.preview.summon.serialssolutions.com':
+	,	'digidev.library.ucla.edu'
+	,	'frontera.dev.gobsp.com'
+	,	'idep.dev.gobsp.com'
+	,	'laadp.dev.gobsp.com'
+	,	'ucla.preview.summon.serialssolutions.com'
 	,	'129.35.213.31'
 	,	'129.35.248.48'
 	,	'170.225.184.107'
@@ -1142,6 +1142,11 @@ function redirectLink(link) {
   
 function hookLinks() {
 	var thisDomain = window.location.hostname;
+    // Summon uses spans with link attributes, not real HTML <a> links
+    if (thisDomain.indexOf("summon.serialssolutions.com") > 0) {
+      hookSummon();
+    }
+    // For real HTML....
 	var links = document.getElementsByTagName("a");
 	for (var i = 0; i < links.length; i++) {
 		var link = links[i];
@@ -1161,6 +1166,16 @@ function hookLinks() {
 		}
 		catch (e) {} // we don't care about the error, just want to keep it from breaking things
 	}
+}
+
+function hookSummon() {
+  // Summon uses spans with link attributes, not real HTML <a> links
+  var links = document.querySelectorAll("span[link]");
+  for (var i = 0; i < links.length; i++) {
+    var link = links[i].getAttribute("link");
+    alert(link);
+    addClickEvent(link, redirectLink, false);
+  }
 }
 
 // If it's time for the survey, hook relevant links to redirect to the survey system
