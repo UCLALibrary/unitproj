@@ -1142,10 +1142,12 @@ function redirectLink(link) {
   
 function hookLinks() {
 	var thisDomain = window.location.hostname;
+/*
     // Summon uses spans with link attributes, not real HTML <a> links
     if (thisDomain.indexOf("summon.serialssolutions.com") > 0) {
       hookSummon();
     }
+*/
     // For real HTML....
 	var links = document.getElementsByTagName("a");
 	for (var i = 0; i < links.length; i++) {
@@ -1168,6 +1170,8 @@ function hookLinks() {
 	}
 }
 
+/*
+// This is not working.......
 function hookSummon() {
   // Summon uses spans with link attributes, not real HTML <a> links
   var links = document.querySelectorAll("span[link]");
@@ -1179,6 +1183,7 @@ function hookSummon() {
     }
   }
 }
+*/
 
 // If it's time for the survey, hook relevant links to redirect to the survey system
 if (isSurveyTime() ) {
