@@ -1173,8 +1173,10 @@ function hookSummon() {
   var links = document.querySelectorAll("span[link]");
   for (var i = 0; i < links.length; i++) {
     var link = links[i].getAttribute("link");
-    alert(link);
-    addClickEvent(link, redirectLink, false);
+    if (link.indexOf("link/0") > 0) {
+	    alert(link);
+	    addClickEvent(link, redirectLink, false);
+    }
   }
 }
 
