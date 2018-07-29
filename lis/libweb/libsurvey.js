@@ -88,7 +88,6 @@ function isDomainSurveyable(link) {
 	,	'frontera.dev.gobsp.com'
 	,	'idep.dev.gobsp.com'
 	,	'laadp.dev.gobsp.com'
-	,	'ucla.preview.summon.serialssolutions.com'
 	,	'129.35.213.31'
 	,	'129.35.248.48'
 	,	'170.225.184.107'
