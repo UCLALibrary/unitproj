@@ -383,6 +383,7 @@ function isDomainSurveyable(link) {
 	,	'dialogatsite.com'
 	,	'dictionaryofeconomics.com'
 	,	'digital.library.ucla.edu'
+	,	'digital2.library.ucla.edu'
 	,	'digitalcommons.library.arizona.edu'
 	,	'digitalconcerthall.com'
 	,	'digitallibrary.sae.org'
