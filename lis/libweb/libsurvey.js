@@ -60,7 +60,7 @@ function isSurveyTime() {
 		case 'laadp.dev.gobsp.com':
 		case 'ucla.preview.summon.serialssolutions.com':
 		case 'www-test.library.ucla.edu':
-			testTimes.push([Date.parse("Jul 20 2018 00:00 PDT"), Date.parse("Jul 30 2018 23:59 PDT")]);
+			testTimes.push([Date.parse("Jul 20 2018 00:00 PDT"), Date.parse("Jul 31 2018 11:00 PDT")]);
 			break;
 		// no default
 	}
