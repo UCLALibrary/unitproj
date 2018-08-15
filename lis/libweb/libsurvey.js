@@ -84,10 +84,16 @@ function isDomainSurveyable(link) {
 	// List of domains from https://proxy.ucla.edu/raw-proxy-list.txt, in alpha order, with other domains added at top of list
 	var surveyableDomains = [
 		'uclibs.org'
+	,	'apps.webofknowledge.com'
 	,	'digidev.library.ucla.edu'
+	,	'escholarship.org'
 	,	'frontera.dev.gobsp.com'
 	,	'idep.dev.gobsp.com'
 	,	'laadp.dev.gobsp.com'
+	,	'oralhistory.library.ucla.edu'
+	,	'search.ebscohost.com'
+	,	'ulrichsweb.serialssolutions.com'
+	,	'www.oac.cdlib.org'
 	,	'129.35.213.31'
 	,	'129.35.248.48'
 	,	'170.225.184.107'
