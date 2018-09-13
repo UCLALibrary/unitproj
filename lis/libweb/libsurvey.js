@@ -41,13 +41,24 @@ function getCookie(cookieName) {
 }
 
 function isSurveyTime() {
-	// Build array of testing periods (start and stop); there should be twelve pairs, one per month for a year, but not all are known yet
+	// Build array of testing periods (start and stop); there should be twelve pairs, one per month for a year
 	// mmm dd yyyy hh24:00 PST or PDT
 	// PDT 2018: Ends November 4 2 am; PST until March 10 2019, when PDT starts again
+	// Extra 1-hour survey added Sept 17 2018 to make up for lack of data in July 2018
 	var testTimes = [
 		[Date.parse("Jul 31 2018 11:00 PDT"), Date.parse("Jul 31 2018 13:00 PDT")]
 	,	[Date.parse("Aug 20 2018 17:00 PDT"), Date.parse("Aug 20 2018 19:00 PDT")]
+	,	[Date.parse("Sep 17 2018 11:00 PDT"), Date.parse("Sep 17 2018 12:00 PDT")]
 	,	[Date.parse("Sep 19 2018 09:00 PDT"), Date.parse("Sep 19 2018 11:00 PDT")]
+	,	[Date.parse("Oct 15 2018 09:00 PDT"), Date.parse("Oct 15 2018 11:00 PDT")]
+	,	[Date.parse("Nov 19 2018 14:00 PST"), Date.parse("Nov 19 2018 16:00 PST")]
+	,	[Date.parse("Dec 20 2018 15:00 PST"), Date.parse("Dec 20 2018 17:00 PST")]
+	,	[Date.parse("Jan 28 2019 14:00 PST"), Date.parse("Jan 28 2019 16:00 PST")]
+	,	[Date.parse("Feb 26 2019 14:00 PST"), Date.parse("Feb 26 2019 16:00 PST")]
+	,	[Date.parse("Mar 28 2019 11:00 PDT"), Date.parse("Mar 28 2019 13:00 PDT")]
+	,	[Date.parse("Apr 10 2019 16:00 PDT"), Date.parse("Apr 10 2019 18:00 PDT")]
+	,	[Date.parse("May 21 2019 12:00 PDT"), Date.parse("May 21 2019 14:00 PDT")]
+	,	[Date.parse("Jun 26 2019 15:00 PDT"), Date.parse("Jun 26 2019 17:00 PDT")]
 	];
 
 	// Add current test window for specific hosts, for testing
