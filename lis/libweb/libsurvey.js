@@ -1,10 +1,3 @@
-Array.prototype.contains = function(element) {
-	for (var i = 0; i < this.length; i++) {
-		if (this[i] == element) return true;
-	}
-	return false;
-}
-
 String.prototype.trim = function() {
 	return this.replace(/^\s+|\s+$/g,'');
 }
@@ -1138,7 +1131,7 @@ function isDomainSurveyable(link) {
 	,	'zephyr.bvdep.com'
 	,	'zephyrdealdata.com'
 	];
-	if (surveyableDomains.contains(domain)) surveyable = true;
+	if (surveyableDomains.includes(domain)) surveyable = true;
 	return surveyable;
 }
 	
