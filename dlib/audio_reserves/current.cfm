@@ -383,9 +383,6 @@ the Music Library about accessing your online reserves listening assignment. <p>
 
 <p><strong>Questions? </strong>Contact<strong> <a href="mailto:music-circ@library.ucla.edu">Music Circulation</a></strong>. </p>
 <hr>
-<p><font color="#FF0000"><strong>We are interested in your feedback on the NEW Digital Audio Reserves site. After you have listened to reserve recordings please take our survey. Thank you. <a href="https://www.surveymonkey.com/s/7XKGNXY" target="new">TAKE THE SURVEY NOW</a> (a new window will open).</strong></font></p>
-<hr>
-
 <p>
 <cfoutput query="currentclasses">
 <strong>&rArr;</strong> #currentclasses.department# #currentclasses.classnumber# : <em>#currentclasses.title#</em> (#currentclasses.instructor#)<br>
