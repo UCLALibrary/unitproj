@@ -136,27 +136,11 @@ order by classinfo,composer,title,works.workid
 	<cfif url.t is "view">#year#
 	<cfelse>
 	<select name="year">
+	<option value="2023" <cfif srch.year is "2023">selected</cfif>>2023</option>
+	<option value="2022" <cfif srch.year is "2022">selected</cfif>>2022</option>
+	<option value="2021" <cfif srch.year is "2021">selected</cfif>>2021</option>
 	<option value="2020" <cfif srch.year is "2020">selected</cfif>>2020</option>
 	<option value="2019" <cfif srch.year is "2019">selected</cfif>>2019</option>
-	<option value="2018" <cfif srch.year is "2018">selected</cfif>>2018</option>
-	<option value="2017" <cfif srch.year is "2017">selected</cfif>>2017</option>
-	<option value="2016" <cfif srch.year is "2016">selected</cfif>>2016</option>
-	<option value="2015" <cfif srch.year is "2015">selected</cfif>>2015</option>
-	<option value="2014" <cfif srch.year is "2014">selected</cfif>>2014</option>
-	<option value="2013" <cfif srch.year is "2013">selected</cfif>>2013</option>
-	<option value="2012" <cfif srch.year is "2012">selected</cfif>>2012</option>
-	<option value="2011" <cfif srch.year is "2011">selected</cfif>>2011</option>
-	<option value="2010" <cfif srch.year is "2010">selected</cfif>>2010</option>
-	<option value="2009" <cfif srch.year is "2009">selected</cfif>>2009</option>
-	<option value="2008" <cfif srch.year is "2008">selected</cfif>>2008</option>
-	<option value="2007" <cfif srch.year is "2007">selected</cfif>>2007</option>
-	<option value="2006" <cfif srch.year is "2006">selected</cfif>>2006</option>
-	<option value="2005" <cfif srch.year is "2005">selected</cfif>>2005</option>
-	<option value="2004" <cfif srch.year is "2004">selected</cfif>>2004</option>
-	<option value="2003" <cfif srch.year is "2003">selected</cfif>>2003</option>
-	<option value="2002" <cfif srch.year is "2002">selected</cfif>>2002</option>
-	<option value="2001" <cfif srch.year is "2001">selected</cfif>>2001</option>
-	<option value="2000" <cfif srch.year is "2000">selected</cfif>>2000</option>
 	</select>
 	</cfif></td>
 </tr>
