@@ -35,16 +35,6 @@ e-resources. Such services include </p>
   </tr>
   <tr>
     <td width="82%">
-	<h3><a href="../erc_general/webtool.cfm">Catalog Request for Freely-Available E-Resources</a></h3>
-	</td>
-  </tr> 
-<tr>
-    <td width="82%">
-	<h3><a href="../erc_general/newtool.cfm">Catalog Request for Paid/Licensed E-Resources</a></h3>
-	</td>
-  </tr>
-  <tr>
-    <td width="82%">
 	<h3><a href="../erc_cataloging/index.cfm">Cataloging Documentation</a></h3>
 	</td>
   </tr>
