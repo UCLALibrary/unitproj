@@ -1,3 +1,7 @@
+<cfapplication
+	name = "Cataloging SACO"
+	searchimplicitscopes="true"
+>
 <cflogin>
    <cfif IsDefined('COOKIE.saco_username') AND IsDefined('COOKIE.saco_password')>
       <cfloginuser name="#COOKIE.saco_username#" password="#COOKIE.saco_password#" roles="basic">

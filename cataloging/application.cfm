@@ -1,3 +1,7 @@
+<cfapplication
+	name = "Cataloging"
+	searchimplicitscopes="true"
+>
 <cfparam name="prt" default="0">
 <cfparam name="pageTitle" default="">
 <!---	Changed filePath to support navlinks after migrating from lis51 to lis02
