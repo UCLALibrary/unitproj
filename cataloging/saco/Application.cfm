@@ -1,5 +1,5 @@
 <cfapplication
-	name = "Cataloging SACO"
+	name = "Cataloging_SACO"
 	searchimplicitscopes="true"
 >
 <cflogin>
