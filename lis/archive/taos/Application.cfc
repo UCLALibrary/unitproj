@@ -1,7 +1,8 @@
 <cfcomponent>
 	<cfscript>
 		this.name = hash( getCurrentTemplatePath() ); // unique app name
-                this.javaSettings = {LoadPaths = ["..\java\"], loadColdFusionClassPath = true, reloadOnChange= true, watchInterval = 100, watchExtensions = "jar,class"};
+        this.javaSettings = {LoadPaths = ["..\java\"], loadColdFusionClassPath = true, reloadOnChange= true, watchInterval = 100, watchExtensions = "jar,class"};
+		this.searchimplicitscopes="true";
 	</cfscript>
  
 	<cffunction name="onRequest" returnType="void">
