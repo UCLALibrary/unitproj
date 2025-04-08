@@ -1,7 +1,9 @@
 <cfapplication name="mlStaffAudio"
                sessionmanagement="Yes"
                sessiontimeout="#createTimeSpan(0,1,0,0)#"
-               applicationtimeout="#createTimeSpan(0,1,0,0)#">
+               applicationtimeout="#createTimeSpan(0,1,0,0)#"
+			   searchimplicitscopes="true"
+>
 
 <cfif not isDefined("session.loggedIn") Or session.loggedIn is not 1>
 	<cflocation url="login/login.cfm" addtoken="no">

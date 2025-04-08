@@ -1,6 +1,8 @@
 <cfapplication name="audior"
                sessionmanagement="Yes"
-               setclientcookies="Yes">
+               setclientcookies="Yes"
+			   searchimplicitscopes="true"
+>
 			   
 <cfif FindNoCase("unitproj", CGI.SERVER_NAME) EQ 1>
 	<cfset dsn="musAudio">

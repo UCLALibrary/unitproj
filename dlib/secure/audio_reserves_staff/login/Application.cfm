@@ -2,7 +2,9 @@
                sessionmanagement="Yes"
                setclientcookies="Yes"
                sessiontimeout="#createTimeSpan(0,1,0,0)#"
-               applicationtimeout="#createTimeSpan(0,1,0,0)#">
+               applicationtimeout="#createTimeSpan(0,1,0,0)#"
+               searchimplicitscopes="true"
+>
 
 <cfif FindNoCase("unitproj", CGI.SERVER_NAME) EQ 1>
 	<cfset dsn="musAudio">
