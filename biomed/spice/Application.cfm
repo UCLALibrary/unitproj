@@ -1,3 +1,8 @@
+<cfapplication
+	name = "Biomed Spice"
+	searchimplicitscopes="true"
+>
+
 <cfset datasourcename="biospice">
 
 <!--- Google Analytics --->
