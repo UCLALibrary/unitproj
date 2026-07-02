@@ -5,14 +5,14 @@ laucla/
 Thumbs.db
 
 # Documents in cataloging directory (and subdirectories, but only cataloging)
-cataloging/**/*.doc
-cataloging/**/*.docx
-cataloging/**/*.pdf
-cataloging/**/*.ppt
-cataloging/**/*.pptx
-cataloging/**/*.wav
-cataloging/**/*.xls
-cataloging/**/*.xlsx
+# cataloging/**/*.doc
+# cataloging/**/*.docx
+# cataloging/**/*.pdf
+# cataloging/**/*.ppt
+# cataloging/**/*.pptx
+# cataloging/**/*.wav
+# cataloging/**/*.xls
+# cataloging/**/*.xlsx
 
 # Other documents
 lis/voyager/gbs/*.pdf
